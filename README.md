@@ -10,3 +10,11 @@ Because we love making games, and we have found an opportunity to do this as a s
 
 ## How big is this game?
 We will be putting a minimal of 250 hours in it each
+
+##Inspirations and assets
+
+Really nice documentation about procedural generation:
+http://www.squidi.net/three/entry.php?id=166
+
+Definitive assets are not know yet, but we love https://opengameart.org/content/steampunk-level-tileset-mega-pack-level-tileset-16x16
+for example.
