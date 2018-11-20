@@ -1,40 +1,72 @@
-[gd_scene load_steps=4 format=2]
+[gd_scene load_steps=14 format=2]
 
 [ext_resource path="res://scripts/player.gd" type="Script" id=1]
-[ext_resource path="res://textures/Idle0.png" type="Texture" id=2]
+[ext_resource path="res://textures/playeranim/tile000.png" type="Texture" id=2]
+[ext_resource path="res://textures/playeranim/tile013.png" type="Texture" id=3]
+[ext_resource path="res://textures/playeranim/tile014.png" type="Texture" id=4]
+[ext_resource path="res://textures/playeranim/tile015.png" type="Texture" id=5]
+[ext_resource path="res://textures/playeranim/tile016.png" type="Texture" id=6]
+[ext_resource path="res://textures/playeranim/tile017.png" type="Texture" id=7]
+[ext_resource path="res://textures/playeranim/tile018.png" type="Texture" id=8]
+[ext_resource path="res://textures/playeranim/tile019.png" type="Texture" id=9]
+[ext_resource path="res://textures/playeranim/tile020.png" type="Texture" id=10]
+[ext_resource path="res://textures/playeranim/tile069.png" type="Texture" id=11]
 
-[sub_resource type="CapsuleShape2D" id=1]
+[sub_resource type="RectangleShape2D" id=3]
 
 custom_solver_bias = 0.0
-radius = 12.8748
-height = 30.3207
+extents = Vector2( 4.37136, 7.91814 )
 
-[node name="Player" type="Node2D"]
+[sub_resource type="SpriteFrames" id=2]
+
+animations = [ {
+"frames": [ ExtResource( 2 ) ],
+"loop": true,
+"name": "idle",
+"speed": 3.0
+}, {
+"frames": [ ExtResource( 3 ), ExtResource( 4 ), ExtResource( 5 ), ExtResource( 6 ), ExtResource( 7 ), ExtResource( 8 ), ExtResource( 9 ), ExtResource( 10 ) ],
+"loop": true,
+"name": "run",
+"speed": 15.0
+}, {
+"frames": [ ExtResource( 11 ) ],
+"loop": false,
+"name": "jump",
+"speed": 5.0
+} ]
+
+[node name="Player" type="Node2D" index="0"]
 
 _sections_unfolded = [ "Transform" ]
-__meta__ = {
-"_edit_group_": true
-}
 
 [node name="KinematicBody2D" type="KinematicBody2D" parent="." index="0"]
 
-position = Vector2( -0.11298, -2.61536 )
+scale = Vector2( 2.14886, 2.26866 )
 input_pickable = false
 collision_layer = 1
 collision_mask = 1
 collision/safe_margin = 0.08
 script = ExtResource( 1 )
-speed = 100
-jump_height = 400
+_sections_unfolded = [ "Transform" ]
+max_speed = 100
+jump_height = 300
+friction = 0.2
 gravity = 10
 
-[node name="Sprite" type="Sprite" parent="KinematicBody2D" index="0"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="KinematicBody2D" index="0"]
 
-texture = ExtResource( 2 )
+position = Vector2( 1.37628, 7.04133 )
+shape = SubResource( 3 )
+_sections_unfolded = [ "Transform" ]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="KinematicBody2D" index="1"]
+[node name="AnimatedSprite" type="AnimatedSprite" parent="KinematicBody2D" index="1"]
 
-position = Vector2( 0, 4 )
-shape = SubResource( 1 )
+position = Vector2( 3, 3 )
+scale = Vector2( 0.8125, 0.8125 )
+frames = SubResource( 2 )
+animation = "idle"
+playing = true
+_sections_unfolded = [ "Transform" ]
 
 
