@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Steampunk Blocks.png-9d9f7b1b5ec72c7f86b9727ccaf4fa8b.stex"
+path="res://.import/Steampunk Blocks.png-7f5d2ea2e884d7915e5706f0ada9b6f5.stex"
 
 [deps]
 
-source_file="res://textures/Steampunk Blocks.png"
-dest_files=[ "res://.import/Steampunk Blocks.png-9d9f7b1b5ec72c7f86b9727ccaf4fa8b.stex" ]
+source_file="res://textures/tiles/Steampunk Blocks.png"
+dest_files=[ "res://.import/Steampunk Blocks.png-7f5d2ea2e884d7915e5706f0ada9b6f5.stex" ]
 
 [params]
 

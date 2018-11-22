@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Steampunk Corse Elements.png-e1d13f93aaa21b5632289fc2649b20b3.stex"
+path="res://.import/Steampunk Corse Elements.png-3524811f938111d111d27c1efe151925.stex"
 
 [deps]
 
-source_file="res://textures/Steampunk Corse Elements.png"
-dest_files=[ "res://.import/Steampunk Corse Elements.png-e1d13f93aaa21b5632289fc2649b20b3.stex" ]
+source_file="res://textures/tiles/Steampunk Corse Elements.png"
+dest_files=[ "res://.import/Steampunk Corse Elements.png-3524811f938111d111d27c1efe151925.stex" ]
 
 [params]
 
@@ -16,7 +16,7 @@ compress/lossy_quality=0.7
 compress/hdr_mode=0
 compress/normal_map=0
 flags/repeat=0
-flags/filter=true
+flags/filter=false
 flags/mipmaps=false
 flags/anisotropic=false
 flags/srgb=2

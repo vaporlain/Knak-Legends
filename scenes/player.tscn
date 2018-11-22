@@ -12,7 +12,7 @@
 [ext_resource path="res://textures/playeranim/tile020.png" type="Texture" id=10]
 [ext_resource path="res://textures/playeranim/tile069.png" type="Texture" id=11]
 
-[sub_resource type="RectangleShape2D" id=3]
+[sub_resource type="RectangleShape2D" id=1]
 
 custom_solver_bias = 0.0
 extents = Vector2( 4.37136, 7.91814 )
@@ -28,7 +28,7 @@ animations = [ {
 "frames": [ ExtResource( 3 ), ExtResource( 4 ), ExtResource( 5 ), ExtResource( 6 ), ExtResource( 7 ), ExtResource( 8 ), ExtResource( 9 ), ExtResource( 10 ) ],
 "loop": true,
 "name": "run",
-"speed": 15.0
+"speed": 10.0
 }, {
 "frames": [ ExtResource( 11 ) ],
 "loop": false,
@@ -36,9 +36,10 @@ animations = [ {
 "speed": 5.0
 } ]
 
-[node name="Player" type="Node2D" index="0"]
+[node name="Player" type="Node2D"]
 
-_sections_unfolded = [ "Transform" ]
+z_index = -1
+_sections_unfolded = [ "Transform", "Z Index" ]
 
 [node name="KinematicBody2D" type="KinematicBody2D" parent="." index="0"]
 
@@ -49,7 +50,7 @@ collision_mask = 1
 collision/safe_margin = 0.08
 script = ExtResource( 1 )
 _sections_unfolded = [ "Transform" ]
-max_speed = 100
+max_speed = 200
 jump_height = 300
 friction = 0.2
 gravity = 10
@@ -57,7 +58,7 @@ gravity = 10
 [node name="CollisionShape2D" type="CollisionShape2D" parent="KinematicBody2D" index="0"]
 
 position = Vector2( 1.37628, 7.04133 )
-shape = SubResource( 3 )
+shape = SubResource( 1 )
 _sections_unfolded = [ "Transform" ]
 
 [node name="AnimatedSprite" type="AnimatedSprite" parent="KinematicBody2D" index="1"]
@@ -65,8 +66,37 @@ _sections_unfolded = [ "Transform" ]
 position = Vector2( 3, 3 )
 scale = Vector2( 0.8125, 0.8125 )
 frames = SubResource( 2 )
-animation = "idle"
+animation = "run"
+frame = 1
 playing = true
 _sections_unfolded = [ "Transform" ]
+
+[node name="Camera2D" type="Camera2D" parent="KinematicBody2D" index="2"]
+
+position = Vector2( 1.09284, 7.1484 )
+scale = Vector2( 0.337576, 0.273522 )
+anchor_mode = 1
+rotating = false
+current = true
+zoom = Vector2( 1, 1 )
+limit_left = -10000000
+limit_top = -10000000
+limit_right = 10000000
+limit_bottom = 10000000
+limit_smoothed = false
+drag_margin_h_enabled = true
+drag_margin_v_enabled = true
+smoothing_enabled = true
+smoothing_speed = 5.0
+offset_v = 0.0
+offset_h = 0.0
+drag_margin_left = 0.2
+drag_margin_top = 0.2
+drag_margin_right = 0.2
+drag_margin_bottom = 0.2
+editor_draw_screen = true
+editor_draw_limits = false
+editor_draw_drag_margin = false
+_sections_unfolded = [ "Offset", "Smoothing" ]
 
 

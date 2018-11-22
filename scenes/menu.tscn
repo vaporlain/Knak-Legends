@@ -1,28 +1,38 @@
-[gd_scene load_steps=2 format=2]
+[gd_scene load_steps=3 format=2]
 
 [ext_resource path="res://scripts/nextlevel.gd" type="Script" id=1]
+[ext_resource path="res://textures/back.png" type="Texture" id=2]
 
 [node name="Node2D" type="Node2D"]
 
 script = ExtResource( 1 )
 _sections_unfolded = [ "Material", "Transform", "Visibility", "Z Index" ]
 
-[node name="menu" type="Control" parent="." index="0"]
+[node name="bg" type="Sprite" parent="." index="0"]
+
+position = Vector2( 3.8147e-005, 5 )
+scale = Vector2( 0.595703, 0.540365 )
+z_index = -11
+texture = ExtResource( 2 )
+_sections_unfolded = [ "Z Index" ]
+
+[node name="menu" type="Control" parent="." index="1"]
 
 anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 0.0
-margin_left = 268.0
-margin_top = 48.0
-margin_right = 308.0
-margin_bottom = 88.0
+margin_left = -60.0
+margin_top = -70.0
+margin_right = -20.0
+margin_bottom = -30.0
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = false
 mouse_filter = 0
 mouse_default_cursor_shape = 0
 size_flags_horizontal = 1
 size_flags_vertical = 1
+_sections_unfolded = [ "Anchor", "Focus", "Grow Direction", "Hint", "Margin", "Material", "Mouse", "Rect", "Size Flags", "Theme", "Visibility" ]
 __meta__ = {
 "_edit_group_": true
 }
@@ -33,8 +43,10 @@ anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 0.0
-margin_right = 40.0
-margin_bottom = 14.0
+margin_left = -8.0
+margin_top = -18.0
+margin_right = 129.0
+margin_bottom = -4.0
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = false
 mouse_filter = 2
@@ -42,20 +54,22 @@ mouse_default_cursor_shape = 0
 size_flags_horizontal = 1
 size_flags_vertical = 4
 text = "Dystopian RPG MENU"
+align = 1
 percent_visible = 1.0
 lines_skipped = 0
 max_lines_visible = -1
+_sections_unfolded = [ "custom_fonts" ]
 
-[node name="startbutton" type="Button" parent="menu" index="1"]
+[node name="new game" type="Button" parent="menu" index="1"]
 
 anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 0.0
-margin_left = 17.0
-margin_top = 27.0
-margin_right = 109.0
-margin_bottom = 47.0
+margin_left = 12.0
+margin_top = 22.0
+margin_right = 104.0
+margin_bottom = 42.0
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = false
 focus_mode = 2
@@ -71,8 +85,87 @@ text = "START GAME"
 flat = false
 align = 1
 
-[connection signal="button_up" from="menu/startbutton" to="menu" method="_on_start_button_button_up"]
+[node name="load game" type="Button" parent="menu" index="2"]
 
-[connection signal="pressed" from="menu/startbutton" to="." method="_on_startbutton_pressed"]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 12.0
+margin_top = 62.0
+margin_right = 104.0
+margin_bottom = 82.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+focus_mode = 2
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+disabled = true
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+group = null
+text = "LOAD GAME"
+flat = false
+align = 1
+
+[node name="settings" type="Button" parent="menu" index="3"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 12.0
+margin_top = 102.0
+margin_right = 104.0
+margin_bottom = 122.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+focus_mode = 2
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+disabled = true
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+group = null
+text = "SETTINGS"
+flat = false
+align = 1
+
+[node name="exit" type="Button" parent="menu" index="4"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 12.0
+margin_top = 142.0
+margin_right = 104.0
+margin_bottom = 162.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+focus_mode = 2
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+group = null
+text = "EXIT"
+flat = false
+align = 1
+
+[connection signal="button_up" from="menu/new game" to="menu" method="_on_start_button_button_up"]
+
+[connection signal="pressed" from="menu/new game" to="." method="_on_startbutton_pressed"]
+
+[connection signal="button_up" from="menu/exit" to="." method="_on_exit_button_up"]
 
 

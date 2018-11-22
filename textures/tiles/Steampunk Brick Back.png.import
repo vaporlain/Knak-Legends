@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Steampunk Brick Back.png-7431d91725c1a776083fe134eba7f372.stex"
+path="res://.import/Steampunk Brick Back.png-9b36d1d11420578fd4e5898cf32129c2.stex"
 
 [deps]
 
-source_file="res://textures/Steampunk Brick Back.png"
-dest_files=[ "res://.import/Steampunk Brick Back.png-7431d91725c1a776083fe134eba7f372.stex" ]
+source_file="res://textures/tiles/Steampunk Brick Back.png"
+dest_files=[ "res://.import/Steampunk Brick Back.png-9b36d1d11420578fd4e5898cf32129c2.stex" ]
 
 [params]
 
