@@ -13,6 +13,11 @@ We will be putting a minimal of 250 hours in it each
 
 ## Inspirations and assets
 
+We have bought and are using these assets!:
+https://www.humblebundle.com/software/rpg-game-dev-bundle?hmb_source=humble_home&hmb_medium=product_tile&hmb_campaign=mosaic_section_1_layout_index_2_layout_type_threes_tile_index_1
+
+Be warned they are not the same license as ours, they are for commercial use only.
+
 Really nice documentation about procedural generation:
 http://www.squidi.net/three/entry.php?id=166
 
