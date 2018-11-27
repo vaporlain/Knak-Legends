@@ -1,16 +1,16 @@
 [gd_scene load_steps=6 format=2]
 
 [ext_resource path="res://scenes/player.tscn" type="PackedScene" id=1]
-[ext_resource path="res://textures/skill-desc_0003_bg.png" type="Texture" id=2]
-[ext_resource path="res://textures/skill-desc_0002_far-buildings.png" type="Texture" id=3]
-[ext_resource path="res://textures/skill-desc_0000_foreground.png" type="Texture" id=4]
+[ext_resource path="res://textures/backgrounds/skill-desc_0003_bg.png" type="Texture" id=2]
+[ext_resource path="res://textures/backgrounds/skill-desc_0002_far-buildings.png" type="Texture" id=3]
+[ext_resource path="res://textures/backgrounds/skill-desc_0000_foreground.png" type="Texture" id=4]
 [ext_resource path="res://textures/tiles/dirtTILESET.tres" type="TileSet" id=5]
 
-[node name="map1" type="Node2D" index="0"]
+[node name="map1" type="Node2D"]
 
 [node name="Player" parent="." index="0" instance=ExtResource( 1 )]
 
-position = Vector2( -114.505, 949.42 )
+position = Vector2( -945.78, -224.966 )
 z_index = 100
 
 [node name="ParallaxBackground" type="ParallaxBackground" parent="Player" index="1"]

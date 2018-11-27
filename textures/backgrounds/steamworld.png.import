@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/steamworld.png-7eee5d7fc0f204625bed30cacdfb8262.stex"
+path="res://.import/steamworld.png-84011da8640d14473ca0286d7c070f50.stex"
 
 [deps]
 
-source_file="res://textures/steamworld.png"
-dest_files=[ "res://.import/steamworld.png-7eee5d7fc0f204625bed30cacdfb8262.stex" ]
+source_file="res://textures/backgrounds/steamworld.png"
+dest_files=[ "res://.import/steamworld.png-84011da8640d14473ca0286d7c070f50.stex" ]
 
 [params]
 

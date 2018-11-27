@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=2]
 
-[ext_resource path="res://scripts/nextlevel.gd" type="Script" id=1]
-[ext_resource path="res://textures/back.png" type="Texture" id=2]
+[ext_resource path="res://scripts/tolevel1.gd" type="Script" id=1]
+[ext_resource path="res://textures/backgrounds/back.png" type="Texture" id=2]
 
 [node name="Node2D" type="Node2D"]
 
@@ -10,11 +10,10 @@ _sections_unfolded = [ "Material", "Transform", "Visibility", "Z Index" ]
 
 [node name="bg" type="Sprite" parent="." index="0"]
 
-position = Vector2( 3.8147e-005, 5 )
-scale = Vector2( 0.595703, 0.540365 )
+scale = Vector2( 0.800781, 0.726392 )
 z_index = -11
 texture = ExtResource( 2 )
-_sections_unfolded = [ "Z Index" ]
+_sections_unfolded = [ "Offset", "Transform", "Z Index" ]
 
 [node name="menu" type="Control" parent="." index="1"]
 
