@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/gewehr.png-e185c06302697584a0a2ea5b42895fc6.stex"
+path="res://.import/gewehr.png-54561b0f73dff0217953c0ebe85c4dd9.stex"
 
 [deps]
 
-source_file="res://textures/gewehr.png"
-dest_files=[ "res://.import/gewehr.png-e185c06302697584a0a2ea5b42895fc6.stex" ]
+source_file="res://textures/items/gewehr.png"
+dest_files=[ "res://.import/gewehr.png-54561b0f73dff0217953c0ebe85c4dd9.stex" ]
 
 [params]
 

@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/aquarius.png-715d13c95f37ae74b17dade8e12b426c.stex"
+path="res://.import/aquarius.png-5d6a87fbc2a6b1d75be3f342286489c7.stex"
 
 [deps]
 
-source_file="res://textures/aquarius.png"
-dest_files=[ "res://.import/aquarius.png-715d13c95f37ae74b17dade8e12b426c.stex" ]
+source_file="res://textures/items/aquarius.png"
+dest_files=[ "res://.import/aquarius.png-5d6a87fbc2a6b1d75be3f342286489c7.stex" ]
 
 [params]
 
