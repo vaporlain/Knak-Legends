@@ -1,26 +1,15 @@
-extends Node
+extends Node2D
 
-# class member variables go here, for example:
-# var a = 2
-# var b = "textvar
-var xSpeed = 0
-var ySpeed = -50
-var speed = Vector2(xSpeed,ySpeed)
-
-const UP = Vector2(0,-1)
-
-func _ready():
-	
-	pass
-
+# Member variables
+export var motion = Vector2()
+export var cycle = 1.0
+var accum = 0.0
 
 
 func _physics_process(delta):
-	move_platform(speed, 0, 50)
-	pass
-
-
-func move_platform(speed, maxX, maxY):
-	move_and_slide(speed, UP)
-	
-	pass
+	accum += delta * (1.0 / cycle) * PI * 2.0
+	accum = fmod(accum, PI * 2.0)
+	var d = sin(accum)
+	var xf = Transform2D()
+	xf[2]= motion * d
+	$platform.transform = xf
