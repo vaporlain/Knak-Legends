@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/ring_64.png-f8f29348437804086e913ccd466ebeeb.stex"
+path="res://.import/ring_64.png-87882865914da0c44c994a8b0022eb66.stex"
 
 [deps]
 
-source_file="res://textures/icons/ring/ring_64.png"
-dest_files=[ "res://.import/ring_64.png-f8f29348437804086e913ccd466ebeeb.stex" ]
+source_file="res://textures/textures/icons/ring/ring_64.png"
+dest_files=[ "res://.import/ring_64.png-87882865914da0c44c994a8b0022eb66.stex" ]
 
 [params]
 

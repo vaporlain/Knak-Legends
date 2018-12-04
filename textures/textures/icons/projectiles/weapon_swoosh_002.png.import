@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/weapon_swoosh_002.png-798cfbd5e09cb290b6c95a8e5c2967bc.stex"
+path="res://.import/weapon_swoosh_002.png-dec577208537ef6f2aa1a0960cd4fb43.stex"
 
 [deps]
 
-source_file="res://textures/icons/projectiles/weapon_swoosh_002.png"
-dest_files=[ "res://.import/weapon_swoosh_002.png-798cfbd5e09cb290b6c95a8e5c2967bc.stex" ]
+source_file="res://textures/textures/icons/projectiles/weapon_swoosh_002.png"
+dest_files=[ "res://.import/weapon_swoosh_002.png-dec577208537ef6f2aa1a0960cd4fb43.stex" ]
 
 [params]
 

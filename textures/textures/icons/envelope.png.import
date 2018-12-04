@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/envelope.png-d65c5f7d1ad930065a7ab807f2e27743.stex"
+path="res://.import/envelope.png-7c7a6c1d9436910f820267eeb58a5997.stex"
 
 [deps]
 
-source_file="res://textures/icons/envelope.png"
-dest_files=[ "res://.import/envelope.png-d65c5f7d1ad930065a7ab807f2e27743.stex" ]
+source_file="res://textures/textures/icons/envelope.png"
+dest_files=[ "res://.import/envelope.png-7c7a6c1d9436910f820267eeb58a5997.stex" ]
 
 [params]
 

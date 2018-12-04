@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/$monster_elk.png-e0568335c6691756c65a39a6e4f34fa5.stex"
+path="res://.import/$monster_elk.png-3021bff5a7868f218017d8863bd5b637.stex"
 
 [deps]
 
-source_file="res://textures/enemyanim/$monster_elk.png"
-dest_files=[ "res://.import/$monster_elk.png-e0568335c6691756c65a39a6e4f34fa5.stex" ]
+source_file="res://textures/textures/enemyanim/$monster_elk.png"
+dest_files=[ "res://.import/$monster_elk.png-3021bff5a7868f218017d8863bd5b637.stex" ]
 
 [params]
 

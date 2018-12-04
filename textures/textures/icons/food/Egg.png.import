@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Egg.png-bfeace67ec445412c46b302b3b9b9573.stex"
+path="res://.import/Egg.png-b1dfb22d6dfecaa667689006907662b1.stex"
 
 [deps]
 
-source_file="res://textures/icons/food/Egg.png"
-dest_files=[ "res://.import/Egg.png-bfeace67ec445412c46b302b3b9b9573.stex" ]
+source_file="res://textures/textures/icons/food/Egg.png"
+dest_files=[ "res://.import/Egg.png-b1dfb22d6dfecaa667689006907662b1.stex" ]
 
 [params]
 

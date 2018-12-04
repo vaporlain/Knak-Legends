@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/soldier_jump_003.png-0b78accfcf67a437db7c7b7cac84ec99.stex"
+path="res://.import/soldier_jump_003.png-a3b35cf3bf1c0078d29e3c65428aaf36.stex"
 
 [deps]
 
-source_file="res://textures/npc/soldier/soldier_jump_003.png"
-dest_files=[ "res://.import/soldier_jump_003.png-0b78accfcf67a437db7c7b7cac84ec99.stex" ]
+source_file="res://textures/textures/npc/soldier/soldier_jump_003.png"
+dest_files=[ "res://.import/soldier_jump_003.png-a3b35cf3bf1c0078d29e3c65428aaf36.stex" ]
 
 [params]
 

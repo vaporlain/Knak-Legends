@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Arrow_Flame.png-c66219a454fb7a2fb78c364a3bc3452e.stex"
+path="res://.import/Arrow_Flame.png-f3015f5b6a992279c37553d8556e447f.stex"
 
 [deps]
 
-source_file="res://textures/icons/Weapons/Arrow_Flame.png"
-dest_files=[ "res://.import/Arrow_Flame.png-c66219a454fb7a2fb78c364a3bc3452e.stex" ]
+source_file="res://textures/textures/icons/Weapons/Arrow_Flame.png"
+dest_files=[ "res://.import/Arrow_Flame.png-f3015f5b6a992279c37553d8556e447f.stex" ]
 
 [params]
 

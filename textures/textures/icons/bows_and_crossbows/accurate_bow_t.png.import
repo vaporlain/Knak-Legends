@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/accurate_bow_t.png-13c03f4a70c646681d16d5c68561f0d7.stex"
+path="res://.import/accurate_bow_t.png-82ae49a7d15790fe27c217a243ca6148.stex"
 
 [deps]
 
-source_file="res://textures/icons/bows_and_crossbows/accurate_bow_t.png"
-dest_files=[ "res://.import/accurate_bow_t.png-13c03f4a70c646681d16d5c68561f0d7.stex" ]
+source_file="res://textures/textures/icons/bows_and_crossbows/accurate_bow_t.png"
+dest_files=[ "res://.import/accurate_bow_t.png-82ae49a7d15790fe27c217a243ca6148.stex" ]
 
 [params]
 

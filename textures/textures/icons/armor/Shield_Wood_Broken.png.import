@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Shield_Wood_Broken.png-5adaa4fe1cf313c4769011ee7a396f90.stex"
+path="res://.import/Shield_Wood_Broken.png-af3c527837fcaae743ef5c81c3d19150.stex"
 
 [deps]
 
-source_file="res://textures/icons/armor/Shield_Wood_Broken.png"
-dest_files=[ "res://.import/Shield_Wood_Broken.png-5adaa4fe1cf313c4769011ee7a396f90.stex" ]
+source_file="res://textures/textures/icons/armor/Shield_Wood_Broken.png"
+dest_files=[ "res://.import/Shield_Wood_Broken.png-af3c527837fcaae743ef5c81c3d19150.stex" ]
 
 [params]
 

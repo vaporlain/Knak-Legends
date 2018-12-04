@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/wheat_t.png-b153939d893564abcb73fbc97b9d979b.stex"
+path="res://.import/wheat_t.png-e9dbb4c7be545d3e5a21f5bc66b34f8a.stex"
 
 [deps]
 
-source_file="res://textures/icons/wheat_t.png"
-dest_files=[ "res://.import/wheat_t.png-b153939d893564abcb73fbc97b9d979b.stex" ]
+source_file="res://textures/textures/icons/wheat_t.png"
+dest_files=[ "res://.import/wheat_t.png-e9dbb4c7be545d3e5a21f5bc66b34f8a.stex" ]
 
 [params]
 

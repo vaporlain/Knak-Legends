@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/skeletonPORTRAITright.png-345d8a472c8d54d12302b9fd7c44612f.stex"
+path="res://.import/skeletonPORTRAITright.png-22bf41aed19108b3149307d5767024df.stex"
 
 [deps]
 
-source_file="res://textures/enemyanim/SKELETON-artassets/skeletonPORTRAIT/skeletonPORTRAITright.png"
-dest_files=[ "res://.import/skeletonPORTRAITright.png-345d8a472c8d54d12302b9fd7c44612f.stex" ]
+source_file="res://textures/textures/enemyanim/SKELETON-artassets/skeletonPORTRAIT/skeletonPORTRAITright.png"
+dest_files=[ "res://.import/skeletonPORTRAITright.png-22bf41aed19108b3149307d5767024df.stex" ]
 
 [params]
 

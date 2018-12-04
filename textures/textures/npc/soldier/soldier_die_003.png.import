@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/soldier_die_003.png-9f28338878c5a531d73c7ff82592bb11.stex"
+path="res://.import/soldier_die_003.png-0b6cdc9bc4a0e904b73f29e89ce1b855.stex"
 
 [deps]
 
-source_file="res://textures/npc/soldier/soldier_die_003.png"
-dest_files=[ "res://.import/soldier_die_003.png-9f28338878c5a531d73c7ff82592bb11.stex" ]
+source_file="res://textures/textures/npc/soldier/soldier_die_003.png"
+dest_files=[ "res://.import/soldier_die_003.png-0b6cdc9bc4a0e904b73f29e89ce1b855.stex" ]
 
 [params]
 

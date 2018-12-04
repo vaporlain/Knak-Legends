@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/soldier_attack_001.png-291f7cec7aa8f4536c9a0fce40de1ece.stex"
+path="res://.import/soldier_attack_001.png-676ca7445ec87a8e5eac08a6aa0d3065.stex"
 
 [deps]
 
-source_file="res://textures/npc/soldier/soldier_attack_001.png"
-dest_files=[ "res://.import/soldier_attack_001.png-291f7cec7aa8f4536c9a0fce40de1ece.stex" ]
+source_file="res://textures/textures/npc/soldier/soldier_attack_001.png"
+dest_files=[ "res://.import/soldier_attack_001.png-676ca7445ec87a8e5eac08a6aa0d3065.stex" ]
 
 [params]
 

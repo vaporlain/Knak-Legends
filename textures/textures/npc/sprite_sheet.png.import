@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/sprite_sheet.png-f3c52bf09a8ac7f863ab9b5b87f22d50.stex"
+path="res://.import/sprite_sheet.png-8d090c6f7d890cdb07a38a86e8571466.stex"
 
 [deps]
 
-source_file="res://textures/npc/sprite_sheet.png"
-dest_files=[ "res://.import/sprite_sheet.png-f3c52bf09a8ac7f863ab9b5b87f22d50.stex" ]
+source_file="res://textures/textures/npc/sprite_sheet.png"
+dest_files=[ "res://.import/sprite_sheet.png-8d090c6f7d890cdb07a38a86e8571466.stex" ]
 
 [params]
 

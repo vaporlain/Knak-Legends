@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/right_stand.png-1210cc4a37e06b8bc293f1be1b9f7582.stex"
+path="res://.import/right_stand.png-e3e97b5ad56136df18d0f4fda7223cc4.stex"
 
 [deps]
 
-source_file="res://textures/enemyanim/military/military3_4/right_stand.png"
-dest_files=[ "res://.import/right_stand.png-1210cc4a37e06b8bc293f1be1b9f7582.stex" ]
+source_file="res://textures/textures/enemyanim/military/military3_4/right_stand.png"
+dest_files=[ "res://.import/right_stand.png-e3e97b5ad56136df18d0f4fda7223cc4.stex" ]
 
 [params]
 

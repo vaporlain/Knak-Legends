@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/bow.png-71cdc58d7ade31297aa3b5f4b23ce63c.stex"
+path="res://.import/bow.png-ef6494d5ad1be9c02fadf5ed94a2854a.stex"
 
 [deps]
 
-source_file="res://textures/icons/bow.png"
-dest_files=[ "res://.import/bow.png-71cdc58d7ade31297aa3b5f4b23ce63c.stex" ]
+source_file="res://textures/textures/icons/bow.png"
+dest_files=[ "res://.import/bow.png-ef6494d5ad1be9c02fadf5ed94a2854a.stex" ]
 
 [params]
 

@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/crown_t.png-cc797d30c36e5e0d5ed16773914aacf6.stex"
+path="res://.import/crown_t.png-8001dfa5e504c1dfa27f88d634538c74.stex"
 
 [deps]
 
-source_file="res://textures/icons/crown_t.png"
-dest_files=[ "res://.import/crown_t.png-cc797d30c36e5e0d5ed16773914aacf6.stex" ]
+source_file="res://textures/textures/icons/crown_t.png"
+dest_files=[ "res://.import/crown_t.png-8001dfa5e504c1dfa27f88d634538c74.stex" ]
 
 [params]
 

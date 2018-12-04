@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Bar_Gold.png-300bd60671b6194fac7ca5d799730b4c.stex"
+path="res://.import/Bar_Gold.png-13e852b5016714051b1076813777a0d4.stex"
 
 [deps]
 
-source_file="res://textures/icons/Ore/Bar_Gold.png"
-dest_files=[ "res://.import/Bar_Gold.png-300bd60671b6194fac7ca5d799730b4c.stex" ]
+source_file="res://textures/textures/icons/Ore/Bar_Gold.png"
+dest_files=[ "res://.import/Bar_Gold.png-13e852b5016714051b1076813777a0d4.stex" ]
 
 [params]
 

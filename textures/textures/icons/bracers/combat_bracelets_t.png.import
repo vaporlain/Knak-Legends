@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/combat_bracelets_t.png-4948782372bdf52c456e34699d506834.stex"
+path="res://.import/combat_bracelets_t.png-ca66c2f7fca2c66faf56d770888bc326.stex"
 
 [deps]
 
-source_file="res://textures/icons/bracers/combat_bracelets_t.png"
-dest_files=[ "res://.import/combat_bracelets_t.png-4948782372bdf52c456e34699d506834.stex" ]
+source_file="res://textures/textures/icons/bracers/combat_bracelets_t.png"
+dest_files=[ "res://.import/combat_bracelets_t.png-ca66c2f7fca2c66faf56d770888bc326.stex" ]
 
 [params]
 

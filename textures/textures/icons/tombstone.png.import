@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/tombstone.png-e6a594fadf1a219d6638752f182092b0.stex"
+path="res://.import/tombstone.png-42d7594bb64e3760b6fa31886a1147c3.stex"
 
 [deps]
 
-source_file="res://textures/icons/tombstone.png"
-dest_files=[ "res://.import/tombstone.png-e6a594fadf1a219d6638752f182092b0.stex" ]
+source_file="res://textures/textures/icons/tombstone.png"
+dest_files=[ "res://.import/tombstone.png-42d7594bb64e3760b6fa31886a1147c3.stex" ]
 
 [params]
 

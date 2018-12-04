@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/glove_24.png-b0769122aace9bed0e3614e330eaa1a7.stex"
+path="res://.import/glove_24.png-4c5e8a20af7652066b8c045bcd785d21.stex"
 
 [deps]
 
-source_file="res://textures/icons/glove/glove_24.png"
-dest_files=[ "res://.import/glove_24.png-b0769122aace9bed0e3614e330eaa1a7.stex" ]
+source_file="res://textures/textures/icons/glove/glove_24.png"
+dest_files=[ "res://.import/glove_24.png-4c5e8a20af7652066b8c045bcd785d21.stex" ]
 
 [params]
 

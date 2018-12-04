@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/chara7.png-73e506c6c847958abad48ed502ec65af.stex"
+path="res://.import/chara7.png-acaeb8be30e3ee0d640d8980c42936c8.stex"
 
 [deps]
 
-source_file="res://textures/npc/chara7.png"
-dest_files=[ "res://.import/chara7.png-73e506c6c847958abad48ed502ec65af.stex" ]
+source_file="res://textures/textures/npc/chara7.png"
+dest_files=[ "res://.import/chara7.png-acaeb8be30e3ee0d640d8980c42936c8.stex" ]
 
 [params]
 

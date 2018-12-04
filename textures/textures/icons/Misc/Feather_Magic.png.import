@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Feather_Magic.png-6a12f377d55246df074e4186d8556af3.stex"
+path="res://.import/Feather_Magic.png-54cd17a55223c635bb5945269caa4222.stex"
 
 [deps]
 
-source_file="res://textures/icons/Misc/Feather_Magic.png"
-dest_files=[ "res://.import/Feather_Magic.png-6a12f377d55246df074e4186d8556af3.stex" ]
+source_file="res://textures/textures/icons/Misc/Feather_Magic.png"
+dest_files=[ "res://.import/Feather_Magic.png-54cd17a55223c635bb5945269caa4222.stex" ]
 
 [params]
 

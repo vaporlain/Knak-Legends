@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/robotland.png-11c819128039f0f5dc9d66759c2276ad.stex"
+path="res://.import/robotland.png-b438f1187840ba59657a9acbfbc51426.stex"
 
 [deps]
 
-source_file="res://textures/enemyanim/robot/robotland.png"
-dest_files=[ "res://.import/robotland.png-11c819128039f0f5dc9d66759c2276ad.stex" ]
+source_file="res://textures/textures/enemyanim/robot/robotland.png"
+dest_files=[ "res://.import/robotland.png-b438f1187840ba59657a9acbfbc51426.stex" ]
 
 [params]
 

@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/skeletonarcherATTACKright (13).png-6c72afb399937724dfe38091eb4affd5.stex"
+path="res://.import/skeletonarcherATTACKright (13).png-12a09cc10411a4266d347ef15416ebd1.stex"
 
 [deps]
 
-source_file="res://textures/enemyanim/SKELETONARCHER-artassets/skeletonarcherATTACKright/skeletonarcherATTACKright (13).png"
-dest_files=[ "res://.import/skeletonarcherATTACKright (13).png-6c72afb399937724dfe38091eb4affd5.stex" ]
+source_file="res://textures/textures/enemyanim/SKELETONARCHER-artassets/skeletonarcherATTACKright/skeletonarcherATTACKright (13).png"
+dest_files=[ "res://.import/skeletonarcherATTACKright (13).png-12a09cc10411a4266d347ef15416ebd1.stex" ]
 
 [params]
 

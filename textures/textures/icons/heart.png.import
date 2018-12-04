@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/heart.png-7624e148278eed12edb42012983cd6b6.stex"
+path="res://.import/heart.png-cd6d64d8610e8b777759303503161cd8.stex"
 
 [deps]
 
-source_file="res://textures/icons/heart.png"
-dest_files=[ "res://.import/heart.png-7624e148278eed12edb42012983cd6b6.stex" ]
+source_file="res://textures/textures/icons/heart.png"
+dest_files=[ "res://.import/heart.png-cd6d64d8610e8b777759303503161cd8.stex" ]
 
 [params]
 

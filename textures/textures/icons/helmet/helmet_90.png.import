@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/helmet_90.png-cd73c213393b5b2fe970a2d76ce3ecdf.stex"
+path="res://.import/helmet_90.png-7ce270ce6f4cdcf4e48aa2ffdd059a2c.stex"
 
 [deps]
 
-source_file="res://textures/icons/helmet/helmet_90.png"
-dest_files=[ "res://.import/helmet_90.png-cd73c213393b5b2fe970a2d76ce3ecdf.stex" ]
+source_file="res://textures/textures/icons/helmet/helmet_90.png"
+dest_files=[ "res://.import/helmet_90.png-7ce270ce6f4cdcf4e48aa2ffdd059a2c.stex" ]
 
 [params]
 

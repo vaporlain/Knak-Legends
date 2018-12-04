@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/nk_t_05.png-005ff989ecc5f1a8763b0bc6a10bbe22.stex"
+path="res://.import/nk_t_05.png-fcc8b2764d8fdaa16a9d2172e7f35ecf.stex"
 
 [deps]
 
-source_file="res://textures/icons/necklace/nk_t_05.png"
-dest_files=[ "res://.import/nk_t_05.png-005ff989ecc5f1a8763b0bc6a10bbe22.stex" ]
+source_file="res://textures/textures/icons/necklace/nk_t_05.png"
+dest_files=[ "res://.import/nk_t_05.png-fcc8b2764d8fdaa16a9d2172e7f35ecf.stex" ]
 
 [params]
 

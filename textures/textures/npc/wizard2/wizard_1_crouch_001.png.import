@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/wizard_1_crouch_001.png-1b712d95c00a028c2509532eb3bb68f0.stex"
+path="res://.import/wizard_1_crouch_001.png-933f492741ca6a3bae669b5c5f6eae82.stex"
 
 [deps]
 
-source_file="res://textures/npc/wizard2/wizard_1_crouch_001.png"
-dest_files=[ "res://.import/wizard_1_crouch_001.png-1b712d95c00a028c2509532eb3bb68f0.stex" ]
+source_file="res://textures/textures/npc/wizard2/wizard_1_crouch_001.png"
+dest_files=[ "res://.import/wizard_1_crouch_001.png-933f492741ca6a3bae669b5c5f6eae82.stex" ]
 
 [params]
 

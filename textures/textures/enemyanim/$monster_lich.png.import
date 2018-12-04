@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/$monster_lich.png-749e5ff7e216ef04ddac61d77f684be4.stex"
+path="res://.import/$monster_lich.png-8e37a63d710b516751c6d04a49c50f73.stex"
 
 [deps]
 
-source_file="res://textures/enemyanim/$monster_lich.png"
-dest_files=[ "res://.import/$monster_lich.png-749e5ff7e216ef04ddac61d77f684be4.stex" ]
+source_file="res://textures/textures/enemyanim/$monster_lich.png"
+dest_files=[ "res://.import/$monster_lich.png-8e37a63d710b516751c6d04a49c50f73.stex" ]
 
 [params]
 

@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/gold_02_t.png-6ab2e447042783648fc75d32901f9ca8.stex"
+path="res://.import/gold_02_t.png-d9fa27ad37e05c69b6aeefb6ee5abb89.stex"
 
 [deps]
 
-source_file="res://textures/icons/gold_02_t.png"
-dest_files=[ "res://.import/gold_02_t.png-6ab2e447042783648fc75d32901f9ca8.stex" ]
+source_file="res://textures/textures/icons/gold_02_t.png"
+dest_files=[ "res://.import/gold_02_t.png-d9fa27ad37e05c69b6aeefb6ee5abb89.stex" ]
 
 [params]
 

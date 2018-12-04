@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/$monster_cacto.png-59e7629f14e73e3707568b7a18f63969.stex"
+path="res://.import/$monster_cacto.png-4adb8552117932641d20a7139c55acef.stex"
 
 [deps]
 
-source_file="res://textures/enemyanim/$monster_cacto.png"
-dest_files=[ "res://.import/$monster_cacto.png-59e7629f14e73e3707568b7a18f63969.stex" ]
+source_file="res://textures/textures/enemyanim/$monster_cacto.png"
+dest_files=[ "res://.import/$monster_cacto.png-4adb8552117932641d20a7139c55acef.stex" ]
 
 [params]
 

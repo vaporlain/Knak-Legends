@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Gem_Red.png-2a8ecebc7283b7c886f2db69dc8a172a.stex"
+path="res://.import/Gem_Red.png-16638e4ca645f81e42f6827035b62ce6.stex"
 
 [deps]
 
-source_file="res://textures/icons/Ore/Gem_Red.png"
-dest_files=[ "res://.import/Gem_Red.png-2a8ecebc7283b7c886f2db69dc8a172a.stex" ]
+source_file="res://textures/textures/icons/Ore/Gem_Red.png"
+dest_files=[ "res://.import/Gem_Red.png-16638e4ca645f81e42f6827035b62ce6.stex" ]
 
 [params]
 

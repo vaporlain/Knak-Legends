@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/2HHammer_normal.png-ae23066385eb8aa9be27c6e031ba615a.stex"
+path="res://.import/2HHammer_normal.png-0948500c3d8d635772ab8e50a34916d0.stex"
 
 [deps]
 
-source_file="res://textures/icons/Weapons/2HHammer_normal.png"
-dest_files=[ "res://.import/2HHammer_normal.png-ae23066385eb8aa9be27c6e031ba615a.stex" ]
+source_file="res://textures/textures/icons/Weapons/2HHammer_normal.png"
+dest_files=[ "res://.import/2HHammer_normal.png-0948500c3d8d635772ab8e50a34916d0.stex" ]
 
 [params]
 

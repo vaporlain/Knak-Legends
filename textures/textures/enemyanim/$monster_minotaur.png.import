@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/$monster_minotaur.png-d510054b5ca8647d480802e86e06cc7d.stex"
+path="res://.import/$monster_minotaur.png-2c878bb2d849185fb4eac9614b7b276d.stex"
 
 [deps]
 
-source_file="res://textures/enemyanim/$monster_minotaur.png"
-dest_files=[ "res://.import/$monster_minotaur.png-d510054b5ca8647d480802e86e06cc7d.stex" ]
+source_file="res://textures/textures/enemyanim/$monster_minotaur.png"
+dest_files=[ "res://.import/$monster_minotaur.png-2c878bb2d849185fb4eac9614b7b276d.stex" ]
 
 [params]
 

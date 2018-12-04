@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/left_stand.png-07819d283c24acd4eda04183ac2c257b.stex"
+path="res://.import/left_stand.png-bf4a716fdde84a20123dcec5bd0f01ab.stex"
 
 [deps]
 
-source_file="res://textures/enemyanim/npc/npc4_4/left_stand.png"
-dest_files=[ "res://.import/left_stand.png-07819d283c24acd4eda04183ac2c257b.stex" ]
+source_file="res://textures/textures/enemyanim/npc/npc4_4/left_stand.png"
+dest_files=[ "res://.import/left_stand.png-bf4a716fdde84a20123dcec5bd0f01ab.stex" ]
 
 [params]
 

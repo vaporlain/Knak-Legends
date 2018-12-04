@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/waterV003effect004.png-bdf6b6e47a003efcd19d46d15712ad2e.stex"
+path="res://.import/waterV003effect004.png-0036dc1587d781b896a0d1f824573adb.stex"
 
 [deps]
 
-source_file="res://textures/effects/water/waterV003effect/waterV003effect004.png"
-dest_files=[ "res://.import/waterV003effect004.png-bdf6b6e47a003efcd19d46d15712ad2e.stex" ]
+source_file="res://textures/textures/effects/water/waterV003effect/waterV003effect004.png"
+dest_files=[ "res://.import/waterV003effect004.png-0036dc1587d781b896a0d1f824573adb.stex" ]
 
 [params]
 

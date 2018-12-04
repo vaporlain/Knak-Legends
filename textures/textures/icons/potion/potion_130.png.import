@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/potion_130.png-3f276571373d3cef407fdadf8be2f3d8.stex"
+path="res://.import/potion_130.png-485345cedfaaae21de621525d7c44fc9.stex"
 
 [deps]
 
-source_file="res://textures/icons/potion/potion_130.png"
-dest_files=[ "res://.import/potion_130.png-3f276571373d3cef407fdadf8be2f3d8.stex" ]
+source_file="res://textures/textures/icons/potion/potion_130.png"
+dest_files=[ "res://.import/potion_130.png-485345cedfaaae21de621525d7c44fc9.stex" ]
 
 [params]
 

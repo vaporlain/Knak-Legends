@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/rain_1.png-d626cbf160966250702a211247e3818f.stex"
+path="res://.import/rain_1.png-dcb1c58ec12f98ac85aa3446df6f995c.stex"
 
 [deps]
 
-source_file="res://textures/effects/water/rain_1.png"
-dest_files=[ "res://.import/rain_1.png-d626cbf160966250702a211247e3818f.stex" ]
+source_file="res://textures/textures/effects/water/rain_1.png"
+dest_files=[ "res://.import/rain_1.png-dcb1c58ec12f98ac85aa3446df6f995c.stex" ]
 
 [params]
 

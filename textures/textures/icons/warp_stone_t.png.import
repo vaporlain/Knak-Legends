@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/warp_stone_t.png-ae7701c73b118d7deffb983b8d99d430.stex"
+path="res://.import/warp_stone_t.png-b165969b634c7de18ef773efaf664d2f.stex"
 
 [deps]
 
-source_file="res://textures/icons/warp_stone_t.png"
-dest_files=[ "res://.import/warp_stone_t.png-ae7701c73b118d7deffb983b8d99d430.stex" ]
+source_file="res://textures/textures/icons/warp_stone_t.png"
+dest_files=[ "res://.import/warp_stone_t.png-b165969b634c7de18ef773efaf664d2f.stex" ]
 
 [params]
 

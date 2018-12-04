@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/tentacle_t.png-d5c16533029907c4b3b6e8d6ea597c84.stex"
+path="res://.import/tentacle_t.png-484671d19aabe5e0b2672acbc9a015f2.stex"
 
 [deps]
 
-source_file="res://textures/icons/tentacle_t.png"
-dest_files=[ "res://.import/tentacle_t.png-d5c16533029907c4b3b6e8d6ea597c84.stex" ]
+source_file="res://textures/textures/icons/tentacle_t.png"
+dest_files=[ "res://.import/tentacle_t.png-484671d19aabe5e0b2672acbc9a015f2.stex" ]
 
 [params]
 

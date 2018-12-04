@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Bootc_Cloth.png-dc45bca01f9bf4ddb2cbf38e6b0ae79c.stex"
+path="res://.import/Bootc_Cloth.png-4098c23bf1352efa1ff4b0b1109bb95d.stex"
 
 [deps]
 
-source_file="res://textures/icons/armor/Bootc_Cloth.png"
-dest_files=[ "res://.import/Bootc_Cloth.png-dc45bca01f9bf4ddb2cbf38e6b0ae79c.stex" ]
+source_file="res://textures/textures/icons/armor/Bootc_Cloth.png"
+dest_files=[ "res://.import/Bootc_Cloth.png-4098c23bf1352efa1ff4b0b1109bb95d.stex" ]
 
 [params]
 

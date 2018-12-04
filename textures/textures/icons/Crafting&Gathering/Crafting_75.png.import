@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Crafting_75.png-12614dec175c5b0f7f0bf261e5bce896.stex"
+path="res://.import/Crafting_75.png-6fdf0d3dbb5cd79772b2810d899e6435.stex"
 
 [deps]
 
-source_file="res://textures/icons/Crafting&Gathering/Crafting_75.png"
-dest_files=[ "res://.import/Crafting_75.png-12614dec175c5b0f7f0bf261e5bce896.stex" ]
+source_file="res://textures/textures/icons/Crafting&Gathering/Crafting_75.png"
+dest_files=[ "res://.import/Crafting_75.png-6fdf0d3dbb5cd79772b2810d899e6435.stex" ]
 
 [params]
 

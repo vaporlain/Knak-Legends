@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/$monster_boar.png-7b416e2f22428ced4b033bdea6af9fa8.stex"
+path="res://.import/$monster_boar.png-8e9aba6916cfab8b13879c5045b5dff5.stex"
 
 [deps]
 
-source_file="res://textures/enemyanim/$monster_boar.png"
-dest_files=[ "res://.import/$monster_boar.png-7b416e2f22428ced4b033bdea6af9fa8.stex" ]
+source_file="res://textures/textures/enemyanim/$monster_boar.png"
+dest_files=[ "res://.import/$monster_boar.png-8e9aba6916cfab8b13879c5045b5dff5.stex" ]
 
 [params]
 

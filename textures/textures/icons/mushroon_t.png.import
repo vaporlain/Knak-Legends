@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/mushroon_t.png-9ba8d5107b0d52bdeae4bad340493a08.stex"
+path="res://.import/mushroon_t.png-5254cf87fa777626916a045ce5d8d344.stex"
 
 [deps]
 
-source_file="res://textures/icons/mushroon_t.png"
-dest_files=[ "res://.import/mushroon_t.png-9ba8d5107b0d52bdeae4bad340493a08.stex" ]
+source_file="res://textures/textures/icons/mushroon_t.png"
+dest_files=[ "res://.import/mushroon_t.png-5254cf87fa777626916a045ce5d8d344.stex" ]
 
 [params]
 

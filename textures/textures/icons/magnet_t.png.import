@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/magnet_t.png-81f083db60bd4c8448d7e12888327b89.stex"
+path="res://.import/magnet_t.png-e2f170c7ac5984ef7d72fa9239040358.stex"
 
 [deps]
 
-source_file="res://textures/icons/magnet_t.png"
-dest_files=[ "res://.import/magnet_t.png-81f083db60bd4c8448d7e12888327b89.stex" ]
+source_file="res://textures/textures/icons/magnet_t.png"
+dest_files=[ "res://.import/magnet_t.png-e2f170c7ac5984ef7d72fa9239040358.stex" ]
 
 [params]
 

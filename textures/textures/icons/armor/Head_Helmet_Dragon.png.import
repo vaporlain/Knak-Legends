@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Head_Helmet_Dragon.png-d646daf7b47cd280779a327cfb7ff2af.stex"
+path="res://.import/Head_Helmet_Dragon.png-12737fb92ed37f2f147d9474ec2abc19.stex"
 
 [deps]
 
-source_file="res://textures/icons/armor/Head_Helmet_Dragon.png"
-dest_files=[ "res://.import/Head_Helmet_Dragon.png-d646daf7b47cd280779a327cfb7ff2af.stex" ]
+source_file="res://textures/textures/icons/armor/Head_Helmet_Dragon.png"
+dest_files=[ "res://.import/Head_Helmet_Dragon.png-12737fb92ed37f2f147d9474ec2abc19.stex" ]
 
 [params]
 

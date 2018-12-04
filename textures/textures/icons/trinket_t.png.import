@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/trinket_t.png-d0aa78e029c5cbb355bc13961fd2d82f.stex"
+path="res://.import/trinket_t.png-65d3fc72eb860ba4ab87af52bb7c0682.stex"
 
 [deps]
 
-source_file="res://textures/icons/trinket_t.png"
-dest_files=[ "res://.import/trinket_t.png-d0aa78e029c5cbb355bc13961fd2d82f.stex" ]
+source_file="res://textures/textures/icons/trinket_t.png"
+dest_files=[ "res://.import/trinket_t.png-65d3fc72eb860ba4ab87af52bb7c0682.stex" ]
 
 [params]
 

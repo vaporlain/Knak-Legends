@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Head_Hood.png-c94aadbeefb1c921b6433a181c8c2848.stex"
+path="res://.import/Head_Hood.png-912b9cca31085243137e19b6b34f7443.stex"
 
 [deps]
 
-source_file="res://textures/icons/armor/Head_Hood.png"
-dest_files=[ "res://.import/Head_Hood.png-c94aadbeefb1c921b6433a181c8c2848.stex" ]
+source_file="res://textures/textures/icons/armor/Head_Hood.png"
+dest_files=[ "res://.import/Head_Hood.png-912b9cca31085243137e19b6b34f7443.stex" ]
 
 [params]
 

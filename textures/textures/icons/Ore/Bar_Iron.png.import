@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Bar_Iron.png-8c4ad1d5edbfcefa2110d1d2a306bd54.stex"
+path="res://.import/Bar_Iron.png-dab7526dceab7954082eb33cec51069e.stex"
 
 [deps]
 
-source_file="res://textures/icons/Ore/Bar_Iron.png"
-dest_files=[ "res://.import/Bar_Iron.png-8c4ad1d5edbfcefa2110d1d2a306bd54.stex" ]
+source_file="res://textures/textures/icons/Ore/Bar_Iron.png"
+dest_files=[ "res://.import/Bar_Iron.png-dab7526dceab7954082eb33cec51069e.stex" ]
 
 [params]
 

@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Axe_Battle.png-3e86df7d4097aeb81af524ae8e29c8d9.stex"
+path="res://.import/Axe_Battle.png-7ee316411af81d8e1fcfd9ebf55ee1b6.stex"
 
 [deps]
 
-source_file="res://textures/icons/Weapons/Axe_Battle.png"
-dest_files=[ "res://.import/Axe_Battle.png-3e86df7d4097aeb81af524ae8e29c8d9.stex" ]
+source_file="res://textures/textures/icons/Weapons/Axe_Battle.png"
+dest_files=[ "res://.import/Axe_Battle.png-7ee316411af81d8e1fcfd9ebf55ee1b6.stex" ]
 
 [params]
 

@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/nod1.png-6c0085fbad82caed74e359e6caf92fe3.stex"
+path="res://.import/nod1.png-481b4b220c9a4e67bbba42f8a5b31512.stex"
 
 [deps]
 
-source_file="res://textures/enemyanim/chara/chara5_7/nod1.png"
-dest_files=[ "res://.import/nod1.png-6c0085fbad82caed74e359e6caf92fe3.stex" ]
+source_file="res://textures/textures/enemyanim/chara/chara5_7/nod1.png"
+dest_files=[ "res://.import/nod1.png-481b4b220c9a4e67bbba42f8a5b31512.stex" ]
 
 [params]
 

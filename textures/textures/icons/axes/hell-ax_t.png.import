@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/hell-ax_t.png-c2a20882054add45a199beb34f924018.stex"
+path="res://.import/hell-ax_t.png-1502be250268c195d5cf18bf413e1f98.stex"
 
 [deps]
 
-source_file="res://textures/icons/axes/hell-ax_t.png"
-dest_files=[ "res://.import/hell-ax_t.png-c2a20882054add45a199beb34f924018.stex" ]
+source_file="res://textures/textures/icons/axes/hell-ax_t.png"
+dest_files=[ "res://.import/hell-ax_t.png-1502be250268c195d5cf18bf413e1f98.stex" ]
 
 [params]
 

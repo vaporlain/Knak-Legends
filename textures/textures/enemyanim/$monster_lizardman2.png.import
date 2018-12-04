@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/$monster_lizardman2.png-d34ef71c2d8d5dca068475e7f7b1849c.stex"
+path="res://.import/$monster_lizardman2.png-12020ac2fab33adfb895d7710bc10ae9.stex"
 
 [deps]
 
-source_file="res://textures/enemyanim/$monster_lizardman2.png"
-dest_files=[ "res://.import/$monster_lizardman2.png-d34ef71c2d8d5dca068475e7f7b1849c.stex" ]
+source_file="res://textures/textures/enemyanim/$monster_lizardman2.png"
+dest_files=[ "res://.import/$monster_lizardman2.png-12020ac2fab33adfb895d7710bc10ae9.stex" ]
 
 [params]
 

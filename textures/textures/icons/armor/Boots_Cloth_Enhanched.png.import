@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Boots_Cloth_Enhanched.png-b24cc5e02fb93f81cb4be71a238508f4.stex"
+path="res://.import/Boots_Cloth_Enhanched.png-31a895962151c5f248ae58d0e9e99411.stex"
 
 [deps]
 
-source_file="res://textures/icons/armor/Boots_Cloth_Enhanched.png"
-dest_files=[ "res://.import/Boots_Cloth_Enhanched.png-b24cc5e02fb93f81cb4be71a238508f4.stex" ]
+source_file="res://textures/textures/icons/armor/Boots_Cloth_Enhanched.png"
+dest_files=[ "res://.import/Boots_Cloth_Enhanched.png-31a895962151c5f248ae58d0e9e99411.stex" ]
 
 [params]
 

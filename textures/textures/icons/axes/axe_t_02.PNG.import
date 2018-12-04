@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/axe_t_02.PNG-fc39d00ba0507bbbe2d45616791cd68b.stex"
+path="res://.import/axe_t_02.PNG-c978f5da260fe2fea11882bee9369219.stex"
 
 [deps]
 
-source_file="res://textures/icons/axes/axe_t_02.PNG"
-dest_files=[ "res://.import/axe_t_02.PNG-fc39d00ba0507bbbe2d45616791cd68b.stex" ]
+source_file="res://textures/textures/icons/axes/axe_t_02.PNG"
+dest_files=[ "res://.import/axe_t_02.PNG-c978f5da260fe2fea11882bee9369219.stex" ]
 
 [params]
 

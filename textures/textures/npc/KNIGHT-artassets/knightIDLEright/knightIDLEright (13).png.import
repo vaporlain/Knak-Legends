@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/knightIDLEright (13).png-9e71ff3934bb792b0976a341af129cea.stex"
+path="res://.import/knightIDLEright (13).png-1acc82880357c747eb71fc8f42527d91.stex"
 
 [deps]
 
-source_file="res://textures/npc/KNIGHT-artassets/knightIDLEright/knightIDLEright (13).png"
-dest_files=[ "res://.import/knightIDLEright (13).png-9e71ff3934bb792b0976a341af129cea.stex" ]
+source_file="res://textures/textures/npc/KNIGHT-artassets/knightIDLEright/knightIDLEright (13).png"
+dest_files=[ "res://.import/knightIDLEright (13).png-1acc82880357c747eb71fc8f42527d91.stex" ]
 
 [params]
 

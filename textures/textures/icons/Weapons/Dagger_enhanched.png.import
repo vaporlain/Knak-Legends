@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Dagger_enhanched.png-62d602af1b637a854d61b51de4232ddb.stex"
+path="res://.import/Dagger_enhanched.png-08121151da602de8f08a02ce88d76cc1.stex"
 
 [deps]
 
-source_file="res://textures/icons/Weapons/Dagger_enhanched.png"
-dest_files=[ "res://.import/Dagger_enhanched.png-62d602af1b637a854d61b51de4232ddb.stex" ]
+source_file="res://textures/textures/icons/Weapons/Dagger_enhanched.png"
+dest_files=[ "res://.import/Dagger_enhanched.png-08121151da602de8f08a02ce88d76cc1.stex" ]
 
 [params]
 

@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/npc6.png-2ec57047fa271633882cb702f54088ff.stex"
+path="res://.import/npc6.png-9d31d1db1a2f187eacdc16912fc04712.stex"
 
 [deps]
 
-source_file="res://textures/npc/npc6.png"
-dest_files=[ "res://.import/npc6.png-2ec57047fa271633882cb702f54088ff.stex" ]
+source_file="res://textures/textures/npc/npc6.png"
+dest_files=[ "res://.import/npc6.png-9d31d1db1a2f187eacdc16912fc04712.stex" ]
 
 [params]
 

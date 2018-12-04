@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/magnifier_t.png-1dc3c27f919634d58f647318270083e3.stex"
+path="res://.import/magnifier_t.png-d6de613424f34dcfe954344d7a17174f.stex"
 
 [deps]
 
-source_file="res://textures/icons/magnifier_t.png"
-dest_files=[ "res://.import/magnifier_t.png-1dc3c27f919634d58f647318270083e3.stex" ]
+source_file="res://textures/textures/icons/magnifier_t.png"
+dest_files=[ "res://.import/magnifier_t.png-d6de613424f34dcfe954344d7a17174f.stex" ]
 
 [params]
 

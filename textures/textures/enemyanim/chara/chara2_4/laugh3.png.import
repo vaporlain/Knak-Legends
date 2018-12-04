@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/laugh3.png-6ee3598805bb7190b17969ba3ccb0c78.stex"
+path="res://.import/laugh3.png-dd3919905edb4f4997981b0c3bbe9e78.stex"
 
 [deps]
 
-source_file="res://textures/enemyanim/chara/chara2_4/laugh3.png"
-dest_files=[ "res://.import/laugh3.png-6ee3598805bb7190b17969ba3ccb0c78.stex" ]
+source_file="res://textures/textures/enemyanim/chara/chara2_4/laugh3.png"
+dest_files=[ "res://.import/laugh3.png-dd3919905edb4f4997981b0c3bbe9e78.stex" ]
 
 [params]
 

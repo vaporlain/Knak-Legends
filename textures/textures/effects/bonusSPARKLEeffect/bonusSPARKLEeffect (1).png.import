@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/bonusSPARKLEeffect (1).png-903f252a771c59c11d28112a1a34c98f.stex"
+path="res://.import/bonusSPARKLEeffect (1).png-fbab0e5ab72b5ef7b6c65cb49f977c99.stex"
 
 [deps]
 
-source_file="res://textures/effects/bonusSPARKLEeffect/bonusSPARKLEeffect (1).png"
-dest_files=[ "res://.import/bonusSPARKLEeffect (1).png-903f252a771c59c11d28112a1a34c98f.stex" ]
+source_file="res://textures/textures/effects/bonusSPARKLEeffect/bonusSPARKLEeffect (1).png"
+dest_files=[ "res://.import/bonusSPARKLEeffect (1).png-fbab0e5ab72b5ef7b6c65cb49f977c99.stex" ]
 
 [params]
 

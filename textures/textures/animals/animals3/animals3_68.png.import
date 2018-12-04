@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/animals3_68.png-702ca2c983287cba638964c8bedd78b3.stex"
+path="res://.import/animals3_68.png-8ea81da5ce13a8f2f2ad9a02782ebd6a.stex"
 
 [deps]
 
-source_file="res://textures/animals/animals3/animals3_68.png"
-dest_files=[ "res://.import/animals3_68.png-702ca2c983287cba638964c8bedd78b3.stex" ]
+source_file="res://textures/textures/animals/animals3/animals3_68.png"
+dest_files=[ "res://.import/animals3_68.png-8ea81da5ce13a8f2f2ad9a02782ebd6a.stex" ]
 
 [params]
 

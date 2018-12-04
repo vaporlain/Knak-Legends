@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/pill_12.png-0cc1ca2286b50589da3d94352993fd4d.stex"
+path="res://.import/pill_12.png-9a45bf7ba5ea33dc4cf758a529778a06.stex"
 
 [deps]
 
-source_file="res://textures/icons/pill/pill_12.png"
-dest_files=[ "res://.import/pill_12.png-0cc1ca2286b50589da3d94352993fd4d.stex" ]
+source_file="res://textures/textures/icons/pill/pill_12.png"
+dest_files=[ "res://.import/pill_12.png-9a45bf7ba5ea33dc4cf758a529778a06.stex" ]
 
 [params]
 

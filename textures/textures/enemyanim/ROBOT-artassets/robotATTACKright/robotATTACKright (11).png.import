@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/robotATTACKright (11).png-a47d315cd65d4ec0e9918feeb0d836b3.stex"
+path="res://.import/robotATTACKright (11).png-c956895eed7ffc4358a6505e223bf32d.stex"
 
 [deps]
 
-source_file="res://textures/enemyanim/ROBOT-artassets/robotATTACKright/robotATTACKright (11).png"
-dest_files=[ "res://.import/robotATTACKright (11).png-a47d315cd65d4ec0e9918feeb0d836b3.stex" ]
+source_file="res://textures/textures/enemyanim/ROBOT-artassets/robotATTACKright/robotATTACKright (11).png"
+dest_files=[ "res://.import/robotATTACKright (11).png-c956895eed7ffc4358a6505e223bf32d.stex" ]
 
 [params]
 

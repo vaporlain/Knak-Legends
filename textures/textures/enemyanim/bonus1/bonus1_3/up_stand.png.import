@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/up_stand.png-e76b1fe3c161b2f42cf6a959eae9fed4.stex"
+path="res://.import/up_stand.png-67bb3895667bcd8f750667efb0ea5af2.stex"
 
 [deps]
 
-source_file="res://textures/enemyanim/bonus1/bonus1_3/up_stand.png"
-dest_files=[ "res://.import/up_stand.png-e76b1fe3c161b2f42cf6a959eae9fed4.stex" ]
+source_file="res://textures/textures/enemyanim/bonus1/bonus1_3/up_stand.png"
+dest_files=[ "res://.import/up_stand.png-67bb3895667bcd8f750667efb0ea5af2.stex" ]
 
 [params]
 

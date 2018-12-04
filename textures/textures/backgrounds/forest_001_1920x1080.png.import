@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/forest_001_1920x1080.png-8213807a0633b5cb6b19af8ed1ceb777.stex"
+path="res://.import/forest_001_1920x1080.png-cbc03bbd6f76fafa687b0425062c825e.stex"
 
 [deps]
 
-source_file="res://textures/backgrounds/forest_001_1920x1080.png"
-dest_files=[ "res://.import/forest_001_1920x1080.png-8213807a0633b5cb6b19af8ed1ceb777.stex" ]
+source_file="res://textures/textures/backgrounds/forest_001_1920x1080.png"
+dest_files=[ "res://.import/forest_001_1920x1080.png-cbc03bbd6f76fafa687b0425062c825e.stex" ]
 
 [params]
 

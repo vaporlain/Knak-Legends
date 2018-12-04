@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/pencil_t.png-d579baf0fb9f19a2ee538ff8df824113.stex"
+path="res://.import/pencil_t.png-134c2065ee1a3b0e244f49fc94d644fc.stex"
 
 [deps]
 
-source_file="res://textures/icons/pencil_t.png"
-dest_files=[ "res://.import/pencil_t.png-d579baf0fb9f19a2ee538ff8df824113.stex" ]
+source_file="res://textures/textures/icons/pencil_t.png"
+dest_files=[ "res://.import/pencil_t.png-134c2065ee1a3b0e244f49fc94d644fc.stex" ]
 
 [params]
 

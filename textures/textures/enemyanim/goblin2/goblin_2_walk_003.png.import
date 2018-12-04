@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/goblin_2_walk_003.png-0435e5846e69009b9868e0753862f9c0.stex"
+path="res://.import/goblin_2_walk_003.png-4859dfa95f7ded4c6acbb53caf0c4da9.stex"
 
 [deps]
 
-source_file="res://textures/enemyanim/goblin2/goblin_2_walk_003.png"
-dest_files=[ "res://.import/goblin_2_walk_003.png-0435e5846e69009b9868e0753862f9c0.stex" ]
+source_file="res://textures/textures/enemyanim/goblin2/goblin_2_walk_003.png"
+dest_files=[ "res://.import/goblin_2_walk_003.png-4859dfa95f7ded4c6acbb53caf0c4da9.stex" ]
 
 [params]
 

@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/diamond_t.png-1efab0e647ebbaa458edc78d7857bfbf.stex"
+path="res://.import/diamond_t.png-fd49408984b7fddd47941c9ff325f447.stex"
 
 [deps]
 
-source_file="res://textures/icons/diamond_t.png"
-dest_files=[ "res://.import/diamond_t.png-1efab0e647ebbaa458edc78d7857bfbf.stex" ]
+source_file="res://textures/textures/icons/diamond_t.png"
+dest_files=[ "res://.import/diamond_t.png-fd49408984b7fddd47941c9ff325f447.stex" ]
 
 [params]
 

@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/war_t.png-9ebbe88a81e29978f3fa9b637aa61920.stex"
+path="res://.import/war_t.png-c14dbdaa51c911ec7f5c7f43ad99a1d0.stex"
 
 [deps]
 
-source_file="res://textures/icons/war_t.png"
-dest_files=[ "res://.import/war_t.png-9ebbe88a81e29978f3fa9b637aa61920.stex" ]
+source_file="res://textures/textures/icons/war_t.png"
+dest_files=[ "res://.import/war_t.png-c14dbdaa51c911ec7f5c7f43ad99a1d0.stex" ]
 
 [params]
 

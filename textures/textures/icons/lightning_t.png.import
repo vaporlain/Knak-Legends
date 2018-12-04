@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/lightning_t.png-2fb4538a75295a7f7269d9ca35a2c190.stex"
+path="res://.import/lightning_t.png-badddb983110e47568b8e42c175824fc.stex"
 
 [deps]
 
-source_file="res://textures/icons/lightning_t.png"
-dest_files=[ "res://.import/lightning_t.png-2fb4538a75295a7f7269d9ca35a2c190.stex" ]
+source_file="res://textures/textures/icons/lightning_t.png"
+dest_files=[ "res://.import/lightning_t.png-badddb983110e47568b8e42c175824fc.stex" ]
 
 [params]
 

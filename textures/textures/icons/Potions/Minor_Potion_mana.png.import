@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Minor_Potion_mana.png-aa2044269d9ed4f98c0b6a7b78b58b0d.stex"
+path="res://.import/Minor_Potion_mana.png-548457ade09d102304230827066cd462.stex"
 
 [deps]
 
-source_file="res://textures/icons/Potions/Minor_Potion_mana.png"
-dest_files=[ "res://.import/Minor_Potion_mana.png-aa2044269d9ed4f98c0b6a7b78b58b0d.stex" ]
+source_file="res://textures/textures/icons/Potions/Minor_Potion_mana.png"
+dest_files=[ "res://.import/Minor_Potion_mana.png-548457ade09d102304230827066cd462.stex" ]
 
 [params]
 

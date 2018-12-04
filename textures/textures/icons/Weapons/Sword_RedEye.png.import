@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Sword_RedEye.png-740840d918f2aff230a79a4b082eae1e.stex"
+path="res://.import/Sword_RedEye.png-0fac1f070ac9e8844f88420d0fcd33d1.stex"
 
 [deps]
 
-source_file="res://textures/icons/Weapons/Sword_RedEye.png"
-dest_files=[ "res://.import/Sword_RedEye.png-740840d918f2aff230a79a4b082eae1e.stex" ]
+source_file="res://textures/textures/icons/Weapons/Sword_RedEye.png"
+dest_files=[ "res://.import/Sword_RedEye.png-0fac1f070ac9e8844f88420d0fcd33d1.stex" ]
 
 [params]
 

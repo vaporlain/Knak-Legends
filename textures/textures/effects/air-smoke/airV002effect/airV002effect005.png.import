@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/airV002effect005.png-9f42244a147b1bba5a8988f79a420db3.stex"
+path="res://.import/airV002effect005.png-8c5c0df2e5cb4bd88fd0f03039cd3c37.stex"
 
 [deps]
 
-source_file="res://textures/effects/air-smoke/airV002effect/airV002effect005.png"
-dest_files=[ "res://.import/airV002effect005.png-9f42244a147b1bba5a8988f79a420db3.stex" ]
+source_file="res://textures/textures/effects/air-smoke/airV002effect/airV002effect005.png"
+dest_files=[ "res://.import/airV002effect005.png-8c5c0df2e5cb4bd88fd0f03039cd3c37.stex" ]
 
 [params]
 

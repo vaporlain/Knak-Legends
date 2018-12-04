@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/prize_t.png-76bee727cfa25cd469fad102d8ec8738.stex"
+path="res://.import/prize_t.png-de5e6fdbfedbd8d662b1c18e94a5d8c9.stex"
 
 [deps]
 
-source_file="res://textures/icons/prize_t.png"
-dest_files=[ "res://.import/prize_t.png-76bee727cfa25cd469fad102d8ec8738.stex" ]
+source_file="res://textures/textures/icons/prize_t.png"
+dest_files=[ "res://.import/prize_t.png-de5e6fdbfedbd8d662b1c18e94a5d8c9.stex" ]
 
 [params]
 

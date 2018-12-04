@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Key_Silver.png-2c71a9c871fa0af4437799a834c2f792.stex"
+path="res://.import/Key_Silver.png-3c77e0059f2df5af232d38fe0bee9fe5.stex"
 
 [deps]
 
-source_file="res://textures/icons/Misc/Key_Silver.png"
-dest_files=[ "res://.import/Key_Silver.png-2c71a9c871fa0af4437799a834c2f792.stex" ]
+source_file="res://textures/textures/icons/Misc/Key_Silver.png"
+dest_files=[ "res://.import/Key_Silver.png-3c77e0059f2df5af232d38fe0bee9fe5.stex" ]
 
 [params]
 

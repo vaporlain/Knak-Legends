@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/princess_jump_004.png-dffb8178689379378d3cc800a5e01db4.stex"
+path="res://.import/princess_jump_004.png-db2266d908058c09b0d3ff06dc79a3c8.stex"
 
 [deps]
 
-source_file="res://textures/npc/princess/princess_jump_004.png"
-dest_files=[ "res://.import/princess_jump_004.png-dffb8178689379378d3cc800a5e01db4.stex" ]
+source_file="res://textures/textures/npc/princess/princess_jump_004.png"
+dest_files=[ "res://.import/princess_jump_004.png-db2266d908058c09b0d3ff06dc79a3c8.stex" ]
 
 [params]
 

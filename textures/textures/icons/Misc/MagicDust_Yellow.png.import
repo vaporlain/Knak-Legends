@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/MagicDust_Yellow.png-245b5f6e1c61c12e0238b59ddea0e53d.stex"
+path="res://.import/MagicDust_Yellow.png-6bd033057dd3fc3ff1cff100492557ce.stex"
 
 [deps]
 
-source_file="res://textures/icons/Misc/MagicDust_Yellow.png"
-dest_files=[ "res://.import/MagicDust_Yellow.png-245b5f6e1c61c12e0238b59ddea0e53d.stex" ]
+source_file="res://textures/textures/icons/Misc/MagicDust_Yellow.png"
+dest_files=[ "res://.import/MagicDust_Yellow.png-6bd033057dd3fc3ff1cff100492557ce.stex" ]
 
 [params]
 

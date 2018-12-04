@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/robotIMPACTeffect (2).png-959321fca029c984ec7ab4e46556394f.stex"
+path="res://.import/robotIMPACTeffect (2).png-1828c145cc6fe8d3be2b0fea5fb5c8ee.stex"
 
 [deps]
 
-source_file="res://textures/enemyanim/ROBOT-artassets/robotIMPACTeffect/robotIMPACTeffect (2).png"
-dest_files=[ "res://.import/robotIMPACTeffect (2).png-959321fca029c984ec7ab4e46556394f.stex" ]
+source_file="res://textures/textures/enemyanim/ROBOT-artassets/robotIMPACTeffect/robotIMPACTeffect (2).png"
+dest_files=[ "res://.import/robotIMPACTeffect (2).png-1828c145cc6fe8d3be2b0fea5fb5c8ee.stex" ]
 
 [params]
 

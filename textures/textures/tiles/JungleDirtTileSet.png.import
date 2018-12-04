@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/JungleDirtTileSet.png-135cde4be8097d090dbf1bbfb3cd9624.stex"
+path="res://.import/JungleDirtTileSet.png-f127b2ac871e474bceca72e62dcbe602.stex"
 
 [deps]
 
-source_file="res://textures/tiles/JungleDirtTileSet.png"
-dest_files=[ "res://.import/JungleDirtTileSet.png-135cde4be8097d090dbf1bbfb3cd9624.stex" ]
+source_file="res://textures/textures/tiles/JungleDirtTileSet.png"
+dest_files=[ "res://.import/JungleDirtTileSet.png-f127b2ac871e474bceca72e62dcbe602.stex" ]
 
 [params]
 

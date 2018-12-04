@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/ticket_t.png-47611eab1b61c075e8c6e9517e760fbc.stex"
+path="res://.import/ticket_t.png-7448d31caeefec6eb99629d805b6005e.stex"
 
 [deps]
 
-source_file="res://textures/icons/ticket_t.png"
-dest_files=[ "res://.import/ticket_t.png-47611eab1b61c075e8c6e9517e760fbc.stex" ]
+source_file="res://textures/textures/icons/ticket_t.png"
+dest_files=[ "res://.import/ticket_t.png-7448d31caeefec6eb99629d805b6005e.stex" ]
 
 [params]
 

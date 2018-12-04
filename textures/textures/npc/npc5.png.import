@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/npc5.png-3cb8fdb735be2be21fa74311445b8897.stex"
+path="res://.import/npc5.png-1f88746494cc3b17df350c70ca1f99b5.stex"
 
 [deps]
 
-source_file="res://textures/npc/npc5.png"
-dest_files=[ "res://.import/npc5.png-3cb8fdb735be2be21fa74311445b8897.stex" ]
+source_file="res://textures/textures/npc/npc5.png"
+dest_files=[ "res://.import/npc5.png-1f88746494cc3b17df350c70ca1f99b5.stex" ]
 
 [params]
 

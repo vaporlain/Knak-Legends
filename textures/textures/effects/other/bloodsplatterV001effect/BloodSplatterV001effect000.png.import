@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/BloodSplatterV001effect000.png-c7ee532f0e687945f51303012cf87d07.stex"
+path="res://.import/BloodSplatterV001effect000.png-26977a1343ca3020e7704d99fef3c142.stex"
 
 [deps]
 
-source_file="res://textures/effects/other/bloodsplatterV001effect/BloodSplatterV001effect000.png"
-dest_files=[ "res://.import/BloodSplatterV001effect000.png-c7ee532f0e687945f51303012cf87d07.stex" ]
+source_file="res://textures/textures/effects/other/bloodsplatterV001effect/BloodSplatterV001effect000.png"
+dest_files=[ "res://.import/BloodSplatterV001effect000.png-26977a1343ca3020e7704d99fef3c142.stex" ]
 
 [params]
 

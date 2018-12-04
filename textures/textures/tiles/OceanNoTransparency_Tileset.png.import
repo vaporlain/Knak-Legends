@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/OceanNoTransparency_Tileset.png-bb2c0543b363c15799ae8a54dc7485a8.stex"
+path="res://.import/OceanNoTransparency_Tileset.png-476da21557c82d1107e8ec7f36216ed2.stex"
 
 [deps]
 
-source_file="res://textures/tiles/OceanNoTransparency_Tileset.png"
-dest_files=[ "res://.import/OceanNoTransparency_Tileset.png-bb2c0543b363c15799ae8a54dc7485a8.stex" ]
+source_file="res://textures/textures/tiles/OceanNoTransparency_Tileset.png"
+dest_files=[ "res://.import/OceanNoTransparency_Tileset.png-476da21557c82d1107e8ec7f36216ed2.stex" ]
 
 [params]
 

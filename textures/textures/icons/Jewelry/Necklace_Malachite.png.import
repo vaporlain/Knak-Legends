@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Necklace_Malachite.png-d6f816c04c9827153f1b6ce8c3bf8eee.stex"
+path="res://.import/Necklace_Malachite.png-fae4ee9b3088d2727608554f15ab29cb.stex"
 
 [deps]
 
-source_file="res://textures/icons/Jewelry/Necklace_Malachite.png"
-dest_files=[ "res://.import/Necklace_Malachite.png-d6f816c04c9827153f1b6ce8c3bf8eee.stex" ]
+source_file="res://textures/textures/icons/Jewelry/Necklace_Malachite.png"
+dest_files=[ "res://.import/Necklace_Malachite.png-fae4ee9b3088d2727608554f15ab29cb.stex" ]
 
 [params]
 

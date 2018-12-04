@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/knightIMPACTeffect (1).png-3797496cf8ffd9e6c8f31706b1136643.stex"
+path="res://.import/knightIMPACTeffect (1).png-22bbe9e83b2f6de67654ed3ce12a5773.stex"
 
 [deps]
 
-source_file="res://textures/npc/KNIGHT-artassets/knightIMPACTeffect/knightIMPACTeffect (1).png"
-dest_files=[ "res://.import/knightIMPACTeffect (1).png-3797496cf8ffd9e6c8f31706b1136643.stex" ]
+source_file="res://textures/textures/npc/KNIGHT-artassets/knightIMPACTeffect/knightIMPACTeffect (1).png"
+dest_files=[ "res://.import/knightIMPACTeffect (1).png-22bbe9e83b2f6de67654ed3ce12a5773.stex" ]
 
 [params]
 

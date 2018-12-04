@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/boomb_t.png-2b76fcdf87e16e1d67cbf05e2f3ff471.stex"
+path="res://.import/boomb_t.png-a656cce826c7841e13ef269d70270b28.stex"
 
 [deps]
 
-source_file="res://textures/icons/boomb_t.png"
-dest_files=[ "res://.import/boomb_t.png-2b76fcdf87e16e1d67cbf05e2f3ff471.stex" ]
+source_file="res://textures/textures/icons/boomb_t.png"
+dest_files=[ "res://.import/boomb_t.png-a656cce826c7841e13ef269d70270b28.stex" ]
 
 [params]
 

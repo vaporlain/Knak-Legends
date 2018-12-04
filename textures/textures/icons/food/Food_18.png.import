@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Food_18.png-6c76a248f0a214b40f11ff43e2ab8d46.stex"
+path="res://.import/Food_18.png-ae48ca06ffa739640bb65f2d0d4a82bc.stex"
 
 [deps]
 
-source_file="res://textures/icons/food/Food_18.png"
-dest_files=[ "res://.import/Food_18.png-6c76a248f0a214b40f11ff43e2ab8d46.stex" ]
+source_file="res://textures/textures/icons/food/Food_18.png"
+dest_files=[ "res://.import/Food_18.png-ae48ca06ffa739640bb65f2d0d4a82bc.stex" ]
 
 [params]
 

@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Neklace_Crystal_Purple.png-139210ec34bdce413c2c3c55db61d335.stex"
+path="res://.import/Neklace_Crystal_Purple.png-04ab2cfd7efe18316608628b4138444a.stex"
 
 [deps]
 
-source_file="res://textures/icons/Jewelry/Neklace_Crystal_Purple.png"
-dest_files=[ "res://.import/Neklace_Crystal_Purple.png-139210ec34bdce413c2c3c55db61d335.stex" ]
+source_file="res://textures/textures/icons/Jewelry/Neklace_Crystal_Purple.png"
+dest_files=[ "res://.import/Neklace_Crystal_Purple.png-04ab2cfd7efe18316608628b4138444a.stex" ]
 
 [params]
 

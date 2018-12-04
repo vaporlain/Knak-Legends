@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Ore_Gold.png-49a8ad39b3fdc6177f23a3ba6a5360e2.stex"
+path="res://.import/Ore_Gold.png-fc46e1ac4b1374819e9e33427aae4254.stex"
 
 [deps]
 
-source_file="res://textures/icons/Ore/Ore_Gold.png"
-dest_files=[ "res://.import/Ore_Gold.png-49a8ad39b3fdc6177f23a3ba6a5360e2.stex" ]
+source_file="res://textures/textures/icons/Ore/Ore_Gold.png"
+dest_files=[ "res://.import/Ore_Gold.png-fc46e1ac4b1374819e9e33427aae4254.stex" ]
 
 [params]
 

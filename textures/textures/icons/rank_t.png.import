@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/rank_t.png-ce65659f64e016e8736e5585d12d5271.stex"
+path="res://.import/rank_t.png-ad9ea590aad4d60830542db36b42d1ad.stex"
 
 [deps]
 
-source_file="res://textures/icons/rank_t.png"
-dest_files=[ "res://.import/rank_t.png-ce65659f64e016e8736e5585d12d5271.stex" ]
+source_file="res://textures/textures/icons/rank_t.png"
+dest_files=[ "res://.import/rank_t.png-ad9ea590aad4d60830542db36b42d1ad.stex" ]
 
 [params]
 

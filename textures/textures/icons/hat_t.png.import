@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/hat_t.png-9a7dcd4ba2808ca546f0edad170497ba.stex"
+path="res://.import/hat_t.png-614d257133d26b8715db7b04c6450785.stex"
 
 [deps]
 
-source_file="res://textures/icons/hat_t.png"
-dest_files=[ "res://.import/hat_t.png-9a7dcd4ba2808ca546f0edad170497ba.stex" ]
+source_file="res://textures/textures/icons/hat_t.png"
+dest_files=[ "res://.import/hat_t.png-614d257133d26b8715db7b04c6450785.stex" ]
 
 [params]
 

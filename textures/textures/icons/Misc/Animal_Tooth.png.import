@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Animal_Tooth.png-6c40faf00301596f2ea286e810b8cde7.stex"
+path="res://.import/Animal_Tooth.png-c65071060ef2ebbec3d9475611f2e374.stex"
 
 [deps]
 
-source_file="res://textures/icons/Misc/Animal_Tooth.png"
-dest_files=[ "res://.import/Animal_Tooth.png-6c40faf00301596f2ea286e810b8cde7.stex" ]
+source_file="res://textures/textures/icons/Misc/Animal_Tooth.png"
+dest_files=[ "res://.import/Animal_Tooth.png-c65071060ef2ebbec3d9475611f2e374.stex" ]
 
 [params]
 

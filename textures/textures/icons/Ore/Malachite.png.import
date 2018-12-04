@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Malachite.png-728f65b6583274d2e2143d294058a95c.stex"
+path="res://.import/Malachite.png-82b753fbfe099774c35cdd24dbb63e1a.stex"
 
 [deps]
 
-source_file="res://textures/icons/Ore/Malachite.png"
-dest_files=[ "res://.import/Malachite.png-728f65b6583274d2e2143d294058a95c.stex" ]
+source_file="res://textures/textures/icons/Ore/Malachite.png"
+dest_files=[ "res://.import/Malachite.png-82b753fbfe099774c35cdd24dbb63e1a.stex" ]
 
 [params]
 

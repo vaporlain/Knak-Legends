@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/br_t_03.png-2ed8d8a618790b0af91df5267000d6f3.stex"
+path="res://.import/br_t_03.png-ded0b3a4928b9564c2812e2e557c1749.stex"
 
 [deps]
 
-source_file="res://textures/icons/bracers/br_t_03.png"
-dest_files=[ "res://.import/br_t_03.png-2ed8d8a618790b0af91df5267000d6f3.stex" ]
+source_file="res://textures/textures/icons/bracers/br_t_03.png"
+dest_files=[ "res://.import/br_t_03.png-ded0b3a4928b9564c2812e2e557c1749.stex" ]
 
 [params]
 

@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/skeletonchiefATTACKleft (5).png-8808af49a51827f1a6c86fc71da028f1.stex"
+path="res://.import/skeletonchiefATTACKleft (5).png-3a1413b31a2bd3f986d2a40e3e56c868.stex"
 
 [deps]
 
-source_file="res://textures/enemyanim/SKELETONCHIEF-artassets/skeletonchiefATTACKleft/skeletonchiefATTACKleft (5).png"
-dest_files=[ "res://.import/skeletonchiefATTACKleft (5).png-8808af49a51827f1a6c86fc71da028f1.stex" ]
+source_file="res://textures/textures/enemyanim/SKELETONCHIEF-artassets/skeletonchiefATTACKleft/skeletonchiefATTACKleft (5).png"
+dest_files=[ "res://.import/skeletonchiefATTACKleft (5).png-3a1413b31a2bd3f986d2a40e3e56c868.stex" ]
 
 [params]
 

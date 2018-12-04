@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Sword_enhanched.png-494f61bec83c868de25e25900b91d62c.stex"
+path="res://.import/Sword_enhanched.png-99f245913fb4424ad5edd5a6ef9ad3a6.stex"
 
 [deps]
 
-source_file="res://textures/icons/Weapons/Sword_enhanched.png"
-dest_files=[ "res://.import/Sword_enhanched.png-494f61bec83c868de25e25900b91d62c.stex" ]
+source_file="res://textures/textures/icons/Weapons/Sword_enhanched.png"
+dest_files=[ "res://.import/Sword_enhanched.png-99f245913fb4424ad5edd5a6ef9ad3a6.stex" ]
 
 [params]
 

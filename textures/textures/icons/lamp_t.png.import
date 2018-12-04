@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/lamp_t.png-1b90ff832dd939ce9ead9fab08262c4f.stex"
+path="res://.import/lamp_t.png-a75c5a64a76a245351c5c45424e2b4e1.stex"
 
 [deps]
 
-source_file="res://textures/icons/lamp_t.png"
-dest_files=[ "res://.import/lamp_t.png-1b90ff832dd939ce9ead9fab08262c4f.stex" ]
+source_file="res://textures/textures/icons/lamp_t.png"
+dest_files=[ "res://.import/lamp_t.png-a75c5a64a76a245351c5c45424e2b4e1.stex" ]
 
 [params]
 

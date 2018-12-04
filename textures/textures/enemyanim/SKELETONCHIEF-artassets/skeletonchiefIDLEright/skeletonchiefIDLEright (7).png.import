@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/skeletonchiefIDLEright (7).png-11d27c71fa5108aeafef57ff1ba1d2b0.stex"
+path="res://.import/skeletonchiefIDLEright (7).png-d6413f43fbde6f4c2916335e694f2167.stex"
 
 [deps]
 
-source_file="res://textures/enemyanim/SKELETONCHIEF-artassets/skeletonchiefIDLEright/skeletonchiefIDLEright (7).png"
-dest_files=[ "res://.import/skeletonchiefIDLEright (7).png-11d27c71fa5108aeafef57ff1ba1d2b0.stex" ]
+source_file="res://textures/textures/enemyanim/SKELETONCHIEF-artassets/skeletonchiefIDLEright/skeletonchiefIDLEright (7).png"
+dest_files=[ "res://.import/skeletonchiefIDLEright (7).png-d6413f43fbde6f4c2916335e694f2167.stex" ]
 
 [params]
 

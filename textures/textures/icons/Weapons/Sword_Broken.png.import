@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Sword_Broken.png-3d2da388acad572b84c454cd989ca84b.stex"
+path="res://.import/Sword_Broken.png-bfb23d0ac8347f5be28a3693c33b38f6.stex"
 
 [deps]
 
-source_file="res://textures/icons/Weapons/Sword_Broken.png"
-dest_files=[ "res://.import/Sword_Broken.png-3d2da388acad572b84c454cd989ca84b.stex" ]
+source_file="res://textures/textures/icons/Weapons/Sword_Broken.png"
+dest_files=[ "res://.import/Sword_Broken.png-bfb23d0ac8347f5be28a3693c33b38f6.stex" ]
 
 [params]
 

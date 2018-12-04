@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/shield_t_04.png-4f26263837079d189e123c45935813a0.stex"
+path="res://.import/shield_t_04.png-fc5052b8696753002841fbe94310970f.stex"
 
 [deps]
 
-source_file="res://textures/icons/Shields/shield_t_04.png"
-dest_files=[ "res://.import/shield_t_04.png-4f26263837079d189e123c45935813a0.stex" ]
+source_file="res://textures/textures/icons/Shields/shield_t_04.png"
+dest_files=[ "res://.import/shield_t_04.png-fc5052b8696753002841fbe94310970f.stex" ]
 
 [params]
 

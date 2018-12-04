@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/leaf_t.png-27507b31776bf9d1529e160acbb5cc30.stex"
+path="res://.import/leaf_t.png-fbd8622e21fe29a2eebe021cb15191ec.stex"
 
 [deps]
 
-source_file="res://textures/icons/leaf_t.png"
-dest_files=[ "res://.import/leaf_t.png-27507b31776bf9d1529e160acbb5cc30.stex" ]
+source_file="res://textures/textures/icons/leaf_t.png"
+dest_files=[ "res://.import/leaf_t.png-fbd8622e21fe29a2eebe021cb15191ec.stex" ]
 
 [params]
 

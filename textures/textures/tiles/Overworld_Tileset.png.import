@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Overworld_Tileset.png-618d1e8b1521cb5be417b02178f51c6b.stex"
+path="res://.import/Overworld_Tileset.png-069642288a91ed16a3dcfe2d34b255f7.stex"
 
 [deps]
 
-source_file="res://textures/tiles/Overworld_Tileset.png"
-dest_files=[ "res://.import/Overworld_Tileset.png-618d1e8b1521cb5be417b02178f51c6b.stex" ]
+source_file="res://textures/textures/tiles/Overworld_Tileset.png"
+dest_files=[ "res://.import/Overworld_Tileset.png-069642288a91ed16a3dcfe2d34b255f7.stex" ]
 
 [params]
 

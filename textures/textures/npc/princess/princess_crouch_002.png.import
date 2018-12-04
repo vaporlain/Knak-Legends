@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/princess_crouch_002.png-6369df89292408c480230ca90282e342.stex"
+path="res://.import/princess_crouch_002.png-a83636feff134ece9c90d1eaf73da61a.stex"
 
 [deps]
 
-source_file="res://textures/npc/princess/princess_crouch_002.png"
-dest_files=[ "res://.import/princess_crouch_002.png-6369df89292408c480230ca90282e342.stex" ]
+source_file="res://textures/textures/npc/princess/princess_crouch_002.png"
+dest_files=[ "res://.import/princess_crouch_002.png-a83636feff134ece9c90d1eaf73da61a.stex" ]
 
 [params]
 

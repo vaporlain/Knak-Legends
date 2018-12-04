@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/lock_t.png-0b61f61fa272ddb6b2a36b8b51c3b541.stex"
+path="res://.import/lock_t.png-4d4448f4ea68129905dfaa29607b1c86.stex"
 
 [deps]
 
-source_file="res://textures/icons/lock_t.png"
-dest_files=[ "res://.import/lock_t.png-0b61f61fa272ddb6b2a36b8b51c3b541.stex" ]
+source_file="res://textures/textures/icons/lock_t.png"
+dest_files=[ "res://.import/lock_t.png-4d4448f4ea68129905dfaa29607b1c86.stex" ]
 
 [params]
 

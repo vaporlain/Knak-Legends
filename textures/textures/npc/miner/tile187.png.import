@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/tile187.png-fb2b81529c2b8c1567bb413f50423078.stex"
+path="res://.import/tile187.png-4031fb4c7687a062da65ce7698c26151.stex"
 
 [deps]
 
-source_file="res://textures/npc/miner/tile187.png"
-dest_files=[ "res://.import/tile187.png-fb2b81529c2b8c1567bb413f50423078.stex" ]
+source_file="res://textures/textures/npc/miner/tile187.png"
+dest_files=[ "res://.import/tile187.png-4031fb4c7687a062da65ce7698c26151.stex" ]
 
 [params]
 

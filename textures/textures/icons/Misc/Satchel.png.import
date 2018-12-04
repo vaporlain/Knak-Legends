@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Satchel.png-09bfe6036631148557f8f3f75d4b2dd3.stex"
+path="res://.import/Satchel.png-1a9564a0321ce7429900136d6ccab1a0.stex"
 
 [deps]
 
-source_file="res://textures/icons/Misc/Satchel.png"
-dest_files=[ "res://.import/Satchel.png-09bfe6036631148557f8f3f75d4b2dd3.stex" ]
+source_file="res://textures/textures/icons/Misc/Satchel.png"
+dest_files=[ "res://.import/Satchel.png-1a9564a0321ce7429900136d6ccab1a0.stex" ]
 
 [params]
 

@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Steampunk Corse Elements Dark.png-da0d9ba3be8703ddac556330058bfbb1.stex"
+path="res://.import/Steampunk Corse Elements Dark.png-569c37aaef8ad1b06865086152c361ba.stex"
 
 [deps]
 
-source_file="res://textures/tiles/Steampunk Corse Elements Dark.png"
-dest_files=[ "res://.import/Steampunk Corse Elements Dark.png-da0d9ba3be8703ddac556330058bfbb1.stex" ]
+source_file="res://textures/textures/tiles/Steampunk Corse Elements Dark.png"
+dest_files=[ "res://.import/Steampunk Corse Elements Dark.png-569c37aaef8ad1b06865086152c361ba.stex" ]
 
 [params]
 

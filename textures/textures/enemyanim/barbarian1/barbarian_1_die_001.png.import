@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/barbarian_1_die_001.png-de0d4be3d50d548d558c6d516ab75c53.stex"
+path="res://.import/barbarian_1_die_001.png-51495632f6351a4f92e7ad53687899b7.stex"
 
 [deps]
 
-source_file="res://textures/enemyanim/barbarian1/barbarian_1_die_001.png"
-dest_files=[ "res://.import/barbarian_1_die_001.png-de0d4be3d50d548d558c6d516ab75c53.stex" ]
+source_file="res://textures/textures/enemyanim/barbarian1/barbarian_1_die_001.png"
+dest_files=[ "res://.import/barbarian_1_die_001.png-51495632f6351a4f92e7ad53687899b7.stex" ]
 
 [params]
 

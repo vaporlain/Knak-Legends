@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/weapon_105.png-fd6705a1a3aaf2fb8b95a9488fadde26.stex"
+path="res://.import/weapon_105.png-91cca21007a89b6ce51b7f445beebec9.stex"
 
 [deps]
 
-source_file="res://textures/icons/weapon/weapon_105.png"
-dest_files=[ "res://.import/weapon_105.png-fd6705a1a3aaf2fb8b95a9488fadde26.stex" ]
+source_file="res://textures/textures/icons/weapon/weapon_105.png"
+dest_files=[ "res://.import/weapon_105.png-91cca21007a89b6ce51b7f445beebec9.stex" ]
 
 [params]
 

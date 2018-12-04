@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/hammer_t.png-808f91c431ed04883f49c0b1104cae4f.stex"
+path="res://.import/hammer_t.png-c7bb0e17376b4b6add18e7a441268a22.stex"
 
 [deps]
 
-source_file="res://textures/icons/hammer_t.png"
-dest_files=[ "res://.import/hammer_t.png-808f91c431ed04883f49c0b1104cae4f.stex" ]
+source_file="res://textures/textures/icons/hammer_t.png"
+dest_files=[ "res://.import/hammer_t.png-c7bb0e17376b4b6add18e7a441268a22.stex" ]
 
 [params]
 

@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/knightWALKleft (6).png-1a490ee2d0fcc451d4456cda5f4505e2.stex"
+path="res://.import/knightWALKleft (6).png-faf91dbe41d37a820a0cd12d19813dd7.stex"
 
 [deps]
 
-source_file="res://textures/npc/KNIGHT-artassets/knightWALKleft/knightWALKleft (6).png"
-dest_files=[ "res://.import/knightWALKleft (6).png-1a490ee2d0fcc451d4456cda5f4505e2.stex" ]
+source_file="res://textures/textures/npc/KNIGHT-artassets/knightWALKleft/knightWALKleft (6).png"
+dest_files=[ "res://.import/knightWALKleft (6).png-faf91dbe41d37a820a0cd12d19813dd7.stex" ]
 
 [params]
 

@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Bracers_Leather.png-af3c598ae3a23038693b47f91ff3ceb3.stex"
+path="res://.import/Bracers_Leather.png-f1a48ba262f0390f8dfde297aeb5c728.stex"
 
 [deps]
 
-source_file="res://textures/icons/armor/Bracers_Leather.png"
-dest_files=[ "res://.import/Bracers_Leather.png-af3c598ae3a23038693b47f91ff3ceb3.stex" ]
+source_file="res://textures/textures/icons/armor/Bracers_Leather.png"
+dest_files=[ "res://.import/Bracers_Leather.png-f1a48ba262f0390f8dfde297aeb5c728.stex" ]
 
 [params]
 

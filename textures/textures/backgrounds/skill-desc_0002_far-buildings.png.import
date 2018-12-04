@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/skill-desc_0002_far-buildings.png-4848a85f77da1ad4fb23d9a76a6d72fc.stex"
+path="res://.import/skill-desc_0002_far-buildings.png-0c9ee6fa81c3510baaea1a1ef60f1392.stex"
 
 [deps]
 
-source_file="res://textures/backgrounds/skill-desc_0002_far-buildings.png"
-dest_files=[ "res://.import/skill-desc_0002_far-buildings.png-4848a85f77da1ad4fb23d9a76a6d72fc.stex" ]
+source_file="res://textures/textures/backgrounds/skill-desc_0002_far-buildings.png"
+dest_files=[ "res://.import/skill-desc_0002_far-buildings.png-0c9ee6fa81c3510baaea1a1ef60f1392.stex" ]
 
 [params]
 

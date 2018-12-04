@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/robotgib4.png-30b3569feb86b064af3e1ef1638a5618.stex"
+path="res://.import/robotgib4.png-7f715226e06f5b42eaf9b1e849d94a2e.stex"
 
 [deps]
 
-source_file="res://textures/enemyanim/robot/robotgib4.png"
-dest_files=[ "res://.import/robotgib4.png-30b3569feb86b064af3e1ef1638a5618.stex" ]
+source_file="res://textures/textures/enemyanim/robot/robotgib4.png"
+dest_files=[ "res://.import/robotgib4.png-7f715226e06f5b42eaf9b1e849d94a2e.stex" ]
 
 [params]
 

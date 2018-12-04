@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/scroll.png-a97100946be41f595388b6193104518d.stex"
+path="res://.import/scroll.png-12c60b792c8efb28fbbf2a6452b7a2ed.stex"
 
 [deps]
 
-source_file="res://textures/icons/scroll.png"
-dest_files=[ "res://.import/scroll.png-a97100946be41f595388b6193104518d.stex" ]
+source_file="res://textures/textures/icons/scroll.png"
+dest_files=[ "res://.import/scroll.png-12c60b792c8efb28fbbf2a6452b7a2ed.stex" ]
 
 [params]
 

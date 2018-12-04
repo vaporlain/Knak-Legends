@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/rabbit_t.png-0c666c7359d395367f8aef88ad1040e8.stex"
+path="res://.import/rabbit_t.png-c4072d3bd81c20d49b94101bcda68661.stex"
 
 [deps]
 
-source_file="res://textures/icons/rabbit_t.png"
-dest_files=[ "res://.import/rabbit_t.png-0c666c7359d395367f8aef88ad1040e8.stex" ]
+source_file="res://textures/textures/icons/rabbit_t.png"
+dest_files=[ "res://.import/rabbit_t.png-c4072d3bd81c20d49b94101bcda68661.stex" ]
 
 [params]
 

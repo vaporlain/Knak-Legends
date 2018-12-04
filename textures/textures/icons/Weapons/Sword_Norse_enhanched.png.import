@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Sword_Norse_enhanched.png-9edbc755e672cc0ec0301e7b9582cdfd.stex"
+path="res://.import/Sword_Norse_enhanched.png-76964a9aff4243f9a302f8786e3bf097.stex"
 
 [deps]
 
-source_file="res://textures/icons/Weapons/Sword_Norse_enhanched.png"
-dest_files=[ "res://.import/Sword_Norse_enhanched.png-9edbc755e672cc0ec0301e7b9582cdfd.stex" ]
+source_file="res://textures/textures/icons/Weapons/Sword_Norse_enhanched.png"
+dest_files=[ "res://.import/Sword_Norse_enhanched.png-76964a9aff4243f9a302f8786e3bf097.stex" ]
 
 [params]
 

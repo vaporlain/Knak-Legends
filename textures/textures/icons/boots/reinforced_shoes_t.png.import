@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/reinforced_shoes_t.png-46508e155eff48990f728c6201fea2db.stex"
+path="res://.import/reinforced_shoes_t.png-b82ae052d90ef939f9050a796aa497b3.stex"
 
 [deps]
 
-source_file="res://textures/icons/boots/reinforced_shoes_t.png"
-dest_files=[ "res://.import/reinforced_shoes_t.png-46508e155eff48990f728c6201fea2db.stex" ]
+source_file="res://textures/textures/icons/boots/reinforced_shoes_t.png"
+dest_files=[ "res://.import/reinforced_shoes_t.png-b82ae052d90ef939f9050a796aa497b3.stex" ]
 
 [params]
 

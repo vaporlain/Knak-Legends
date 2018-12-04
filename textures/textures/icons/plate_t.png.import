@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/plate_t.png-14a4716e899254599cfcfa2ca72ad560.stex"
+path="res://.import/plate_t.png-3ba5a14a320a34744452d4b85053fa6c.stex"
 
 [deps]
 
-source_file="res://textures/icons/plate_t.png"
-dest_files=[ "res://.import/plate_t.png-14a4716e899254599cfcfa2ca72ad560.stex" ]
+source_file="res://textures/textures/icons/plate_t.png"
+dest_files=[ "res://.import/plate_t.png-3ba5a14a320a34744452d4b85053fa6c.stex" ]
 
 [params]
 

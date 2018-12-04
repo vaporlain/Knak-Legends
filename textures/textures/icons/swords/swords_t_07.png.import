@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/swords_t_07.png-4739afe0c8a4e092b5adffd65549dee7.stex"
+path="res://.import/swords_t_07.png-ad51bdbed1aeafc831b618f8ceef529e.stex"
 
 [deps]
 
-source_file="res://textures/icons/swords/swords_t_07.png"
-dest_files=[ "res://.import/swords_t_07.png-4739afe0c8a4e092b5adffd65549dee7.stex" ]
+source_file="res://textures/textures/icons/swords/swords_t_07.png"
+dest_files=[ "res://.import/swords_t_07.png-ad51bdbed1aeafc831b618f8ceef529e.stex" ]
 
 [params]
 

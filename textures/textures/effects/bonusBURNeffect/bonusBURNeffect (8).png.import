@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/bonusBURNeffect (8).png-b8450ef245764db680e239b9fe982727.stex"
+path="res://.import/bonusBURNeffect (8).png-b25dc8ef1223f4b475c1a16ec99ac0ff.stex"
 
 [deps]
 
-source_file="res://textures/effects/bonusBURNeffect/bonusBURNeffect (8).png"
-dest_files=[ "res://.import/bonusBURNeffect (8).png-b8450ef245764db680e239b9fe982727.stex" ]
+source_file="res://textures/textures/effects/bonusBURNeffect/bonusBURNeffect (8).png"
+dest_files=[ "res://.import/bonusBURNeffect (8).png-b25dc8ef1223f4b475c1a16ec99ac0ff.stex" ]
 
 [params]
 

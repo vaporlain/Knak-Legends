@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Staff_enhanched.png-9de16a982e418cc43860aa16b9f914bd.stex"
+path="res://.import/Staff_enhanched.png-6875e1191458fd4b81a5d5b3eb391653.stex"
 
 [deps]
 
-source_file="res://textures/icons/Weapons/Staff_enhanched.png"
-dest_files=[ "res://.import/Staff_enhanched.png-9de16a982e418cc43860aa16b9f914bd.stex" ]
+source_file="res://textures/textures/icons/Weapons/Staff_enhanched.png"
+dest_files=[ "res://.import/Staff_enhanched.png-6875e1191458fd4b81a5d5b3eb391653.stex" ]
 
 [params]
 

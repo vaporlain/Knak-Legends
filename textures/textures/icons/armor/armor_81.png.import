@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/armor_81.png-511bebe7791e47f64626fef684a1a7c0.stex"
+path="res://.import/armor_81.png-e6dd5d7d6bdcba8758be930f01690485.stex"
 
 [deps]
 
-source_file="res://textures/icons/armor/armor_81.png"
-dest_files=[ "res://.import/armor_81.png-511bebe7791e47f64626fef684a1a7c0.stex" ]
+source_file="res://textures/textures/icons/armor/armor_81.png"
+dest_files=[ "res://.import/armor_81.png-e6dd5d7d6bdcba8758be930f01690485.stex" ]
 
 [params]
 

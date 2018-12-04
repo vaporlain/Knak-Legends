@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/mount2.png-5f0cbf68fffbfc8dfd5d8826bc2d630f.stex"
+path="res://.import/mount2.png-8f399a4f66e34f4d5e67d1e22ed5ac4d.stex"
 
 [deps]
 
-source_file="res://textures/npc/mount2.png"
-dest_files=[ "res://.import/mount2.png-5f0cbf68fffbfc8dfd5d8826bc2d630f.stex" ]
+source_file="res://textures/textures/npc/mount2.png"
+dest_files=[ "res://.import/mount2.png-8f399a4f66e34f4d5e67d1e22ed5ac4d.stex" ]
 
 [params]
 

@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/anvil_t.png-07cf1d185219d2c9cf18b458fc48907b.stex"
+path="res://.import/anvil_t.png-e017af5ef959a74c9fe40d9f1bd19611.stex"
 
 [deps]
 
-source_file="res://textures/icons/anvil_t.png"
-dest_files=[ "res://.import/anvil_t.png-07cf1d185219d2c9cf18b458fc48907b.stex" ]
+source_file="res://textures/textures/icons/anvil_t.png"
+dest_files=[ "res://.import/anvil_t.png-e017af5ef959a74c9fe40d9f1bd19611.stex" ]
 
 [params]
 

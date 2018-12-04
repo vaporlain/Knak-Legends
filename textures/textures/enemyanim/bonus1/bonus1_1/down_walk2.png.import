@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/down_walk2.png-5c7364b34f88af881dcc7eac065066c1.stex"
+path="res://.import/down_walk2.png-88d9aeb13f29ba2b94e06a23518f3e6b.stex"
 
 [deps]
 
-source_file="res://textures/enemyanim/bonus1/bonus1_1/down_walk2.png"
-dest_files=[ "res://.import/down_walk2.png-5c7364b34f88af881dcc7eac065066c1.stex" ]
+source_file="res://textures/textures/enemyanim/bonus1/bonus1_1/down_walk2.png"
+dest_files=[ "res://.import/down_walk2.png-88d9aeb13f29ba2b94e06a23518f3e6b.stex" ]
 
 [params]
 

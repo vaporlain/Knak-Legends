@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Pants_Cloth.png-4df2a0aa558bbb2aa21b7d79f9d9c5ea.stex"
+path="res://.import/Pants_Cloth.png-37095565d8c6ce43774e368c14c48a14.stex"
 
 [deps]
 
-source_file="res://textures/icons/armor/Pants_Cloth.png"
-dest_files=[ "res://.import/Pants_Cloth.png-4df2a0aa558bbb2aa21b7d79f9d9c5ea.stex" ]
+source_file="res://textures/textures/icons/armor/Pants_Cloth.png"
+dest_files=[ "res://.import/Pants_Cloth.png-37095565d8c6ce43774e368c14c48a14.stex" ]
 
 [params]
 

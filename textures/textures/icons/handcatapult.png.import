@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/handcatapult.png-d8fa7b9713a9513c35c368677600c929.stex"
+path="res://.import/handcatapult.png-2656973157d02388def26b553e626219.stex"
 
 [deps]
 
-source_file="res://textures/icons/handcatapult.png"
-dest_files=[ "res://.import/handcatapult.png-d8fa7b9713a9513c35c368677600c929.stex" ]
+source_file="res://textures/textures/icons/handcatapult.png"
+dest_files=[ "res://.import/handcatapult.png-2656973157d02388def26b553e626219.stex" ]
 
 [params]
 

@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Scales.png-554063f73d46ed960915d30b6aa10945.stex"
+path="res://.import/Scales.png-da5beab31336591b6a89469ade32aabc.stex"
 
 [deps]
 
-source_file="res://textures/icons/Misc/Scales.png"
-dest_files=[ "res://.import/Scales.png-554063f73d46ed960915d30b6aa10945.stex" ]
+source_file="res://textures/textures/icons/Misc/Scales.png"
+dest_files=[ "res://.import/Scales.png-da5beab31336591b6a89469ade32aabc.stex" ]
 
 [params]
 

@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/horse1_60.png-6ee1fb2487fa2427265a066998dbda1d.stex"
+path="res://.import/horse1_60.png-fd7f35fc6968549f104d40adea8c6ae9.stex"
 
 [deps]
 
-source_file="res://textures/animals/horse/horse1_60.png"
-dest_files=[ "res://.import/horse1_60.png-6ee1fb2487fa2427265a066998dbda1d.stex" ]
+source_file="res://textures/textures/animals/horse/horse1_60.png"
+dest_files=[ "res://.import/horse1_60.png-fd7f35fc6968549f104d40adea8c6ae9.stex" ]
 
 [params]
 

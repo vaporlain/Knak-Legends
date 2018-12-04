@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Mug_Full.png-d5e4c436f7b9c71bb89a3cb10b11fb11.stex"
+path="res://.import/Mug_Full.png-aa214834d402c77a28df07578837e65d.stex"
 
 [deps]
 
-source_file="res://textures/icons/Misc/Mug_Full.png"
-dest_files=[ "res://.import/Mug_Full.png-d5e4c436f7b9c71bb89a3cb10b11fb11.stex" ]
+source_file="res://textures/textures/icons/Misc/Mug_Full.png"
+dest_files=[ "res://.import/Mug_Full.png-aa214834d402c77a28df07578837e65d.stex" ]
 
 [params]
 

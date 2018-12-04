@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Axe_Normal.png-9c1339feff8776323501b0370b5cff48.stex"
+path="res://.import/Axe_Normal.png-ba31e12b8ed6985ae6d28d398db2a5a0.stex"
 
 [deps]
 
-source_file="res://textures/icons/Weapons/Axe_Normal.png"
-dest_files=[ "res://.import/Axe_Normal.png-9c1339feff8776323501b0370b5cff48.stex" ]
+source_file="res://textures/textures/icons/Weapons/Axe_Normal.png"
+dest_files=[ "res://.import/Axe_Normal.png-ba31e12b8ed6985ae6d28d398db2a5a0.stex" ]
 
 [params]
 

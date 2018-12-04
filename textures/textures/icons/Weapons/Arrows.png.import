@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Arrows.png-b988625c3986bc87233c05dc7777d46e.stex"
+path="res://.import/Arrows.png-02356a783622f1e76283267c4b544785.stex"
 
 [deps]
 
-source_file="res://textures/icons/Weapons/Arrows.png"
-dest_files=[ "res://.import/Arrows.png-b988625c3986bc87233c05dc7777d46e.stex" ]
+source_file="res://textures/textures/icons/Weapons/Arrows.png"
+dest_files=[ "res://.import/Arrows.png-02356a783622f1e76283267c4b544785.stex" ]
 
 [params]
 

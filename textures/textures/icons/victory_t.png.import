@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/victory_t.png-cde7b2382af957a6f11c21962cffa55b.stex"
+path="res://.import/victory_t.png-63afb7b6a971c47935d79fb0cb6e539e.stex"
 
 [deps]
 
-source_file="res://textures/icons/victory_t.png"
-dest_files=[ "res://.import/victory_t.png-cde7b2382af957a6f11c21962cffa55b.stex" ]
+source_file="res://textures/textures/icons/victory_t.png"
+dest_files=[ "res://.import/victory_t.png-63afb7b6a971c47935d79fb0cb6e539e.stex" ]
 
 [params]
 

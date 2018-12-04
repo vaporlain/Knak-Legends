@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/New Piskel-3.png-731679e5be7b7d4fe5ae864a8b2f59bc.stex"
+path="res://.import/New Piskel-3.png-79f2a509abc64cd2d1ecf962a6bfd20e.stex"
 
 [deps]
 
-source_file="res://textures/enemyanim/lunatic/New Piskel-3.png"
-dest_files=[ "res://.import/New Piskel-3.png-731679e5be7b7d4fe5ae864a8b2f59bc.stex" ]
+source_file="res://textures/textures/enemyanim/lunatic/New Piskel-3.png"
+dest_files=[ "res://.import/New Piskel-3.png-79f2a509abc64cd2d1ecf962a6bfd20e.stex" ]
 
 [params]
 

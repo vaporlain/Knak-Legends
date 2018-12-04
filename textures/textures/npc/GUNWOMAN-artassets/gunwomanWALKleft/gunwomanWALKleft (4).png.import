@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/gunwomanWALKleft (4).png-908bb46ae1f284b2de869cd55c82dd26.stex"
+path="res://.import/gunwomanWALKleft (4).png-a08b542f86f057446bff4b1c54b29bc6.stex"
 
 [deps]
 
-source_file="res://textures/npc/GUNWOMAN-artassets/gunwomanWALKleft/gunwomanWALKleft (4).png"
-dest_files=[ "res://.import/gunwomanWALKleft (4).png-908bb46ae1f284b2de869cd55c82dd26.stex" ]
+source_file="res://textures/textures/npc/GUNWOMAN-artassets/gunwomanWALKleft/gunwomanWALKleft (4).png"
+dest_files=[ "res://.import/gunwomanWALKleft (4).png-a08b542f86f057446bff4b1c54b29bc6.stex" ]
 
 [params]
 

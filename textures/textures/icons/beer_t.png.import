@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/beer_t.png-3f91b07ffda186ae22bf51099fb0e361.stex"
+path="res://.import/beer_t.png-0661fdd45e643aae99a0e1d8e66a19cf.stex"
 
 [deps]
 
-source_file="res://textures/icons/beer_t.png"
-dest_files=[ "res://.import/beer_t.png-3f91b07ffda186ae22bf51099fb0e361.stex" ]
+source_file="res://textures/textures/icons/beer_t.png"
+dest_files=[ "res://.import/beer_t.png-0661fdd45e643aae99a0e1d8e66a19cf.stex" ]
 
 [params]
 

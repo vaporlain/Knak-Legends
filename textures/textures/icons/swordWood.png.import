@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/swordWood.png-b7ab066ebafc8f60739fc431521b6b78.stex"
+path="res://.import/swordWood.png-625f5728f18b6ec22e4d3ff9c5e8ad25.stex"
 
 [deps]
 
-source_file="res://textures/icons/swordWood.png"
-dest_files=[ "res://.import/swordWood.png-b7ab066ebafc8f60739fc431521b6b78.stex" ]
+source_file="res://textures/textures/icons/swordWood.png"
+dest_files=[ "res://.import/swordWood.png-625f5728f18b6ec22e4d3ff9c5e8ad25.stex" ]
 
 [params]
 

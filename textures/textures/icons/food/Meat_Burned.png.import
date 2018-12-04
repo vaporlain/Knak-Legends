@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Meat_Burned.png-5a7dcfbfad7f7f1d5ac629bdf73b38ba.stex"
+path="res://.import/Meat_Burned.png-ac894e0842e3b61e359ae48e99002dcb.stex"
 
 [deps]
 
-source_file="res://textures/icons/food/Meat_Burned.png"
-dest_files=[ "res://.import/Meat_Burned.png-5a7dcfbfad7f7f1d5ac629bdf73b38ba.stex" ]
+source_file="res://textures/textures/icons/food/Meat_Burned.png"
+dest_files=[ "res://.import/Meat_Burned.png-ac894e0842e3b61e359ae48e99002dcb.stex" ]
 
 [params]
 

@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/music_t.png-9f8c3feddd1034d4c2c84d4cf3600012.stex"
+path="res://.import/music_t.png-a54c8bfb81934db206517951d92e46c9.stex"
 
 [deps]
 
-source_file="res://textures/icons/music_t.png"
-dest_files=[ "res://.import/music_t.png-9f8c3feddd1034d4c2c84d4cf3600012.stex" ]
+source_file="res://textures/textures/icons/music_t.png"
+dest_files=[ "res://.import/music_t.png-a54c8bfb81934db206517951d92e46c9.stex" ]
 
 [params]
 

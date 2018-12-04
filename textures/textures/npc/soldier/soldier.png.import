@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/soldier.png-650639da505e167ea94d2e5345b32bd0.stex"
+path="res://.import/soldier.png-bd63626ad59975a2db17d554e131d2d0.stex"
 
 [deps]
 
-source_file="res://textures/npc/soldier/soldier.png"
-dest_files=[ "res://.import/soldier.png-650639da505e167ea94d2e5345b32bd0.stex" ]
+source_file="res://textures/textures/npc/soldier/soldier.png"
+dest_files=[ "res://.import/soldier.png-bd63626ad59975a2db17d554e131d2d0.stex" ]
 
 [params]
 

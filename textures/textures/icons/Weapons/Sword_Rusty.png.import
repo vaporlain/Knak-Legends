@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Sword_Rusty.png-3c33083d81c4486490289e91f671e1ac.stex"
+path="res://.import/Sword_Rusty.png-da8c4c0c8ce179c0a63624b278755eab.stex"
 
 [deps]
 
-source_file="res://textures/icons/Weapons/Sword_Rusty.png"
-dest_files=[ "res://.import/Sword_Rusty.png-3c33083d81c4486490289e91f671e1ac.stex" ]
+source_file="res://textures/textures/icons/Weapons/Sword_Rusty.png"
+dest_files=[ "res://.import/Sword_Rusty.png-da8c4c0c8ce179c0a63624b278755eab.stex" ]
 
 [params]
 
