@@ -1,89 +1,108 @@
 extends KinematicBody2D
+#======================
+#Variable declaration
+#Scope: this script
+#======================
 
-const GRAVITY_VEC = Vector2(0, 900)
-const FLOOR_NORMAL = Vector2(0, -1)
-const SLOPE_SLIDE_STOP = 25.0
-const MIN_ONAIR_TIME = 0.1
-const WALK_SPEED = 250 # pixels/sec
-const JUMP_SPEED = 480
-const SIDING_CHANGE_SPEED = 10
+#easy acces vars
+const MAX_SPEED = 300
+const FRICTION = 0.2
+const ACCELERATION = 50
+const GRAVITY = 10
+const JUMP_H = -400
 
-var linear_vel = Vector2()
-var onair_time = 0
-var on_floor = false
+#advanced vars
+var motion = Vector2(0,0)
+const UP = Vector2(0, -1)
+var attacking = false
+var offsetright = Vector2(25,0)
+var offsetleft = Vector2(-25, 0)
 
-var anim=""
 
-#cache the sprite here for fast access (we will set scale to flip it often)
-onready var sprite = $AnimatedSprite
+#======================
+#My Functions:
+#======================
 
-func _physics_process(delta):
-	#increment counters
+func get_input():
 	
-	onair_time += delta
+	#Input for moving to the left or right
+	if Input.is_action_pressed("attack"):
+		attacking=true
+		attack()
 	
-	### MOVEMENT ###
-	
-	# Apply Gravity
-	linear_vel += delta * GRAVITY_VEC
-	# Move and Slide
-	linear_vel = move_and_slide(linear_vel, FLOOR_NORMAL, SLOPE_SLIDE_STOP)
-	# Detect Floor
-	if is_on_floor():
-		onair_time = 0
-	
-	on_floor = onair_time < MIN_ONAIR_TIME
-	
-	### CONTROL ###
-	
-	# Horizontal Movement
-	var target_speed = 0
-	if Input.is_action_pressed("ui_left"):
-		target_speed += -1
-	if Input.is_action_pressed("ui_right"):
-		target_speed +=  1
-	
-	target_speed *= WALK_SPEED
-	linear_vel.x = lerp(linear_vel.x, target_speed, 0.1)
-	
-	# Jumping
-	if on_floor and Input.is_action_just_pressed("ui_up"):
-		linear_vel.y = -JUMP_SPEED
-		#$sound_jump.play()
-	
-	### ANIMATION ###
-	
-	var new_anim = "idle"
-	
-	if on_floor:
-		if linear_vel.x < -SIDING_CHANGE_SPEED:
-			sprite.scale.x = -1
-			new_anim = "run"
-	
-		if linear_vel.x > SIDING_CHANGE_SPEED:
-			sprite.scale.x = 1
-			new_anim = "run"
+	elif Input.is_action_pressed("ui_right"):
+		$AnimatedSprite.offset = offsetright
+		motion.x = min(motion.x+ACCELERATION, MAX_SPEED)
+		$AnimatedSprite.flip_h=false
+		$AnimatedSprite.play("run")
+	elif Input.is_action_pressed("ui_left"):
+		motion.x = max(motion.x-ACCELERATION, -MAX_SPEED)
+		$AnimatedSprite.offset = offsetleft
+		$AnimatedSprite.flip_h=true
+		$AnimatedSprite.play("run")
 	else:
-		# We want the character to immediately change facing side when the player
-		# tries to change direction, during air control.
-		# This allows for example the player to shoot quickly left then right.
-		if Input.is_action_pressed("ui_left") and not Input.is_action_pressed("ui_right"):
-			sprite.scale.x = -1
-		if Input.is_action_pressed("ui_right") and not Input.is_action_pressed("ui_left"):
-			sprite.scale.x = 1
+		motion.x=0
+		$AnimatedSprite.play("idle")
 	
-		if linear_vel.y < 0:
-			new_anim = "jump"
-		else:
-			new_anim= "jump"
-	
-	if new_anim != anim:
-		anim = new_anim
-		$AnimatedSprite.play(anim)
+	#input for jumping
+	if is_on_floor():
+		if Input.is_action_pressed("ui_up") || Input.is_action_pressed("jump"):
+			motion.y = JUMP_H
 	
 
+	
+	pass
+
+func attack():
+	if(attacking==true):
+		$AnimatedSprite.play("attack")
+	else:
+		$AnimatedSprite.play("idle")
+	pass
+
+#If the players HITbox gets HIT
 func _on_hitbox_body_entered(body):
-	print(body.name)
-	if body.name == "EnemyKB":
+	if body.name == "EnemyKB" :
+		print("U just got killed by:" + body.name)
 		get_tree().change_scene("res://scenes/gameover.tscn")
+	pass 
+
+#======================
+#Built-in functions
+#Scope: this script
+#======================
+
+func _ready():
+	#player is loaded
+	
+	pass
+
+#Updates every stable physics framerate.
+func _physics_process(delta):
+	#apply gravity, always
+	motion.y += GRAVITY
+	
+	get_input();
+	
+	#apply the motion/ movement to the player
+	#UP means platformer style
+	motion = move_and_slide(motion, UP)
+	
+	pass
+
+func _on_leftattack2_body_entered(body):
+	if body.name == "enemyKB":
+		print("I can kill on my left"+body.name)
+	pass # replace with function body
+
+
+func _on_rightattack_body_entered(body):
+	if body.name == "enemyKB":
+		print("I can kill on my right "+body.name)
+	pass # replace with function body
+
+
+func _on_AnimatedSprite_animation_finished():
+	if $AnimatedSprite.is_playing("attack"):
+		$AnimatedSprite.play("idle")
 	pass # replace with function body

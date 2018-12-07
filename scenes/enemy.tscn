@@ -6,7 +6,7 @@
 [ext_resource path="res://textures/enemyanim/orc_mohawk/tile007.png" type="Texture" id=4]
 [ext_resource path="res://textures/enemyanim/orc_mohawk/tile008.png" type="Texture" id=5]
 
-[sub_resource type="SpriteFrames" id=2]
+[sub_resource type="SpriteFrames" id=1]
 
 animations = [ {
 "frames": [ ExtResource( 2 ) ],
@@ -20,12 +20,14 @@ animations = [ {
 "speed": 5.0
 } ]
 
-[sub_resource type="RectangleShape2D" id=1]
+[sub_resource type="RectangleShape2D" id=2]
 
 custom_solver_bias = 0.0
 extents = Vector2( 10, 27.3816 )
 
-[node name="enemy" type="Node2D"]
+[node name="enemy" type="Node2D" groups=[
+"enemy",
+]]
 
 [node name="EnemyKB" type="KinematicBody2D" parent="." index="0"]
 
@@ -38,21 +40,19 @@ __meta__ = {
 "_edit_group_": true
 }
 max_speed = 200
-friction = 0.2
-gravity = 10
 patroldistance = 0.5
 
 [node name="AnimatedSprite" type="AnimatedSprite" parent="EnemyKB" index="0"]
 
-frames = SubResource( 2 )
+frames = SubResource( 1 )
 animation = "run"
-frame = 2
+frame = 1
 playing = true
 flip_h = true
 _sections_unfolded = [ "Material" ]
 
 [node name="collisionshape1" type="CollisionShape2D" parent="EnemyKB" index="1"]
 
-shape = SubResource( 1 )
+shape = SubResource( 2 )
 
 
