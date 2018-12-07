@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Leather_boots_t-01.png-0c3a3244512ef611de426dfb67198e19.stex"
+path="res://.import/Leather_boots_t-01.png-07466456d8a866901550cf0132332985.stex"
 
 [deps]
 
-source_file="res://textures/textures/icons/boots/Leather_boots_t-01.png"
-dest_files=[ "res://.import/Leather_boots_t-01.png-0c3a3244512ef611de426dfb67198e19.stex" ]
+source_file="res://textures/icons/boots/Leather_boots_t-01.png"
+dest_files=[ "res://.import/Leather_boots_t-01.png-07466456d8a866901550cf0132332985.stex" ]
 
 [params]
 

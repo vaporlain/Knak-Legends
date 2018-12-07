@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Gloves_Leather.png-f4b72dffd2422918f777e69b2a5698c9.stex"
+path="res://.import/Gloves_Leather.png-32226e0f92e08a0fd859d2e3c5df0976.stex"
 
 [deps]
 
-source_file="res://textures/textures/icons/armor/Gloves_Leather.png"
-dest_files=[ "res://.import/Gloves_Leather.png-f4b72dffd2422918f777e69b2a5698c9.stex" ]
+source_file="res://textures/icons/armor/Gloves_Leather.png"
+dest_files=[ "res://.import/Gloves_Leather.png-32226e0f92e08a0fd859d2e3c5df0976.stex" ]
 
 [params]
 

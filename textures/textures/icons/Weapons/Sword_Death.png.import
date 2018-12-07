@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Sword_Death.png-23c67eae0953728077eac465c86e5b10.stex"
+path="res://.import/Sword_Death.png-c4d42a9dc314f577439e0107575f9214.stex"
 
 [deps]
 
-source_file="res://textures/textures/icons/Weapons/Sword_Death.png"
-dest_files=[ "res://.import/Sword_Death.png-23c67eae0953728077eac465c86e5b10.stex" ]
+source_file="res://textures/icons/Weapons/Sword_Death.png"
+dest_files=[ "res://.import/Sword_Death.png-c4d42a9dc314f577439e0107575f9214.stex" ]
 
 [params]
 

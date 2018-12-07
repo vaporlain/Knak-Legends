@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Ring_Jade.png-cbecf6f2fbbe9262e811e8c45587d47b.stex"
+path="res://.import/Ring_Jade.png-b112bdbc4391fcecc1f8451cf8935593.stex"
 
 [deps]
 
-source_file="res://textures/textures/icons/Jewelry/Ring_Jade.png"
-dest_files=[ "res://.import/Ring_Jade.png-cbecf6f2fbbe9262e811e8c45587d47b.stex" ]
+source_file="res://textures/icons/Jewelry/Ring_Jade.png"
+dest_files=[ "res://.import/Ring_Jade.png-b112bdbc4391fcecc1f8451cf8935593.stex" ]
 
 [params]
 

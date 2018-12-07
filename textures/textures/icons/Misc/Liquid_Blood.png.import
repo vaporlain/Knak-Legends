@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Liquid_Blood.png-fec05f680890e40224fc1fa979fe72bf.stex"
+path="res://.import/Liquid_Blood.png-28bc2e7c63ff1a096369bcb65c67ec2d.stex"
 
 [deps]
 
-source_file="res://textures/textures/icons/Misc/Liquid_Blood.png"
-dest_files=[ "res://.import/Liquid_Blood.png-fec05f680890e40224fc1fa979fe72bf.stex" ]
+source_file="res://textures/icons/Misc/Liquid_Blood.png"
+dest_files=[ "res://.import/Liquid_Blood.png-28bc2e7c63ff1a096369bcb65c67ec2d.stex" ]
 
 [params]
 

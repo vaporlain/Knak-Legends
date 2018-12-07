@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/tile001.png-7d1ae697c3c87ee41aef118f6477bcb8.stex"
+path="res://.import/tile001.png-042c4e5a81b22993307fa088ea95063f.stex"
 
 [deps]
 
-source_file="res://textures/textures/enemyanim/knight/tile001.png"
-dest_files=[ "res://.import/tile001.png-7d1ae697c3c87ee41aef118f6477bcb8.stex" ]
+source_file="res://textures/enemyanim/knight/tile001.png"
+dest_files=[ "res://.import/tile001.png-042c4e5a81b22993307fa088ea95063f.stex" ]
 
 [params]
 

@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/bonusMAGICeffect (7).png-5211125fb4d68105e34de5e78aa5c620.stex"
+path="res://.import/bonusMAGICeffect (7).png-68cb33421307a884cf1cd3257ac7c307.stex"
 
 [deps]
 
-source_file="res://textures/textures/effects/bonusMAGICeffect/bonusMAGICeffect (7).png"
-dest_files=[ "res://.import/bonusMAGICeffect (7).png-5211125fb4d68105e34de5e78aa5c620.stex" ]
+source_file="res://textures/effects/bonusMAGICeffect/bonusMAGICeffect (7).png"
+dest_files=[ "res://.import/bonusMAGICeffect (7).png-68cb33421307a884cf1cd3257ac7c307.stex" ]
 
 [params]
 

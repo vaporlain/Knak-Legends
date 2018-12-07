@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Crossbow.png-8e475cb548f5f06e3d8dd9f2a6a6d321.stex"
+path="res://.import/Crossbow.png-01790d617de061eb4dbf840d59235916.stex"
 
 [deps]
 
-source_file="res://textures/textures/icons/Weapons/Crossbow.png"
-dest_files=[ "res://.import/Crossbow.png-8e475cb548f5f06e3d8dd9f2a6a6d321.stex" ]
+source_file="res://textures/icons/Weapons/Crossbow.png"
+dest_files=[ "res://.import/Crossbow.png-01790d617de061eb4dbf840d59235916.stex" ]
 
 [params]
 

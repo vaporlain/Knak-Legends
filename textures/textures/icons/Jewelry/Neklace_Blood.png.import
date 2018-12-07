@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Neklace_Blood.png-688bfb20d71f24cc52f27d16ce1e1d27.stex"
+path="res://.import/Neklace_Blood.png-a4353b5bf5625f82471777d70fa00941.stex"
 
 [deps]
 
-source_file="res://textures/textures/icons/Jewelry/Neklace_Blood.png"
-dest_files=[ "res://.import/Neklace_Blood.png-688bfb20d71f24cc52f27d16ce1e1d27.stex" ]
+source_file="res://textures/icons/Jewelry/Neklace_Blood.png"
+dest_files=[ "res://.import/Neklace_Blood.png-a4353b5bf5625f82471777d70fa00941.stex" ]
 
 [params]
 

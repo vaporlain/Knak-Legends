@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/mine_t.png-3f77cac9a475e92868f7d51a35652e63.stex"
+path="res://.import/mine_t.png-8a3b1333b5544fcc74b1f8ce1b12dabb.stex"
 
 [deps]
 
-source_file="res://textures/textures/icons/mine_t.png"
-dest_files=[ "res://.import/mine_t.png-3f77cac9a475e92868f7d51a35652e63.stex" ]
+source_file="res://textures/icons/mine_t.png"
+dest_files=[ "res://.import/mine_t.png-8a3b1333b5544fcc74b1f8ce1b12dabb.stex" ]
 
 [params]
 

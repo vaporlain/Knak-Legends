@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/up_stand.png-65bdc41e4722471dba3c4b515d0d5e23.stex"
+path="res://.import/up_stand.png-6719e2d22b36c143a4873c1235e5e0d4.stex"
 
 [deps]
 
-source_file="res://textures/textures/enemyanim/chara/chara2_6/up_stand.png"
-dest_files=[ "res://.import/up_stand.png-65bdc41e4722471dba3c4b515d0d5e23.stex" ]
+source_file="res://textures/enemyanim/chara/chara2_6/up_stand.png"
+dest_files=[ "res://.import/up_stand.png-6719e2d22b36c143a4873c1235e5e0d4.stex" ]
 
 [params]
 

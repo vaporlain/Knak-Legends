@@ -6,7 +6,7 @@ valid=false
 
 [deps]
 
-source_file="res://textures/textures/icons/voidblock.jpeg"
+source_file="res://textures/icons/voidblock.jpeg"
 [params]
 
 compress/mode=0

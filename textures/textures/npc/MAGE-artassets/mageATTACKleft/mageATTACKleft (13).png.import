@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/mageATTACKleft (13).png-3a5aaaddf66d3d4c383a72948f17b581.stex"
+path="res://.import/mageATTACKleft (13).png-9206a6ab4daea421e31324ca48af675d.stex"
 
 [deps]
 
-source_file="res://textures/textures/npc/MAGE-artassets/mageATTACKleft/mageATTACKleft (13).png"
-dest_files=[ "res://.import/mageATTACKleft (13).png-3a5aaaddf66d3d4c383a72948f17b581.stex" ]
+source_file="res://textures/npc/MAGE-artassets/mageATTACKleft/mageATTACKleft (13).png"
+dest_files=[ "res://.import/mageATTACKleft (13).png-9206a6ab4daea421e31324ca48af675d.stex" ]
 
 [params]
 

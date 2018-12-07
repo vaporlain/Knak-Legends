@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/$monster_golem1.png-06d275f1e2b67523324a359c4b6c1eff.stex"
+path="res://.import/$monster_golem1.png-bc2c5e723ebe47f247dbd575faade494.stex"
 
 [deps]
 
-source_file="res://textures/textures/enemyanim/$monster_golem1.png"
-dest_files=[ "res://.import/$monster_golem1.png-06d275f1e2b67523324a359c4b6c1eff.stex" ]
+source_file="res://textures/enemyanim/$monster_golem1.png"
+dest_files=[ "res://.import/$monster_golem1.png-bc2c5e723ebe47f247dbd575faade494.stex" ]
 
 [params]
 

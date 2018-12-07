@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/wolfWALKright (1).png-7448dce951aa81515b3a11cccb19fdcd.stex"
+path="res://.import/wolfWALKright (1).png-f746d6b16d28ef032ed54609c0c89697.stex"
 
 [deps]
 
-source_file="res://textures/textures/enemyanim/WOLF-artassets/wolfWALKright/wolfWALKright (1).png"
-dest_files=[ "res://.import/wolfWALKright (1).png-7448dce951aa81515b3a11cccb19fdcd.stex" ]
+source_file="res://textures/enemyanim/WOLF-artassets/wolfWALKright/wolfWALKright (1).png"
+dest_files=[ "res://.import/wolfWALKright (1).png-f746d6b16d28ef032ed54609c0c89697.stex" ]
 
 [params]
 

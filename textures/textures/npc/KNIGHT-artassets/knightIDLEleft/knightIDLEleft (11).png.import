@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/knightIDLEleft (11).png-35de4a3765c4a347218146d63d504bc6.stex"
+path="res://.import/knightIDLEleft (11).png-53214b00364532da5aae7d3a09c02c0b.stex"
 
 [deps]
 
-source_file="res://textures/textures/npc/KNIGHT-artassets/knightIDLEleft/knightIDLEleft (11).png"
-dest_files=[ "res://.import/knightIDLEleft (11).png-35de4a3765c4a347218146d63d504bc6.stex" ]
+source_file="res://textures/npc/KNIGHT-artassets/knightIDLEleft/knightIDLEleft (11).png"
+dest_files=[ "res://.import/knightIDLEleft (11).png-53214b00364532da5aae7d3a09c02c0b.stex" ]
 
 [params]
 

@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/princess_attack_001.png-016892c970e9e8aec79fbcf309733a40.stex"
+path="res://.import/princess_attack_001.png-be0239d6cf22fdc681af201bdeb7d91a.stex"
 
 [deps]
 
-source_file="res://textures/textures/npc/princess/princess_attack_001.png"
-dest_files=[ "res://.import/princess_attack_001.png-016892c970e9e8aec79fbcf309733a40.stex" ]
+source_file="res://textures/npc/princess/princess_attack_001.png"
+dest_files=[ "res://.import/princess_attack_001.png-be0239d6cf22fdc681af201bdeb7d91a.stex" ]
 
 [params]
 

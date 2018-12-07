@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Ore_Copper.png-1ae788f7969f09b995f87b63458d6237.stex"
+path="res://.import/Ore_Copper.png-7c7b265df33407e0c707bea4f9cbe1b1.stex"
 
 [deps]
 
-source_file="res://textures/textures/icons/Ore/Ore_Copper.png"
-dest_files=[ "res://.import/Ore_Copper.png-1ae788f7969f09b995f87b63458d6237.stex" ]
+source_file="res://textures/icons/Ore/Ore_Copper.png"
+dest_files=[ "res://.import/Ore_Copper.png-7c7b265df33407e0c707bea4f9cbe1b1.stex" ]
 
 [params]
 

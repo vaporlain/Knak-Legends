@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/kn_t_04.PNG-25532c254dd03a7c8df2be1e6a2a4558.stex"
+path="res://.import/kn_t_04.PNG-a2935bf34532dea8ce09d7cc8fb1b8a5.stex"
 
 [deps]
 
-source_file="res://textures/textures/icons/knives/kn_t_04.PNG"
-dest_files=[ "res://.import/kn_t_04.PNG-25532c254dd03a7c8df2be1e6a2a4558.stex" ]
+source_file="res://textures/icons/knives/kn_t_04.PNG"
+dest_files=[ "res://.import/kn_t_04.PNG-a2935bf34532dea8ce09d7cc8fb1b8a5.stex" ]
 
 [params]
 

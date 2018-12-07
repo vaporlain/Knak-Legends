@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/money_t.png-64be3fd0e630d2b580180923bd1a89dc.stex"
+path="res://.import/money_t.png-bd1c5aa714372f0a07ca0bfb29b1d1b0.stex"
 
 [deps]
 
-source_file="res://textures/textures/icons/money_t.png"
-dest_files=[ "res://.import/money_t.png-64be3fd0e630d2b580180923bd1a89dc.stex" ]
+source_file="res://textures/icons/money_t.png"
+dest_files=[ "res://.import/money_t.png-bd1c5aa714372f0a07ca0bfb29b1d1b0.stex" ]
 
 [params]
 

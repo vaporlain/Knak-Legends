@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/4.png-1cb31939774e121a31be0daf78fc8428.stex"
+path="res://.import/4.png-f6ae12cd555ffd03e35e9f703ae8b261.stex"
 
 [deps]
 
-source_file="res://textures/textures/enemyanim/chests/chest7/4.png"
-dest_files=[ "res://.import/4.png-1cb31939774e121a31be0daf78fc8428.stex" ]
+source_file="res://textures/enemyanim/chests/chest7/4.png"
+dest_files=[ "res://.import/4.png-f6ae12cd555ffd03e35e9f703ae8b261.stex" ]
 
 [params]
 

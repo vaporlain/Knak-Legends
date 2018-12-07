@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/wolfIMPACTeffect (1).png-8c70c4d0c58891ffed2f747e3df1d67c.stex"
+path="res://.import/wolfIMPACTeffect (1).png-881b25fa086ba246bfead78c2be3e5db.stex"
 
 [deps]
 
-source_file="res://textures/textures/enemyanim/WOLF-artassets/wolfIMPACTeffect/wolfIMPACTeffect (1).png"
-dest_files=[ "res://.import/wolfIMPACTeffect (1).png-8c70c4d0c58891ffed2f747e3df1d67c.stex" ]
+source_file="res://textures/enemyanim/WOLF-artassets/wolfIMPACTeffect/wolfIMPACTeffect (1).png"
+dest_files=[ "res://.import/wolfIMPACTeffect (1).png-881b25fa086ba246bfead78c2be3e5db.stex" ]
 
 [params]
 

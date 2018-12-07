@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/skeletonWALKright (2).png-af865b7ff2c54071644ef77b236b1f82.stex"
+path="res://.import/skeletonWALKright (2).png-f871d56016f8d4748a9538d6bae06d44.stex"
 
 [deps]
 
-source_file="res://textures/textures/enemyanim/SKELETON-artassets/skeletonWALKright/skeletonWALKright (2).png"
-dest_files=[ "res://.import/skeletonWALKright (2).png-af865b7ff2c54071644ef77b236b1f82.stex" ]
+source_file="res://textures/enemyanim/SKELETON-artassets/skeletonWALKright/skeletonWALKright (2).png"
+dest_files=[ "res://.import/skeletonWALKright (2).png-f871d56016f8d4748a9538d6bae06d44.stex" ]
 
 [params]
 

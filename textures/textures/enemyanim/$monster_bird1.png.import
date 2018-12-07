@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/$monster_bird1.png-e033e7c6f9d4d2b9ff2d583224987171.stex"
+path="res://.import/$monster_bird1.png-c6578ac7c914f478d1bcf020fcad7fc3.stex"
 
 [deps]
 
-source_file="res://textures/textures/enemyanim/$monster_bird1.png"
-dest_files=[ "res://.import/$monster_bird1.png-e033e7c6f9d4d2b9ff2d583224987171.stex" ]
+source_file="res://textures/enemyanim/$monster_bird1.png"
+dest_files=[ "res://.import/$monster_bird1.png-c6578ac7c914f478d1bcf020fcad7fc3.stex" ]
 
 [params]
 

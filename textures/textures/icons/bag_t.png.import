@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/bag_t.png-5b472b3745fff352517ed6dfca72a073.stex"
+path="res://.import/bag_t.png-f9a11ad63347b7846bcefc30e067d702.stex"
 
 [deps]
 
-source_file="res://textures/textures/icons/bag_t.png"
-dest_files=[ "res://.import/bag_t.png-5b472b3745fff352517ed6dfca72a073.stex" ]
+source_file="res://textures/icons/bag_t.png"
+dest_files=[ "res://.import/bag_t.png-f9a11ad63347b7846bcefc30e067d702.stex" ]
 
 [params]
 

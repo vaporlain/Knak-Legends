@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/lollipop_t.png-5676af278580c0dc1349926af61f6249.stex"
+path="res://.import/lollipop_t.png-b628f064219ad77e18dc2eb1cda240a3.stex"
 
 [deps]
 
-source_file="res://textures/textures/icons/lollipop_t.png"
-dest_files=[ "res://.import/lollipop_t.png-5676af278580c0dc1349926af61f6249.stex" ]
+source_file="res://textures/icons/lollipop_t.png"
+dest_files=[ "res://.import/lollipop_t.png-b628f064219ad77e18dc2eb1cda240a3.stex" ]
 
 [params]
 

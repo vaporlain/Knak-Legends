@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/robotIDLEleft (13).png-22d09783de9579fbea9c49c3ba2450be.stex"
+path="res://.import/robotIDLEleft (13).png-b8c8a65acccfa7bf997dad8e2476b28e.stex"
 
 [deps]
 
-source_file="res://textures/textures/enemyanim/ROBOT-artassets/robotIDLEleft/robotIDLEleft (13).png"
-dest_files=[ "res://.import/robotIDLEleft (13).png-22d09783de9579fbea9c49c3ba2450be.stex" ]
+source_file="res://textures/enemyanim/ROBOT-artassets/robotIDLEleft/robotIDLEleft (13).png"
+dest_files=[ "res://.import/robotIDLEleft (13).png-b8c8a65acccfa7bf997dad8e2476b28e.stex" ]
 
 [params]
 

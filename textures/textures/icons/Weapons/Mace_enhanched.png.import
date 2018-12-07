@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Mace_enhanched.png-170a3dba3e0b47b060f4f07676e6f660.stex"
+path="res://.import/Mace_enhanched.png-34cf2b9611a6beae909d7e4532750e06.stex"
 
 [deps]
 
-source_file="res://textures/textures/icons/Weapons/Mace_enhanched.png"
-dest_files=[ "res://.import/Mace_enhanched.png-170a3dba3e0b47b060f4f07676e6f660.stex" ]
+source_file="res://textures/icons/Weapons/Mace_enhanched.png"
+dest_files=[ "res://.import/Mace_enhanched.png-34cf2b9611a6beae909d7e4532750e06.stex" ]
 
 [params]
 

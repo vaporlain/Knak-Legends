@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/$monster_raptor1.png-bf0e974d648806cf9fa8f92e4f563baf.stex"
+path="res://.import/$monster_raptor1.png-1d1504c6a95e12237b57db66bb1ed5b3.stex"
 
 [deps]
 
-source_file="res://textures/textures/enemyanim/$monster_raptor1.png"
-dest_files=[ "res://.import/$monster_raptor1.png-bf0e974d648806cf9fa8f92e4f563baf.stex" ]
+source_file="res://textures/enemyanim/$monster_raptor1.png"
+dest_files=[ "res://.import/$monster_raptor1.png-1d1504c6a95e12237b57db66bb1ed5b3.stex" ]
 
 [params]
 

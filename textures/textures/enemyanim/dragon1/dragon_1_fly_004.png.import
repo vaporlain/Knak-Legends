@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/dragon_1_fly_004.png-7de24c002228296f7cd15e060685b88d.stex"
+path="res://.import/dragon_1_fly_004.png-3f8928a0b05b8a6ac2fb98cce2c1f7fe.stex"
 
 [deps]
 
-source_file="res://textures/textures/enemyanim/dragon1/dragon_1_fly_004.png"
-dest_files=[ "res://.import/dragon_1_fly_004.png-7de24c002228296f7cd15e060685b88d.stex" ]
+source_file="res://textures/enemyanim/dragon1/dragon_1_fly_004.png"
+dest_files=[ "res://.import/dragon_1_fly_004.png-3f8928a0b05b8a6ac2fb98cce2c1f7fe.stex" ]
 
 [params]
 

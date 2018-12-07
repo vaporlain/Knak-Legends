@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Gems.png-78273d01837520dc195701a6d29506d2.stex"
+path="res://.import/Gems.png-4fa2f09147e3f726e56561f195d84e67.stex"
 
 [deps]
 
-source_file="res://textures/textures/icons/Ore/Gems.png"
-dest_files=[ "res://.import/Gems.png-78273d01837520dc195701a6d29506d2.stex" ]
+source_file="res://textures/icons/Ore/Gems.png"
+dest_files=[ "res://.import/Gems.png-4fa2f09147e3f726e56561f195d84e67.stex" ]
 
 [params]
 

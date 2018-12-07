@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Seed.png-51b0fde9a89c2220ba0a1fc625b3dd1c.stex"
+path="res://.import/Seed.png-7ed28e5c06cd9e61e2e03a6944bc8dc3.stex"
 
 [deps]
 
-source_file="res://textures/textures/icons/Misc/Seed.png"
-dest_files=[ "res://.import/Seed.png-51b0fde9a89c2220ba0a1fc625b3dd1c.stex" ]
+source_file="res://textures/icons/Misc/Seed.png"
+dest_files=[ "res://.import/Seed.png-7ed28e5c06cd9e61e2e03a6944bc8dc3.stex" ]
 
 [params]
 

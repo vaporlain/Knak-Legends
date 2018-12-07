@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/fireblastV002effect002.png-e94ca41a53fdc5e4c6bd9491b83934bb.stex"
+path="res://.import/fireblastV002effect002.png-acecc20c7268a36d8887b11eb830d923.stex"
 
 [deps]
 
-source_file="res://textures/textures/effects/fires/blast/fireblastV002effect/fireblastV002effect002.png"
-dest_files=[ "res://.import/fireblastV002effect002.png-e94ca41a53fdc5e4c6bd9491b83934bb.stex" ]
+source_file="res://textures/effects/fires/blast/fireblastV002effect/fireblastV002effect002.png"
+dest_files=[ "res://.import/fireblastV002effect002.png-acecc20c7268a36d8887b11eb830d923.stex" ]
 
 [params]
 

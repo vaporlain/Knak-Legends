@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/fantasy_005_1920x1080.png-6e885544ac8a7ababf2523e4ad4b0b6a.stex"
+path="res://.import/fantasy_005_1920x1080.png-f4867161f710b13cabfa15624cff2905.stex"
 
 [deps]
 
-source_file="res://textures/textures/backgrounds/fantasy_005_1920x1080.png"
-dest_files=[ "res://.import/fantasy_005_1920x1080.png-6e885544ac8a7ababf2523e4ad4b0b6a.stex" ]
+source_file="res://textures/backgrounds/fantasy_005_1920x1080.png"
+dest_files=[ "res://.import/fantasy_005_1920x1080.png-f4867161f710b13cabfa15624cff2905.stex" ]
 
 [params]
 

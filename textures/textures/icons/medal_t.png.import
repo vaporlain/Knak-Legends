@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/medal_t.png-ba8e1de4785cefc6c5e5b2f47aa35edd.stex"
+path="res://.import/medal_t.png-204a6348de49a4fcf382ab8284883da4.stex"
 
 [deps]
 
-source_file="res://textures/textures/icons/medal_t.png"
-dest_files=[ "res://.import/medal_t.png-ba8e1de4785cefc6c5e5b2f47aa35edd.stex" ]
+source_file="res://textures/icons/medal_t.png"
+dest_files=[ "res://.import/medal_t.png-204a6348de49a4fcf382ab8284883da4.stex" ]
 
 [params]
 

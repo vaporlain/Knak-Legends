@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/check_mark_t.png-bdeb09869c4ceccafc64d7f8ae9ccf8d.stex"
+path="res://.import/check_mark_t.png-d75f593b503b9c89227b356807dc542c.stex"
 
 [deps]
 
-source_file="res://textures/textures/icons/check_mark_t.png"
-dest_files=[ "res://.import/check_mark_t.png-bdeb09869c4ceccafc64d7f8ae9ccf8d.stex" ]
+source_file="res://textures/icons/check_mark_t.png"
+dest_files=[ "res://.import/check_mark_t.png-d75f593b503b9c89227b356807dc542c.stex" ]
 
 [params]
 

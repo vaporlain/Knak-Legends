@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/robotWALKright (1).png-5b4c22a5966a76b132bf23bb35357e9b.stex"
+path="res://.import/robotWALKright (1).png-cec9c569602cd44dbb2084be339713c3.stex"
 
 [deps]
 
-source_file="res://textures/textures/enemyanim/ROBOT-artassets/robotWALKright/robotWALKright (1).png"
-dest_files=[ "res://.import/robotWALKright (1).png-5b4c22a5966a76b132bf23bb35357e9b.stex" ]
+source_file="res://textures/enemyanim/ROBOT-artassets/robotWALKright/robotWALKright (1).png"
+dest_files=[ "res://.import/robotWALKright (1).png-cec9c569602cd44dbb2084be339713c3.stex" ]
 
 [params]
 

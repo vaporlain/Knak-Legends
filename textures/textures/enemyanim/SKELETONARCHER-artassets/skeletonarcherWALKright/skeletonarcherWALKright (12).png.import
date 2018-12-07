@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/skeletonarcherWALKright (12).png-bd7880a0cef232195d48872dea1d82f2.stex"
+path="res://.import/skeletonarcherWALKright (12).png-e95c67ea9d61251cb4c360ae2e1f1647.stex"
 
 [deps]
 
-source_file="res://textures/textures/enemyanim/SKELETONARCHER-artassets/skeletonarcherWALKright/skeletonarcherWALKright (12).png"
-dest_files=[ "res://.import/skeletonarcherWALKright (12).png-bd7880a0cef232195d48872dea1d82f2.stex" ]
+source_file="res://textures/enemyanim/SKELETONARCHER-artassets/skeletonarcherWALKright/skeletonarcherWALKright (12).png"
+dest_files=[ "res://.import/skeletonarcherWALKright (12).png-e95c67ea9d61251cb4c360ae2e1f1647.stex" ]
 
 [params]
 

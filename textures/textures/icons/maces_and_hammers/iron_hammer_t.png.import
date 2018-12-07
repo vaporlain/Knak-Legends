@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/iron_hammer_t.png-1f8f6cb917800e3d9805c3f5a6ded9ff.stex"
+path="res://.import/iron_hammer_t.png-251e43eae842c6d475fc1cc23deb80b7.stex"
 
 [deps]
 
-source_file="res://textures/textures/icons/maces_and_hammers/iron_hammer_t.png"
-dest_files=[ "res://.import/iron_hammer_t.png-1f8f6cb917800e3d9805c3f5a6ded9ff.stex" ]
+source_file="res://textures/icons/maces_and_hammers/iron_hammer_t.png"
+dest_files=[ "res://.import/iron_hammer_t.png-251e43eae842c6d475fc1cc23deb80b7.stex" ]
 
 [params]
 

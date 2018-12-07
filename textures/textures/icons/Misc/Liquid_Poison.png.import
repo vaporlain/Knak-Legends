@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Liquid_Poison.png-c4e4393eedce60632a0e8e568cf1784c.stex"
+path="res://.import/Liquid_Poison.png-d8a57515229458b387ade7e2352b006f.stex"
 
 [deps]
 
-source_file="res://textures/textures/icons/Misc/Liquid_Poison.png"
-dest_files=[ "res://.import/Liquid_Poison.png-c4e4393eedce60632a0e8e568cf1784c.stex" ]
+source_file="res://textures/icons/Misc/Liquid_Poison.png"
+dest_files=[ "res://.import/Liquid_Poison.png-d8a57515229458b387ade7e2352b006f.stex" ]
 
 [params]
 

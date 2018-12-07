@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Ring_Silver.png-20af419d7d6a3fbcce446547eae902bd.stex"
+path="res://.import/Ring_Silver.png-eb057e98ca22962f27124ecf46f97735.stex"
 
 [deps]
 
-source_file="res://textures/textures/icons/Jewelry/Ring_Silver.png"
-dest_files=[ "res://.import/Ring_Silver.png-20af419d7d6a3fbcce446547eae902bd.stex" ]
+source_file="res://textures/icons/Jewelry/Ring_Silver.png"
+dest_files=[ "res://.import/Ring_Silver.png-eb057e98ca22962f27124ecf46f97735.stex" ]
 
 [params]
 

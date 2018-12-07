@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/bw_t_04.PNG-9902e01f8d18f119870595a9e662e429.stex"
+path="res://.import/bw_t_04.PNG-f4dd9ecd3911c10e1a82089b7536fed4.stex"
 
 [deps]
 
-source_file="res://textures/textures/icons/bows_and_crossbows/bw_t_04.PNG"
-dest_files=[ "res://.import/bw_t_04.PNG-9902e01f8d18f119870595a9e662e429.stex" ]
+source_file="res://textures/icons/bows_and_crossbows/bw_t_04.PNG"
+dest_files=[ "res://.import/bw_t_04.PNG-f4dd9ecd3911c10e1a82089b7536fed4.stex" ]
 
 [params]
 

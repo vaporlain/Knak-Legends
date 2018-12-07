@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/coin.png-6e7cf05c806ee14b6d1a6d48900fc178.stex"
+path="res://.import/coin.png-940a3016de2f63a653b38640342c7557.stex"
 
 [deps]
 
-source_file="res://textures/textures/icons/coin.png"
-dest_files=[ "res://.import/coin.png-6e7cf05c806ee14b6d1a6d48900fc178.stex" ]
+source_file="res://textures/icons/coin.png"
+dest_files=[ "res://.import/coin.png-940a3016de2f63a653b38640342c7557.stex" ]
 
 [params]
 

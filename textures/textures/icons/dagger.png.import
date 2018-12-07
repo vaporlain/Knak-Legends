@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/dagger.png-6835cfb7704ff8351623117fbc0fd80d.stex"
+path="res://.import/dagger.png-55d6c7f13f43172d3df0535449486cb0.stex"
 
 [deps]
 
-source_file="res://textures/textures/icons/dagger.png"
-dest_files=[ "res://.import/dagger.png-6835cfb7704ff8351623117fbc0fd80d.stex" ]
+source_file="res://textures/icons/dagger.png"
+dest_files=[ "res://.import/dagger.png-55d6c7f13f43172d3df0535449486cb0.stex" ]
 
 [params]
 

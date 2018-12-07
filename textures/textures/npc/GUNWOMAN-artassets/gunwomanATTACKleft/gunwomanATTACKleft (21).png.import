@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/gunwomanATTACKleft (21).png-49e05b73d0e1160ee9d704de607d0c00.stex"
+path="res://.import/gunwomanATTACKleft (21).png-67ccaf827d8f6daa98fc5b3cfabd527f.stex"
 
 [deps]
 
-source_file="res://textures/textures/npc/GUNWOMAN-artassets/gunwomanATTACKleft/gunwomanATTACKleft (21).png"
-dest_files=[ "res://.import/gunwomanATTACKleft (21).png-49e05b73d0e1160ee9d704de607d0c00.stex" ]
+source_file="res://textures/npc/GUNWOMAN-artassets/gunwomanATTACKleft/gunwomanATTACKleft (21).png"
+dest_files=[ "res://.import/gunwomanATTACKleft (21).png-67ccaf827d8f6daa98fc5b3cfabd527f.stex" ]
 
 [params]
 

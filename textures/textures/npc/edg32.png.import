@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/edg32.png-bea177eb9f692b54dfc3d6878529a5c4.stex"
+path="res://.import/edg32.png-3a96517d814caad500841eb6a1bb58b5.stex"
 
 [deps]
 
-source_file="res://textures/textures/npc/edg32.png"
-dest_files=[ "res://.import/edg32.png-bea177eb9f692b54dfc3d6878529a5c4.stex" ]
+source_file="res://textures/npc/edg32.png"
+dest_files=[ "res://.import/edg32.png-3a96517d814caad500841eb6a1bb58b5.stex" ]
 
 [params]
 

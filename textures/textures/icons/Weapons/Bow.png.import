@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Bow.png-5bf5bebbcd924fea4241b0905c619de0.stex"
+path="res://.import/Bow.png-b8a5a6daaed36d931c8c1979f0b99d34.stex"
 
 [deps]
 
-source_file="res://textures/textures/icons/Weapons/Bow.png"
-dest_files=[ "res://.import/Bow.png-5bf5bebbcd924fea4241b0905c619de0.stex" ]
+source_file="res://textures/icons/Weapons/Bow.png"
+dest_files=[ "res://.import/Bow.png-b8a5a6daaed36d931c8c1979f0b99d34.stex" ]
 
 [params]
 

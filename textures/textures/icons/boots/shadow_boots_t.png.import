@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/shadow_boots_t.png-986c932b70468278414c60b34afeeb4f.stex"
+path="res://.import/shadow_boots_t.png-0a9ac6b9340e9e44c3fb6bd1c72bd687.stex"
 
 [deps]
 
-source_file="res://textures/textures/icons/boots/shadow_boots_t.png"
-dest_files=[ "res://.import/shadow_boots_t.png-986c932b70468278414c60b34afeeb4f.stex" ]
+source_file="res://textures/icons/boots/shadow_boots_t.png"
+dest_files=[ "res://.import/shadow_boots_t.png-0a9ac6b9340e9e44c3fb6bd1c72bd687.stex" ]
 
 [params]
 

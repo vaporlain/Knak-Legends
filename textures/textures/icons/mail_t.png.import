@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/mail_t.png-6171ba9c8176ab30dd904e751700dc29.stex"
+path="res://.import/mail_t.png-cded08d1c8c4b088a6288dca79db5f44.stex"
 
 [deps]
 
-source_file="res://textures/textures/icons/mail_t.png"
-dest_files=[ "res://.import/mail_t.png-6171ba9c8176ab30dd904e751700dc29.stex" ]
+source_file="res://textures/icons/mail_t.png"
+dest_files=[ "res://.import/mail_t.png-cded08d1c8c4b088a6288dca79db5f44.stex" ]
 
 [params]
 

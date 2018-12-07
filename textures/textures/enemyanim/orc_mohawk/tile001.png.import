@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/tile001.png-eaf6232ec534a1ad89aecd965001d9bf.stex"
+path="res://.import/tile001.png-46199dc575a8f758ac0e5ca65e3ab509.stex"
 
 [deps]
 
-source_file="res://textures/textures/enemyanim/orc_mohawk/tile001.png"
-dest_files=[ "res://.import/tile001.png-eaf6232ec534a1ad89aecd965001d9bf.stex" ]
+source_file="res://textures/enemyanim/orc_mohawk/tile001.png"
+dest_files=[ "res://.import/tile001.png-46199dc575a8f758ac0e5ca65e3ab509.stex" ]
 
 [params]
 

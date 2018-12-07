@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/gemGreen.png-58e40c25d6e16fbf7411fab49d270148.stex"
+path="res://.import/gemGreen.png-068e97869d735ae63b33efc192b3db8d.stex"
 
 [deps]
 
-source_file="res://textures/textures/icons/gemGreen.png"
-dest_files=[ "res://.import/gemGreen.png-58e40c25d6e16fbf7411fab49d270148.stex" ]
+source_file="res://textures/icons/gemGreen.png"
+dest_files=[ "res://.import/gemGreen.png-068e97869d735ae63b33efc192b3db8d.stex" ]
 
 [params]
 

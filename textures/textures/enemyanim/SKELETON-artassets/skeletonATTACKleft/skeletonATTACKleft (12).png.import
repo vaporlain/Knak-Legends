@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/skeletonATTACKleft (12).png-58a71c7991d258a729c1042f200c9be4.stex"
+path="res://.import/skeletonATTACKleft (12).png-78b8ee473d752b3ea3866256bfa6ca79.stex"
 
 [deps]
 
-source_file="res://textures/textures/enemyanim/SKELETON-artassets/skeletonATTACKleft/skeletonATTACKleft (12).png"
-dest_files=[ "res://.import/skeletonATTACKleft (12).png-58a71c7991d258a729c1042f200c9be4.stex" ]
+source_file="res://textures/enemyanim/SKELETON-artassets/skeletonATTACKleft/skeletonATTACKleft (12).png"
+dest_files=[ "res://.import/skeletonATTACKleft (12).png-78b8ee473d752b3ea3866256bfa6ca79.stex" ]
 
 [params]
 

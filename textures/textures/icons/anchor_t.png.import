@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/anchor_t.png-60ef468f6c072adaad09bb0bca632c0b.stex"
+path="res://.import/anchor_t.png-ebd19a786f750e1ce791322a0087b562.stex"
 
 [deps]
 
-source_file="res://textures/textures/icons/anchor_t.png"
-dest_files=[ "res://.import/anchor_t.png-60ef468f6c072adaad09bb0bca632c0b.stex" ]
+source_file="res://textures/icons/anchor_t.png"
+dest_files=[ "res://.import/anchor_t.png-ebd19a786f750e1ce791322a0087b562.stex" ]
 
 [params]
 

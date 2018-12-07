@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/compass_t.png-60371a8200be5fe10581aa6bca57237a.stex"
+path="res://.import/compass_t.png-7a57bcb2ee3ff5afa2b7fd47fcab9e93.stex"
 
 [deps]
 
-source_file="res://textures/textures/icons/compass_t.png"
-dest_files=[ "res://.import/compass_t.png-60371a8200be5fe10581aa6bca57237a.stex" ]
+source_file="res://textures/icons/compass_t.png"
+dest_files=[ "res://.import/compass_t.png-7a57bcb2ee3ff5afa2b7fd47fcab9e93.stex" ]
 
 [params]
 

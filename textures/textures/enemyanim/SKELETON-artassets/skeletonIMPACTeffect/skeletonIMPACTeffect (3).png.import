@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/skeletonIMPACTeffect (3).png-5f180b5443dd233a9fd098b6ff577f8e.stex"
+path="res://.import/skeletonIMPACTeffect (3).png-b83ef1156c2588c83fcbff9c3859c272.stex"
 
 [deps]
 
-source_file="res://textures/textures/enemyanim/SKELETON-artassets/skeletonIMPACTeffect/skeletonIMPACTeffect (3).png"
-dest_files=[ "res://.import/skeletonIMPACTeffect (3).png-5f180b5443dd233a9fd098b6ff577f8e.stex" ]
+source_file="res://textures/enemyanim/SKELETON-artassets/skeletonIMPACTeffect/skeletonIMPACTeffect (3).png"
+dest_files=[ "res://.import/skeletonIMPACTeffect (3).png-b83ef1156c2588c83fcbff9c3859c272.stex" ]
 
 [params]
 

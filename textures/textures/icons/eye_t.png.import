@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/eye_t.png-f3b8f9e400b31850ae4e3e369bbbb1b8.stex"
+path="res://.import/eye_t.png-c86f9ea63e17fec7cf56940d31672b68.stex"
 
 [deps]
 
-source_file="res://textures/textures/icons/eye_t.png"
-dest_files=[ "res://.import/eye_t.png-f3b8f9e400b31850ae4e3e369bbbb1b8.stex" ]
+source_file="res://textures/icons/eye_t.png"
+dest_files=[ "res://.import/eye_t.png-c86f9ea63e17fec7cf56940d31672b68.stex" ]
 
 [params]
 

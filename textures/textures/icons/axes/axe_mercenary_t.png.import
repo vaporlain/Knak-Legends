@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/axe_mercenary_t.png-838630c2c6e6a46aa14a7a6d8ee91735.stex"
+path="res://.import/axe_mercenary_t.png-860b2632637cdda0a3f4ce2e94a1cbd5.stex"
 
 [deps]
 
-source_file="res://textures/textures/icons/axes/axe_mercenary_t.png"
-dest_files=[ "res://.import/axe_mercenary_t.png-838630c2c6e6a46aa14a7a6d8ee91735.stex" ]
+source_file="res://textures/icons/axes/axe_mercenary_t.png"
+dest_files=[ "res://.import/axe_mercenary_t.png-860b2632637cdda0a3f4ce2e94a1cbd5.stex" ]
 
 [params]
 

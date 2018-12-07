@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/explosionV004effect003.png-56354e8cc6ff2f0e839c83c4cff45627.stex"
+path="res://.import/explosionV004effect003.png-06785d5696df55cc6ae0720996bf5844.stex"
 
 [deps]
 
-source_file="res://textures/textures/effects/explosions/explosionV004effect/explosionV004effect003.png"
-dest_files=[ "res://.import/explosionV004effect003.png-56354e8cc6ff2f0e839c83c4cff45627.stex" ]
+source_file="res://textures/effects/explosions/explosionV004effect/explosionV004effect003.png"
+dest_files=[ "res://.import/explosionV004effect003.png-06785d5696df55cc6ae0720996bf5844.stex" ]
 
 [params]
 

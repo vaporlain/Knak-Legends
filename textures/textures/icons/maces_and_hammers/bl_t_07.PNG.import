@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/bl_t_07.PNG-6d0e32952df58f521866f6f9343ab10c.stex"
+path="res://.import/bl_t_07.PNG-1521db150a40c8165bbdbbdd0ef376da.stex"
 
 [deps]
 
-source_file="res://textures/textures/icons/maces_and_hammers/bl_t_07.PNG"
-dest_files=[ "res://.import/bl_t_07.PNG-6d0e32952df58f521866f6f9343ab10c.stex" ]
+source_file="res://textures/icons/maces_and_hammers/bl_t_07.PNG"
+dest_files=[ "res://.import/bl_t_07.PNG-1521db150a40c8165bbdbbdd0ef376da.stex" ]
 
 [params]
 

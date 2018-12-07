@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/knightATTACKright (2).png-60a383546640b1202fc8eb83645b37e3.stex"
+path="res://.import/knightATTACKright (2).png-ba48a928dc8d06e669ee4ac0b516e830.stex"
 
 [deps]
 
-source_file="res://textures/textures/npc/KNIGHT-artassets/knightATTACKright/knightATTACKright (2).png"
-dest_files=[ "res://.import/knightATTACKright (2).png-60a383546640b1202fc8eb83645b37e3.stex" ]
+source_file="res://textures/npc/KNIGHT-artassets/knightATTACKright/knightATTACKright (2).png"
+dest_files=[ "res://.import/knightATTACKright (2).png-ba48a928dc8d06e669ee4ac0b516e830.stex" ]
 
 [params]
 

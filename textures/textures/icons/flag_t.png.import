@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/flag_t.png-32295325c31e69a968bdf29e250899ec.stex"
+path="res://.import/flag_t.png-3849c15b1b9dbe6c0eb119bdfc4a0fb2.stex"
 
 [deps]
 
-source_file="res://textures/textures/icons/flag_t.png"
-dest_files=[ "res://.import/flag_t.png-32295325c31e69a968bdf29e250899ec.stex" ]
+source_file="res://textures/icons/flag_t.png"
+dest_files=[ "res://.import/flag_t.png-3849c15b1b9dbe6c0eb119bdfc4a0fb2.stex" ]
 
 [params]
 

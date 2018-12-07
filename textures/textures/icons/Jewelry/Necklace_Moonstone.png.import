@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Necklace_Moonstone.png-38538d0fea69ec6312bbba5a0f243218.stex"
+path="res://.import/Necklace_Moonstone.png-60994de02178486c1de365fc54c51ea3.stex"
 
 [deps]
 
-source_file="res://textures/textures/icons/Jewelry/Necklace_Moonstone.png"
-dest_files=[ "res://.import/Necklace_Moonstone.png-38538d0fea69ec6312bbba5a0f243218.stex" ]
+source_file="res://textures/icons/Jewelry/Necklace_Moonstone.png"
+dest_files=[ "res://.import/Necklace_Moonstone.png-60994de02178486c1de365fc54c51ea3.stex" ]
 
 [params]
 

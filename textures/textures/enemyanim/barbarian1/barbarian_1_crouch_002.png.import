@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/barbarian_1_crouch_002.png-ad06bd95e383a1cd015dbb5f092d726b.stex"
+path="res://.import/barbarian_1_crouch_002.png-6c4e840793d8ff2e590653ae05e2d585.stex"
 
 [deps]
 
-source_file="res://textures/textures/enemyanim/barbarian1/barbarian_1_crouch_002.png"
-dest_files=[ "res://.import/barbarian_1_crouch_002.png-ad06bd95e383a1cd015dbb5f092d726b.stex" ]
+source_file="res://textures/enemyanim/barbarian1/barbarian_1_crouch_002.png"
+dest_files=[ "res://.import/barbarian_1_crouch_002.png-6c4e840793d8ff2e590653ae05e2d585.stex" ]
 
 [params]
 

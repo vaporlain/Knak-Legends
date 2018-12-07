@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/carrot_t.png-e5fd70753b72adca1171f7cd323711de.stex"
+path="res://.import/carrot_t.png-5b0362a3d2aad8e20c5838a323164d95.stex"
 
 [deps]
 
-source_file="res://textures/textures/icons/carrot_t.png"
-dest_files=[ "res://.import/carrot_t.png-e5fd70753b72adca1171f7cd323711de.stex" ]
+source_file="res://textures/icons/carrot_t.png"
+dest_files=[ "res://.import/carrot_t.png-5b0362a3d2aad8e20c5838a323164d95.stex" ]
 
 [params]
 

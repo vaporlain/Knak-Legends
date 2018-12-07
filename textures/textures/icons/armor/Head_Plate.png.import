@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Head_Plate.png-22b9325a51597b23e2511e0f421fc6bd.stex"
+path="res://.import/Head_Plate.png-e21cbf4d2c1c8d77171e28afc9935189.stex"
 
 [deps]
 
-source_file="res://textures/textures/icons/armor/Head_Plate.png"
-dest_files=[ "res://.import/Head_Plate.png-22b9325a51597b23e2511e0f421fc6bd.stex" ]
+source_file="res://textures/icons/armor/Head_Plate.png"
+dest_files=[ "res://.import/Head_Plate.png-e21cbf4d2c1c8d77171e28afc9935189.stex" ]
 
 [params]
 

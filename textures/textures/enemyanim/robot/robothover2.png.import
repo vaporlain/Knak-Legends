@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/robothover2.png-358728f9763fda30313deaf68a57739c.stex"
+path="res://.import/robothover2.png-8642d543adb797a783867559d1f9214c.stex"
 
 [deps]
 
-source_file="res://textures/textures/enemyanim/robot/robothover2.png"
-dest_files=[ "res://.import/robothover2.png-358728f9763fda30313deaf68a57739c.stex" ]
+source_file="res://textures/enemyanim/robot/robothover2.png"
+dest_files=[ "res://.import/robothover2.png-8642d543adb797a783867559d1f9214c.stex" ]
 
 [params]
 

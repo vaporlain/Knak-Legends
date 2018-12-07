@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/princess_run_001.png-df5f44b5b082a4ee27a2f7876cccfc5f.stex"
+path="res://.import/princess_run_001.png-0c96052c4d9305e6704921c2e1c1c071.stex"
 
 [deps]
 
-source_file="res://textures/textures/npc/princess/princess_run_001.png"
-dest_files=[ "res://.import/princess_run_001.png-df5f44b5b082a4ee27a2f7876cccfc5f.stex" ]
+source_file="res://textures/npc/princess/princess_run_001.png"
+dest_files=[ "res://.import/princess_run_001.png-0c96052c4d9305e6704921c2e1c1c071.stex" ]
 
 [params]
 

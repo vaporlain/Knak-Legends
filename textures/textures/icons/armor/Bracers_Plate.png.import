@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Bracers_Plate.png-202b64202832f361f371cc319e007fad.stex"
+path="res://.import/Bracers_Plate.png-263621813d773d1d2c4d944b4616af7e.stex"
 
 [deps]
 
-source_file="res://textures/textures/icons/armor/Bracers_Plate.png"
-dest_files=[ "res://.import/Bracers_Plate.png-202b64202832f361f371cc319e007fad.stex" ]
+source_file="res://textures/icons/armor/Bracers_Plate.png"
+dest_files=[ "res://.import/Bracers_Plate.png-263621813d773d1d2c4d944b4616af7e.stex" ]
 
 [params]
 

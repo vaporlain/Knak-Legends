@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/boostV001effect003.png-bdea8b0724ce94127197bcaa566d7992.stex"
+path="res://.import/boostV001effect003.png-8c50e4d37d5fddc9eebcb4cb8b4a320e.stex"
 
 [deps]
 
-source_file="res://textures/textures/effects/boosts-shields-energy/boostV001effect/boostV001effect003.png"
-dest_files=[ "res://.import/boostV001effect003.png-bdea8b0724ce94127197bcaa566d7992.stex" ]
+source_file="res://textures/effects/boosts-shields-energy/boostV001effect/boostV001effect003.png"
+dest_files=[ "res://.import/boostV001effect003.png-8c50e4d37d5fddc9eebcb4cb8b4a320e.stex" ]
 
 [params]
 

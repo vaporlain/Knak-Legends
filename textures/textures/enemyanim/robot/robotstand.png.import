@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/robotstand.png-11301627b23c3f5506e015eafaa6d724.stex"
+path="res://.import/robotstand.png-91ba36b8c84204dcf3c03f7093d3b9ca.stex"
 
 [deps]
 
-source_file="res://textures/textures/enemyanim/robot/robotstand.png"
-dest_files=[ "res://.import/robotstand.png-11301627b23c3f5506e015eafaa6d724.stex" ]
+source_file="res://textures/enemyanim/robot/robotstand.png"
+dest_files=[ "res://.import/robotstand.png-91ba36b8c84204dcf3c03f7093d3b9ca.stex" ]
 
 [params]
 

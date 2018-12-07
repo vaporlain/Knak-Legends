@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Arrow_Poison.png-54fc82760a309a5f3d13f252763247a1.stex"
+path="res://.import/Arrow_Poison.png-c3031b7fc9bc4a4e1f5a2f2e35bdae5c.stex"
 
 [deps]
 
-source_file="res://textures/textures/icons/Weapons/Arrow_Poison.png"
-dest_files=[ "res://.import/Arrow_Poison.png-54fc82760a309a5f3d13f252763247a1.stex" ]
+source_file="res://textures/icons/Weapons/Arrow_Poison.png"
+dest_files=[ "res://.import/Arrow_Poison.png-c3031b7fc9bc4a4e1f5a2f2e35bdae5c.stex" ]
 
 [params]
 

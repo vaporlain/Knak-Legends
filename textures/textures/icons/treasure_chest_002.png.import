@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/treasure_chest_002.png-84f8c9f677fafc91c887a4db643ac67a.stex"
+path="res://.import/treasure_chest_002.png-5f6222f0355daf931886fad507fcb953.stex"
 
 [deps]
 
-source_file="res://textures/textures/icons/treasure_chest_002.png"
-dest_files=[ "res://.import/treasure_chest_002.png-84f8c9f677fafc91c887a4db643ac67a.stex" ]
+source_file="res://textures/icons/treasure_chest_002.png"
+dest_files=[ "res://.import/treasure_chest_002.png-5f6222f0355daf931886fad507fcb953.stex" ]
 
 [params]
 

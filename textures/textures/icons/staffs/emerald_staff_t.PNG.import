@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/emerald_staff_t.PNG-649203134a1bb8305c659e2a5a1c1ae9.stex"
+path="res://.import/emerald_staff_t.PNG-0c0743ae4f73790a13c61a2d2b3dd610.stex"
 
 [deps]
 
-source_file="res://textures/textures/icons/staffs/emerald_staff_t.PNG"
-dest_files=[ "res://.import/emerald_staff_t.PNG-649203134a1bb8305c659e2a5a1c1ae9.stex" ]
+source_file="res://textures/icons/staffs/emerald_staff_t.PNG"
+dest_files=[ "res://.import/emerald_staff_t.PNG-0c0743ae4f73790a13c61a2d2b3dd610.stex" ]
 
 [params]
 

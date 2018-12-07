@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/wolfATTACKleft (9).png-33e4b7a11e07d456d42fad41a00ca94b.stex"
+path="res://.import/wolfATTACKleft (9).png-7abd0461dc8f83c56b506bac31ece250.stex"
 
 [deps]
 
-source_file="res://textures/textures/enemyanim/WOLF-artassets/wolfATTACKleft/wolfATTACKleft (9).png"
-dest_files=[ "res://.import/wolfATTACKleft (9).png-33e4b7a11e07d456d42fad41a00ca94b.stex" ]
+source_file="res://textures/enemyanim/WOLF-artassets/wolfATTACKleft/wolfATTACKleft (9).png"
+dest_files=[ "res://.import/wolfATTACKleft (9).png-7abd0461dc8f83c56b506bac31ece250.stex" ]
 
 [params]
 

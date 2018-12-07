@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/skill_b_63.png-b3b98e7236365564777adb075c4bc267.stex"
+path="res://.import/skill_b_63.png-6de2fd0ac92604df23e6c2ea324c6c83.stex"
 
 [deps]
 
-source_file="res://textures/textures/icons/skill/skill_b_63.png"
-dest_files=[ "res://.import/skill_b_63.png-b3b98e7236365564777adb075c4bc267.stex" ]
+source_file="res://textures/icons/skill/skill_b_63.png"
+dest_files=[ "res://.import/skill_b_63.png-6de2fd0ac92604df23e6c2ea324c6c83.stex" ]
 
 [params]
 

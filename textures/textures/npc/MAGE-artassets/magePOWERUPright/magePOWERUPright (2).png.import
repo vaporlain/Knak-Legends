@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/magePOWERUPright (2).png-19479e5a522528a9ce16e8ab567c4e7c.stex"
+path="res://.import/magePOWERUPright (2).png-c8cbfe7fcd497d2d665332536e89cc5f.stex"
 
 [deps]
 
-source_file="res://textures/textures/npc/MAGE-artassets/magePOWERUPright/magePOWERUPright (2).png"
-dest_files=[ "res://.import/magePOWERUPright (2).png-19479e5a522528a9ce16e8ab567c4e7c.stex" ]
+source_file="res://textures/npc/MAGE-artassets/magePOWERUPright/magePOWERUPright (2).png"
+dest_files=[ "res://.import/magePOWERUPright (2).png-c8cbfe7fcd497d2d665332536e89cc5f.stex" ]
 
 [params]
 

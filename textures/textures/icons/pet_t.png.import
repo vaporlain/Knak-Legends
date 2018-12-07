@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/pet_t.png-43985f9005eedc0a042df16f4f1bef4f.stex"
+path="res://.import/pet_t.png-088dfff374a5ed1b1ad62b839e80ed60.stex"
 
 [deps]
 
-source_file="res://textures/textures/icons/pet_t.png"
-dest_files=[ "res://.import/pet_t.png-43985f9005eedc0a042df16f4f1bef4f.stex" ]
+source_file="res://textures/icons/pet_t.png"
+dest_files=[ "res://.import/pet_t.png-088dfff374a5ed1b1ad62b839e80ed60.stex" ]
 
 [params]
 

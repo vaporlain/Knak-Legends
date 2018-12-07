@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/village_004_2048x1536.png-d5e2dbeb32850cdd18c8b80c516dea10.stex"
+path="res://.import/village_004_2048x1536.png-b1f921d93aa7b32a4f64c94e1bcdceba.stex"
 
 [deps]
 
-source_file="res://textures/textures/backgrounds/village_004_2048x1536.png"
-dest_files=[ "res://.import/village_004_2048x1536.png-d5e2dbeb32850cdd18c8b80c516dea10.stex" ]
+source_file="res://textures/backgrounds/village_004_2048x1536.png"
+dest_files=[ "res://.import/village_004_2048x1536.png-b1f921d93aa7b32a4f64c94e1bcdceba.stex" ]
 
 [params]
 

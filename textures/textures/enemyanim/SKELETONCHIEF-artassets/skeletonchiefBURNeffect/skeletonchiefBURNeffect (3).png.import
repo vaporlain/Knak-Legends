@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/skeletonchiefBURNeffect (3).png-c6ed16b981b959531cba0e4f85ff42f1.stex"
+path="res://.import/skeletonchiefBURNeffect (3).png-21a9e2deb8c5b48b964cac1c1c4423f0.stex"
 
 [deps]
 
-source_file="res://textures/textures/enemyanim/SKELETONCHIEF-artassets/skeletonchiefBURNeffect/skeletonchiefBURNeffect (3).png"
-dest_files=[ "res://.import/skeletonchiefBURNeffect (3).png-c6ed16b981b959531cba0e4f85ff42f1.stex" ]
+source_file="res://textures/enemyanim/SKELETONCHIEF-artassets/skeletonchiefBURNeffect/skeletonchiefBURNeffect (3).png"
+dest_files=[ "res://.import/skeletonchiefBURNeffect (3).png-21a9e2deb8c5b48b964cac1c1c4423f0.stex" ]
 
 [params]
 

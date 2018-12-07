@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/boot_t_06.png-c2c03c8d0d77bf8ce3930bb7e31ea858.stex"
+path="res://.import/boot_t_06.png-0d072d2b3857ea6df16120a674a59b2a.stex"
 
 [deps]
 
-source_file="res://textures/textures/icons/boots/boot_t_06.png"
-dest_files=[ "res://.import/boot_t_06.png-c2c03c8d0d77bf8ce3930bb7e31ea858.stex" ]
+source_file="res://textures/icons/boots/boot_t_06.png"
+dest_files=[ "res://.import/boot_t_06.png-0d072d2b3857ea6df16120a674a59b2a.stex" ]
 
 [params]
 

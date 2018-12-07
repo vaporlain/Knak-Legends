@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/wizard_1_run_007.png-a9fdfc45864eb12c8d84bfa21bad4539.stex"
+path="res://.import/wizard_1_run_007.png-f590c416130b7b483173fcee9c51b19e.stex"
 
 [deps]
 
-source_file="res://textures/textures/npc/wizard2/wizard_1_run_007.png"
-dest_files=[ "res://.import/wizard_1_run_007.png-a9fdfc45864eb12c8d84bfa21bad4539.stex" ]
+source_file="res://textures/npc/wizard2/wizard_1_run_007.png"
+dest_files=[ "res://.import/wizard_1_run_007.png-f590c416130b7b483173fcee9c51b19e.stex" ]
 
 [params]
 

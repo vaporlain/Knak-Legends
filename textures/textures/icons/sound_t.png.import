@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/sound_t.png-609a5360739187535e55eda270d0219c.stex"
+path="res://.import/sound_t.png-d32897e49da82929b392e4ee8f9a5c64.stex"
 
 [deps]
 
-source_file="res://textures/textures/icons/sound_t.png"
-dest_files=[ "res://.import/sound_t.png-609a5360739187535e55eda270d0219c.stex" ]
+source_file="res://textures/icons/sound_t.png"
+dest_files=[ "res://.import/sound_t.png-d32897e49da82929b392e4ee8f9a5c64.stex" ]
 
 [params]
 

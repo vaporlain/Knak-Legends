@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Ore_Iron.png-0349857dd53df74cb3bc880d9b6ec936.stex"
+path="res://.import/Ore_Iron.png-7778ea54863999f02ce044664d78f9b2.stex"
 
 [deps]
 
-source_file="res://textures/textures/icons/Ore/Ore_Iron.png"
-dest_files=[ "res://.import/Ore_Iron.png-0349857dd53df74cb3bc880d9b6ec936.stex" ]
+source_file="res://textures/icons/Ore/Ore_Iron.png"
+dest_files=[ "res://.import/Ore_Iron.png-7778ea54863999f02ce044664d78f9b2.stex" ]
 
 [params]
 

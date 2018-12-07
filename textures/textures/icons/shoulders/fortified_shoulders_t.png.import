@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/fortified_shoulders_t.png-4bc842c17ff979df0b38a137e92c4636.stex"
+path="res://.import/fortified_shoulders_t.png-17fcea19c706addc41f341b6c806761f.stex"
 
 [deps]
 
-source_file="res://textures/textures/icons/shoulders/fortified_shoulders_t.png"
-dest_files=[ "res://.import/fortified_shoulders_t.png-4bc842c17ff979df0b38a137e92c4636.stex" ]
+source_file="res://textures/icons/shoulders/fortified_shoulders_t.png"
+dest_files=[ "res://.import/fortified_shoulders_t.png-17fcea19c706addc41f341b6c806761f.stex" ]
 
 [params]
 

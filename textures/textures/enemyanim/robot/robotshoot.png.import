@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/robotshoot.png-d4bb2f39100fb6b7edc0ab73f9d09e3e.stex"
+path="res://.import/robotshoot.png-8a1797280746d8a9625d078a20af1efd.stex"
 
 [deps]
 
-source_file="res://textures/textures/enemyanim/robot/robotshoot.png"
-dest_files=[ "res://.import/robotshoot.png-d4bb2f39100fb6b7edc0ab73f9d09e3e.stex" ]
+source_file="res://textures/enemyanim/robot/robotshoot.png"
+dest_files=[ "res://.import/robotshoot.png-8a1797280746d8a9625d078a20af1efd.stex" ]
 
 [params]
 

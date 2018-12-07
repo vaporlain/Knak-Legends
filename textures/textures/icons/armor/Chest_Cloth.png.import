@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Chest_Cloth.png-08699d509f8c047bf8eb42d14d440977.stex"
+path="res://.import/Chest_Cloth.png-208a13f816b98dfafa4773f0e7e6e46a.stex"
 
 [deps]
 
-source_file="res://textures/textures/icons/armor/Chest_Cloth.png"
-dest_files=[ "res://.import/Chest_Cloth.png-08699d509f8c047bf8eb42d14d440977.stex" ]
+source_file="res://textures/icons/armor/Chest_Cloth.png"
+dest_files=[ "res://.import/Chest_Cloth.png-208a13f816b98dfafa4773f0e7e6e46a.stex" ]
 
 [params]
 

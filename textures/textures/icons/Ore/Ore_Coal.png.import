@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Ore_Coal.png-4de5d76d95991586f5ecdf7da6bd084c.stex"
+path="res://.import/Ore_Coal.png-9dfa531c0e38d5e88ddad7a95dfd001b.stex"
 
 [deps]
 
-source_file="res://textures/textures/icons/Ore/Ore_Coal.png"
-dest_files=[ "res://.import/Ore_Coal.png-4de5d76d95991586f5ecdf7da6bd084c.stex" ]
+source_file="res://textures/icons/Ore/Ore_Coal.png"
+dest_files=[ "res://.import/Ore_Coal.png-9dfa531c0e38d5e88ddad7a95dfd001b.stex" ]
 
 [params]
 

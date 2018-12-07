@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Mace.png-e13a8a0e41c40864a0f70f346ea920fc.stex"
+path="res://.import/Mace.png-aecf1f93f433d4244f574d931d886f0e.stex"
 
 [deps]
 
-source_file="res://textures/textures/icons/Weapons/Mace.png"
-dest_files=[ "res://.import/Mace.png-e13a8a0e41c40864a0f70f346ea920fc.stex" ]
+source_file="res://textures/icons/Weapons/Mace.png"
+dest_files=[ "res://.import/Mace.png-aecf1f93f433d4244f574d931d886f0e.stex" ]
 
 [params]
 

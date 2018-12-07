@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Bow_enhanched.png-b2aba568cdb969d1c81b70f6d18240c0.stex"
+path="res://.import/Bow_enhanched.png-f0086380d55735180a7141ba9363cbc5.stex"
 
 [deps]
 
-source_file="res://textures/textures/icons/Weapons/Bow_enhanched.png"
-dest_files=[ "res://.import/Bow_enhanched.png-b2aba568cdb969d1c81b70f6d18240c0.stex" ]
+source_file="res://textures/icons/Weapons/Bow_enhanched.png"
+dest_files=[ "res://.import/Bow_enhanched.png-f0086380d55735180a7141ba9363cbc5.stex" ]
 
 [params]
 

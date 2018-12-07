@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/gargoyle_fly_003.png-afb3701e3a6ed8e1a3f8029cf216bc2d.stex"
+path="res://.import/gargoyle_fly_003.png-87c09b05b1293de07ac4a1fa67a5e9fb.stex"
 
 [deps]
 
-source_file="res://textures/textures/enemyanim/gargoyle/gargoyle_fly_003.png"
-dest_files=[ "res://.import/gargoyle_fly_003.png-afb3701e3a6ed8e1a3f8029cf216bc2d.stex" ]
+source_file="res://textures/enemyanim/gargoyle/gargoyle_fly_003.png"
+dest_files=[ "res://.import/gargoyle_fly_003.png-87c09b05b1293de07ac4a1fa67a5e9fb.stex" ]
 
 [params]
 

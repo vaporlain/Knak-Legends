@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/orc2.png-e5fa0857454b93c66c316b1da85246bf.stex"
+path="res://.import/orc2.png-7d7811f73cad12ad29c8fc53916ea6b4.stex"
 
 [deps]
 
-source_file="res://textures/textures/enemyanim/orc2.png"
-dest_files=[ "res://.import/orc2.png-e5fa0857454b93c66c316b1da85246bf.stex" ]
+source_file="res://textures/enemyanim/orc2.png"
+dest_files=[ "res://.import/orc2.png-7d7811f73cad12ad29c8fc53916ea6b4.stex" ]
 
 [params]
 

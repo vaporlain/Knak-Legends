@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/skeletonarcherIMAPACTeffect (8).png-b8605b79848d12588de293f04f470964.stex"
+path="res://.import/skeletonarcherIMAPACTeffect (8).png-d19b93ca62199f86209b2f562ca198ef.stex"
 
 [deps]
 
-source_file="res://textures/textures/enemyanim/SKELETONARCHER-artassets/skeletonarcherIMPACTeffect/skeletonarcherIMAPACTeffect (8).png"
-dest_files=[ "res://.import/skeletonarcherIMAPACTeffect (8).png-b8605b79848d12588de293f04f470964.stex" ]
+source_file="res://textures/enemyanim/SKELETONARCHER-artassets/skeletonarcherIMPACTeffect/skeletonarcherIMAPACTeffect (8).png"
+dest_files=[ "res://.import/skeletonarcherIMAPACTeffect (8).png-d19b93ca62199f86209b2f562ca198ef.stex" ]
 
 [params]
 

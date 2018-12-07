@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/right_walk1.png-0148f25453829410e71b8a0323829205.stex"
+path="res://.import/right_walk1.png-f405cd66cc4153a3ab451e036d7636f7.stex"
 
 [deps]
 
-source_file="res://textures/textures/enemyanim/npc/npc3_3/right_walk1.png"
-dest_files=[ "res://.import/right_walk1.png-0148f25453829410e71b8a0323829205.stex" ]
+source_file="res://textures/enemyanim/npc/npc3_3/right_walk1.png"
+dest_files=[ "res://.import/right_walk1.png-f405cd66cc4153a3ab451e036d7636f7.stex" ]
 
 [params]
 

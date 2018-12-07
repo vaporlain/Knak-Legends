@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/cl_t_05.png-338e328d526f786a32efe045afa62236.stex"
+path="res://.import/cl_t_05.png-39a0ef31f25bdea64b8252de3c00d389.stex"
 
 [deps]
 
-source_file="res://textures/textures/icons/cloaks/cl_t_05.png"
-dest_files=[ "res://.import/cl_t_05.png-338e328d526f786a32efe045afa62236.stex" ]
+source_file="res://textures/icons/cloaks/cl_t_05.png"
+dest_files=[ "res://.import/cl_t_05.png-39a0ef31f25bdea64b8252de3c00d389.stex" ]
 
 [params]
 

@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/portal_t.png-b8b656d827f40aa4d2906bf7f631e607.stex"
+path="res://.import/portal_t.png-6741ec5a56278733f1a4756499abf740.stex"
 
 [deps]
 
-source_file="res://textures/textures/icons/portal_t.png"
-dest_files=[ "res://.import/portal_t.png-b8b656d827f40aa4d2906bf7f631e607.stex" ]
+source_file="res://textures/icons/portal_t.png"
+dest_files=[ "res://.import/portal_t.png-6741ec5a56278733f1a4756499abf740.stex" ]
 
 [params]
 

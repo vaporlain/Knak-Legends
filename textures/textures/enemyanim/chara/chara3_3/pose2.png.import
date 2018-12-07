@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/pose2.png-b4eec009154c9cef5a1d2cdea450e0a3.stex"
+path="res://.import/pose2.png-ad3cf0f6d231923003b7784a1f15de65.stex"
 
 [deps]
 
-source_file="res://textures/textures/enemyanim/chara/chara3_3/pose2.png"
-dest_files=[ "res://.import/pose2.png-b4eec009154c9cef5a1d2cdea450e0a3.stex" ]
+source_file="res://textures/enemyanim/chara/chara3_3/pose2.png"
+dest_files=[ "res://.import/pose2.png-ad3cf0f6d231923003b7784a1f15de65.stex" ]
 
 [params]
 

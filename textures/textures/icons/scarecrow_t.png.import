@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/scarecrow_t.png-4fc530c0dd4bcd31805de00b5b4643f1.stex"
+path="res://.import/scarecrow_t.png-47531860a779769b8f30279e5cd61725.stex"
 
 [deps]
 
-source_file="res://textures/textures/icons/scarecrow_t.png"
-dest_files=[ "res://.import/scarecrow_t.png-4fc530c0dd4bcd31805de00b5b4643f1.stex" ]
+source_file="res://textures/icons/scarecrow_t.png"
+dest_files=[ "res://.import/scarecrow_t.png-47531860a779769b8f30279e5cd61725.stex" ]
 
 [params]
 

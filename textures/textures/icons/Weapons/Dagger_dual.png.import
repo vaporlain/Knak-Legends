@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Dagger_dual.png-9eb328e00ee215368ef7c284212fa750.stex"
+path="res://.import/Dagger_dual.png-bffa0ae14ec42f2c55586835615c622f.stex"
 
 [deps]
 
-source_file="res://textures/textures/icons/Weapons/Dagger_dual.png"
-dest_files=[ "res://.import/Dagger_dual.png-9eb328e00ee215368ef7c284212fa750.stex" ]
+source_file="res://textures/icons/Weapons/Dagger_dual.png"
+dest_files=[ "res://.import/Dagger_dual.png-bffa0ae14ec42f2c55586835615c622f.stex" ]
 
 [params]
 

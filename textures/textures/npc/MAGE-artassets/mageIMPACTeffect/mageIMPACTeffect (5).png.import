@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/mageIMPACTeffect (5).png-9ddb1cbbfed3a018f6b8cb3298c06dbb.stex"
+path="res://.import/mageIMPACTeffect (5).png-5d741ecc48c4e56674e8f1f8e247cfef.stex"
 
 [deps]
 
-source_file="res://textures/textures/npc/MAGE-artassets/mageIMPACTeffect/mageIMPACTeffect (5).png"
-dest_files=[ "res://.import/mageIMPACTeffect (5).png-9ddb1cbbfed3a018f6b8cb3298c06dbb.stex" ]
+source_file="res://textures/npc/MAGE-artassets/mageIMPACTeffect/mageIMPACTeffect (5).png"
+dest_files=[ "res://.import/mageIMPACTeffect (5).png-5d741ecc48c4e56674e8f1f8e247cfef.stex" ]
 
 [params]
 

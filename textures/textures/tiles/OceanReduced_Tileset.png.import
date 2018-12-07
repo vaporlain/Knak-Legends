@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/OceanReduced_Tileset.png-d0a4d0c2c9db83346c51650545ce77af.stex"
+path="res://.import/OceanReduced_Tileset.png-62f7b568539cd84534ed705a5c4c457f.stex"
 
 [deps]
 
-source_file="res://textures/textures/tiles/OceanReduced_Tileset.png"
-dest_files=[ "res://.import/OceanReduced_Tileset.png-d0a4d0c2c9db83346c51650545ce77af.stex" ]
+source_file="res://textures/tiles/OceanReduced_Tileset.png"
+dest_files=[ "res://.import/OceanReduced_Tileset.png-62f7b568539cd84534ed705a5c4c457f.stex" ]
 
 [params]
 

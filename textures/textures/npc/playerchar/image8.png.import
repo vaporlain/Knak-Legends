@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/image8.png-b24762a876a8dfb7bf6eec1133613c1b.stex"
+path="res://.import/image8.png-03c8b535a728371323af0c942e1fe81f.stex"
 
 [deps]
 
-source_file="res://textures/textures/npc/playerchar/image8.png"
-dest_files=[ "res://.import/image8.png-b24762a876a8dfb7bf6eec1133613c1b.stex" ]
+source_file="res://textures/npc/playerchar/image8.png"
+dest_files=[ "res://.import/image8.png-03c8b535a728371323af0c942e1fe81f.stex" ]
 
 [params]
 

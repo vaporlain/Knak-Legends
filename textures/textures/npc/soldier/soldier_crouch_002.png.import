@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/soldier_crouch_002.png-d229833278f6fb71b64df4c484467245.stex"
+path="res://.import/soldier_crouch_002.png-e83cfa4821157b5113f953dd7cc709fc.stex"
 
 [deps]
 
-source_file="res://textures/textures/npc/soldier/soldier_crouch_002.png"
-dest_files=[ "res://.import/soldier_crouch_002.png-d229833278f6fb71b64df4c484467245.stex" ]
+source_file="res://textures/npc/soldier/soldier_crouch_002.png"
+dest_files=[ "res://.import/soldier_crouch_002.png-e83cfa4821157b5113f953dd7cc709fc.stex" ]
 
 [params]
 

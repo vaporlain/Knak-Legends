@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/$monster_treant.png-56f0163cc0c3faa565e2d75103768fac.stex"
+path="res://.import/$monster_treant.png-0af8bd90346096f7e35ddbeb9a904b30.stex"
 
 [deps]
 
-source_file="res://textures/textures/enemyanim/$monster_treant.png"
-dest_files=[ "res://.import/$monster_treant.png-56f0163cc0c3faa565e2d75103768fac.stex" ]
+source_file="res://textures/enemyanim/$monster_treant.png"
+dest_files=[ "res://.import/$monster_treant.png-0af8bd90346096f7e35ddbeb9a904b30.stex" ]
 
 [params]
 

@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/mageWALKright (2).png-e387411ff110cd30933857580a45b018.stex"
+path="res://.import/mageWALKright (2).png-0f54b645432d5a9b62befa5925ab1d99.stex"
 
 [deps]
 
-source_file="res://textures/textures/npc/MAGE-artassets/mageWALKright/mageWALKright (2).png"
-dest_files=[ "res://.import/mageWALKright (2).png-e387411ff110cd30933857580a45b018.stex" ]
+source_file="res://textures/npc/MAGE-artassets/mageWALKright/mageWALKright (2).png"
+dest_files=[ "res://.import/mageWALKright (2).png-0f54b645432d5a9b62befa5925ab1d99.stex" ]
 
 [params]
 

@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/dialog_t.png-c658cfb9d9027c51c65afba64766fae0.stex"
+path="res://.import/dialog_t.png-205d37612de3cf1e5e90c992d1977019.stex"
 
 [deps]
 
-source_file="res://textures/textures/icons/dialog_t.png"
-dest_files=[ "res://.import/dialog_t.png-c658cfb9d9027c51c65afba64766fae0.stex" ]
+source_file="res://textures/icons/dialog_t.png"
+dest_files=[ "res://.import/dialog_t.png-205d37612de3cf1e5e90c992d1977019.stex" ]
 
 [params]
 

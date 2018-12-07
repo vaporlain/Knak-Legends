@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/crystalballV002effect-loop012.png-071dd26de514d8338c3df93085197d1c.stex"
+path="res://.import/crystalballV002effect-loop012.png-14f5869d693d35915bfb8b431fd93598.stex"
 
 [deps]
 
-source_file="res://textures/textures/effects/other/crystalballV002effect-loop/crystalballV002effect-loop012.png"
-dest_files=[ "res://.import/crystalballV002effect-loop012.png-071dd26de514d8338c3df93085197d1c.stex" ]
+source_file="res://textures/effects/other/crystalballV002effect-loop/crystalballV002effect-loop012.png"
+dest_files=[ "res://.import/crystalballV002effect-loop012.png-14f5869d693d35915bfb8b431fd93598.stex" ]
 
 [params]
 

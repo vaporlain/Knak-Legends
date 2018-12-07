@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/bottle_t.png-3501f65597719573a4c70167945cd3f8.stex"
+path="res://.import/bottle_t.png-3ce97512ad101946fe09f66241c4d5cb.stex"
 
 [deps]
 
-source_file="res://textures/textures/icons/bottle_t.png"
-dest_files=[ "res://.import/bottle_t.png-3501f65597719573a4c70167945cd3f8.stex" ]
+source_file="res://textures/icons/bottle_t.png"
+dest_files=[ "res://.import/bottle_t.png-3ce97512ad101946fe09f66241c4d5cb.stex" ]
 
 [params]
 

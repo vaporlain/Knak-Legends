@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/$monster_dknight2.png-acf4828f515b781e24d187735f7621b1.stex"
+path="res://.import/$monster_dknight2.png-07f47cf70256e49b027cc2974b075b51.stex"
 
 [deps]
 
-source_file="res://textures/textures/enemyanim/$monster_dknight2.png"
-dest_files=[ "res://.import/$monster_dknight2.png-acf4828f515b781e24d187735f7621b1.stex" ]
+source_file="res://textures/enemyanim/$monster_dknight2.png"
+dest_files=[ "res://.import/$monster_dknight2.png-07f47cf70256e49b027cc2974b075b51.stex" ]
 
 [params]
 

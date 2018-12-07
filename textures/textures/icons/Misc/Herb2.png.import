@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Herb2.png-bd6afa498fcbca130a2fb066958d5816.stex"
+path="res://.import/Herb2.png-ec0e47b59774cb30d8e6b50762c30950.stex"
 
 [deps]
 
-source_file="res://textures/textures/icons/Misc/Herb2.png"
-dest_files=[ "res://.import/Herb2.png-bd6afa498fcbca130a2fb066958d5816.stex" ]
+source_file="res://textures/icons/Misc/Herb2.png"
+dest_files=[ "res://.import/Herb2.png-ec0e47b59774cb30d8e6b50762c30950.stex" ]
 
 [params]
 

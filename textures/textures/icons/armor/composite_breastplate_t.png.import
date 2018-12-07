@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/composite_breastplate_t.png-24ca04bd64f690cf4c849364a0356c75.stex"
+path="res://.import/composite_breastplate_t.png-27192f822ef29c8dbf5083444720080e.stex"
 
 [deps]
 
-source_file="res://textures/textures/icons/armor/composite_breastplate_t.png"
-dest_files=[ "res://.import/composite_breastplate_t.png-24ca04bd64f690cf4c849364a0356c75.stex" ]
+source_file="res://textures/icons/armor/composite_breastplate_t.png"
+dest_files=[ "res://.import/composite_breastplate_t.png-27192f822ef29c8dbf5083444720080e.stex" ]
 
 [params]
 

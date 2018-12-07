@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/baner_t.png-4e402c152fb20f3f6dba6496321b9ef7.stex"
+path="res://.import/baner_t.png-bbea52d2271e091915182a4050fdf58f.stex"
 
 [deps]
 
-source_file="res://textures/textures/icons/baner_t.png"
-dest_files=[ "res://.import/baner_t.png-4e402c152fb20f3f6dba6496321b9ef7.stex" ]
+source_file="res://textures/icons/baner_t.png"
+dest_files=[ "res://.import/baner_t.png-bbea52d2271e091915182a4050fdf58f.stex" ]
 
 [params]
 

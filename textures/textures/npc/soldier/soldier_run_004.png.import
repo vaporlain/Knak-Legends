@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/soldier_run_004.png-726715b614df75c791830a91d13a4dea.stex"
+path="res://.import/soldier_run_004.png-61cbac2703b169cfe8c2c389a5ba2d2a.stex"
 
 [deps]
 
-source_file="res://textures/textures/npc/soldier/soldier_run_004.png"
-dest_files=[ "res://.import/soldier_run_004.png-726715b614df75c791830a91d13a4dea.stex" ]
+source_file="res://textures/npc/soldier/soldier_run_004.png"
+dest_files=[ "res://.import/soldier_run_004.png-61cbac2703b169cfe8c2c389a5ba2d2a.stex" ]
 
 [params]
 

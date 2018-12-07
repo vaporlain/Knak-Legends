@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/gunwomanIDLEright (21).png-3936e61226946fa9ae90966c5db3558b.stex"
+path="res://.import/gunwomanIDLEright (21).png-7a2e4926dd337f01eb2007daef7dcc74.stex"
 
 [deps]
 
-source_file="res://textures/textures/npc/GUNWOMAN-artassets/gunwomanIDLEright/gunwomanIDLEright (21).png"
-dest_files=[ "res://.import/gunwomanIDLEright (21).png-3936e61226946fa9ae90966c5db3558b.stex" ]
+source_file="res://textures/npc/GUNWOMAN-artassets/gunwomanIDLEright/gunwomanIDLEright (21).png"
+dest_files=[ "res://.import/gunwomanIDLEright (21).png-7a2e4926dd337f01eb2007daef7dcc74.stex" ]
 
 [params]
 

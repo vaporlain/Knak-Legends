@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/robotfall.png-a6c7f3b9147554e7b9addab2ec45116f.stex"
+path="res://.import/robotfall.png-e431d6ec23deaa39d75e6f1507369e02.stex"
 
 [deps]
 
-source_file="res://textures/textures/enemyanim/robot/robotfall.png"
-dest_files=[ "res://.import/robotfall.png-a6c7f3b9147554e7b9addab2ec45116f.stex" ]
+source_file="res://textures/enemyanim/robot/robotfall.png"
+dest_files=[ "res://.import/robotfall.png-e431d6ec23deaa39d75e6f1507369e02.stex" ]
 
 [params]
 

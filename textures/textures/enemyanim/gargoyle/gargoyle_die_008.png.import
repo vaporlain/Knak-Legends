@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/gargoyle_die_008.png-55dde0153b31d065714efd2c0a500568.stex"
+path="res://.import/gargoyle_die_008.png-ab2104c74138be75b410ab61e41b98d8.stex"
 
 [deps]
 
-source_file="res://textures/textures/enemyanim/gargoyle/gargoyle_die_008.png"
-dest_files=[ "res://.import/gargoyle_die_008.png-55dde0153b31d065714efd2c0a500568.stex" ]
+source_file="res://textures/enemyanim/gargoyle/gargoyle_die_008.png"
+dest_files=[ "res://.import/gargoyle_die_008.png-ab2104c74138be75b410ab61e41b98d8.stex" ]
 
 [params]
 

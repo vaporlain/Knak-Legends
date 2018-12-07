@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/wand.png-bb536c5b6e3d9dcf7e9c98fee052eade.stex"
+path="res://.import/wand.png-d2e2df76fed29d9af81de8cbf928d535.stex"
 
 [deps]
 
-source_file="res://textures/textures/icons/wand.png"
-dest_files=[ "res://.import/wand.png-bb536c5b6e3d9dcf7e9c98fee052eade.stex" ]
+source_file="res://textures/icons/wand.png"
+dest_files=[ "res://.import/wand.png-d2e2df76fed29d9af81de8cbf928d535.stex" ]
 
 [params]
 

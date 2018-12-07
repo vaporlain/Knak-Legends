@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/belt_t_06.png-81503daa34cc29d8c58829a980a65184.stex"
+path="res://.import/belt_t_06.png-888acae133d6ac59682ef0e16d5d32fc.stex"
 
 [deps]
 
-source_file="res://textures/textures/icons/belts/belt_t_06.png"
-dest_files=[ "res://.import/belt_t_06.png-81503daa34cc29d8c58829a980a65184.stex" ]
+source_file="res://textures/icons/belts/belt_t_06.png"
+dest_files=[ "res://.import/belt_t_06.png-888acae133d6ac59682ef0e16d5d32fc.stex" ]
 
 [params]
 

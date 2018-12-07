@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/ingot_t.png-5fbd716b14185788a56f8ed1641dd9ca.stex"
+path="res://.import/ingot_t.png-36a16f775f808e4cf058bf6e4c16b5ac.stex"
 
 [deps]
 
-source_file="res://textures/textures/icons/ingot_t.png"
-dest_files=[ "res://.import/ingot_t.png-5fbd716b14185788a56f8ed1641dd9ca.stex" ]
+source_file="res://textures/icons/ingot_t.png"
+dest_files=[ "res://.import/ingot_t.png-36a16f775f808e4cf058bf6e4c16b5ac.stex" ]
 
 [params]
 

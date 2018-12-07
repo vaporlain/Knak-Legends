@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/birds1_005.png-fc765423503ab41c7a119ac96861ab95.stex"
+path="res://.import/birds1_005.png-18f1fefeb7ad1f876b8a6928e159c822.stex"
 
 [deps]
 
-source_file="res://textures/textures/animals/birds1/birds1_005.png"
-dest_files=[ "res://.import/birds1_005.png-fc765423503ab41c7a119ac96861ab95.stex" ]
+source_file="res://textures/animals/birds1/birds1_005.png"
+dest_files=[ "res://.import/birds1_005.png-18f1fefeb7ad1f876b8a6928e159c822.stex" ]
 
 [params]
 

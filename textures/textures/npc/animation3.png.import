@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/animation3.png-ea9b04de8cac6eaa5cb93ab7dc6cb546.stex"
+path="res://.import/animation3.png-2053afccbad287bcadb647210f0de2c9.stex"
 
 [deps]
 
-source_file="res://textures/textures/npc/animation3.png"
-dest_files=[ "res://.import/animation3.png-ea9b04de8cac6eaa5cb93ab7dc6cb546.stex" ]
+source_file="res://textures/npc/animation3.png"
+dest_files=[ "res://.import/animation3.png-2053afccbad287bcadb647210f0de2c9.stex" ]
 
 [params]
 

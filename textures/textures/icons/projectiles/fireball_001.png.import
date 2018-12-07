@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/fireball_001.png-74ce6ff15b7df05c3f5f2f2927b52b35.stex"
+path="res://.import/fireball_001.png-b93bd8ddb4a798ca7d1dfe9c37a4854f.stex"
 
 [deps]
 
-source_file="res://textures/textures/icons/projectiles/fireball_001.png"
-dest_files=[ "res://.import/fireball_001.png-74ce6ff15b7df05c3f5f2f2927b52b35.stex" ]
+source_file="res://textures/icons/projectiles/fireball_001.png"
+dest_files=[ "res://.import/fireball_001.png-b93bd8ddb4a798ca7d1dfe9c37a4854f.stex" ]
 
 [params]
 

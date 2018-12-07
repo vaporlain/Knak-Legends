@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Bracers_Cloth_Luxury.png-3698c03bdca5ee86189eff79eec334cb.stex"
+path="res://.import/Bracers_Cloth_Luxury.png-cdc5fca335eada76fd615bf67156eea1.stex"
 
 [deps]
 
-source_file="res://textures/textures/icons/armor/Bracers_Cloth_Luxury.png"
-dest_files=[ "res://.import/Bracers_Cloth_Luxury.png-3698c03bdca5ee86189eff79eec334cb.stex" ]
+source_file="res://textures/icons/armor/Bracers_Cloth_Luxury.png"
+dest_files=[ "res://.import/Bracers_Cloth_Luxury.png-cdc5fca335eada76fd615bf67156eea1.stex" ]
 
 [params]
 

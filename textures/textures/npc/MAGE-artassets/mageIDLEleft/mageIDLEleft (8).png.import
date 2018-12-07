@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/mageIDLEleft (8).png-ae4a7f52f581268b72ea8155c9392089.stex"
+path="res://.import/mageIDLEleft (8).png-cc2b97a3c1def916c69a75a203eb3521.stex"
 
 [deps]
 
-source_file="res://textures/textures/npc/MAGE-artassets/mageIDLEleft/mageIDLEleft (8).png"
-dest_files=[ "res://.import/mageIDLEleft (8).png-ae4a7f52f581268b72ea8155c9392089.stex" ]
+source_file="res://textures/npc/MAGE-artassets/mageIDLEleft/mageIDLEleft (8).png"
+dest_files=[ "res://.import/mageIDLEleft (8).png-cc2b97a3c1def916c69a75a203eb3521.stex" ]
 
 [params]
 

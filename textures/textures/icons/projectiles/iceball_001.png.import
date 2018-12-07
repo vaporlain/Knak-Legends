@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/iceball_001.png-b4aefb7e3ebf8f52b2adf60324d632e9.stex"
+path="res://.import/iceball_001.png-34ea4ac2525bf8c04877bd9aa310bd26.stex"
 
 [deps]
 
-source_file="res://textures/textures/icons/projectiles/iceball_001.png"
-dest_files=[ "res://.import/iceball_001.png-b4aefb7e3ebf8f52b2adf60324d632e9.stex" ]
+source_file="res://textures/icons/projectiles/iceball_001.png"
+dest_files=[ "res://.import/iceball_001.png-34ea4ac2525bf8c04877bd9aa310bd26.stex" ]
 
 [params]
 

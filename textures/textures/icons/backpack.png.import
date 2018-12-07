@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/backpack.png-17e3659ede0e3a17ae63c7f3c9a44f8e.stex"
+path="res://.import/backpack.png-3f0d8786125f2caecf2cebddbf9392d1.stex"
 
 [deps]
 
-source_file="res://textures/textures/icons/backpack.png"
-dest_files=[ "res://.import/backpack.png-17e3659ede0e3a17ae63c7f3c9a44f8e.stex" ]
+source_file="res://textures/icons/backpack.png"
+dest_files=[ "res://.import/backpack.png-3f0d8786125f2caecf2cebddbf9392d1.stex" ]
 
 [params]
 
