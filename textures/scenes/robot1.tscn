@@ -1,0 +1,221 @@
+[gd_scene load_steps=44 format=2]
+
+[ext_resource path="res://scripts/robot_1.gd" type="Script" id=1]
+[ext_resource path="res://textures/enemyanim/ROBOT-artassets/robotIDLEleft/robotIDLEleft (1).png" type="Texture" id=2]
+[ext_resource path="res://textures/enemyanim/ROBOT-artassets/robotIDLEleft/robotIDLEleft (2).png" type="Texture" id=3]
+[ext_resource path="res://textures/enemyanim/ROBOT-artassets/robotIDLEleft/robotIDLEleft (3).png" type="Texture" id=4]
+[ext_resource path="res://textures/enemyanim/ROBOT-artassets/robotIDLEleft/robotIDLEleft (4).png" type="Texture" id=5]
+[ext_resource path="res://textures/enemyanim/ROBOT-artassets/robotIDLEleft/robotIDLEleft (5).png" type="Texture" id=6]
+[ext_resource path="res://textures/enemyanim/ROBOT-artassets/robotIDLEleft/robotIDLEleft (6).png" type="Texture" id=7]
+[ext_resource path="res://textures/enemyanim/ROBOT-artassets/robotIDLEleft/robotIDLEleft (7).png" type="Texture" id=8]
+[ext_resource path="res://textures/enemyanim/ROBOT-artassets/robotIDLEleft/robotIDLEleft (8).png" type="Texture" id=9]
+[ext_resource path="res://textures/enemyanim/ROBOT-artassets/robotIDLEleft/robotIDLEleft (9).png" type="Texture" id=10]
+[ext_resource path="res://textures/enemyanim/ROBOT-artassets/robotIDLEleft/robotIDLEleft (10).png" type="Texture" id=11]
+[ext_resource path="res://textures/enemyanim/ROBOT-artassets/robotIDLEleft/robotIDLEleft (11).png" type="Texture" id=12]
+[ext_resource path="res://textures/enemyanim/ROBOT-artassets/robotIDLEleft/robotIDLEleft (12).png" type="Texture" id=13]
+[ext_resource path="res://textures/enemyanim/ROBOT-artassets/robotIDLEleft/robotIDLEleft (13).png" type="Texture" id=14]
+[ext_resource path="res://textures/enemyanim/ROBOT-artassets/robotIDLEleft/robotIDLEleft (14).png" type="Texture" id=15]
+[ext_resource path="res://textures/enemyanim/ROBOT-artassets/robotIDLEleft/robotIDLEleft (15).png" type="Texture" id=16]
+[ext_resource path="res://textures/enemyanim/ROBOT-artassets/robotIDLEleft/robotIDLEleft (16).png" type="Texture" id=17]
+[ext_resource path="res://textures/enemyanim/ROBOT-artassets/robotIDLEleft/robotIDLEleft (17).png" type="Texture" id=18]
+[ext_resource path="res://textures/enemyanim/ROBOT-artassets/robotIDLEleft/robotIDLEleft (18).png" type="Texture" id=19]
+[ext_resource path="res://textures/enemyanim/ROBOT-artassets/robotATTACKright/robotATTACKright (6).png" type="Texture" id=20]
+[ext_resource path="res://textures/enemyanim/ROBOT-artassets/robotATTACKright/robotATTACKright (7).png" type="Texture" id=21]
+[ext_resource path="res://textures/enemyanim/ROBOT-artassets/robotATTACKright/robotATTACKright (8).png" type="Texture" id=22]
+[ext_resource path="res://textures/enemyanim/ROBOT-artassets/robotATTACKright/robotATTACKright (9).png" type="Texture" id=23]
+[ext_resource path="res://textures/enemyanim/ROBOT-artassets/robotATTACKright/robotATTACKright (10).png" type="Texture" id=24]
+[ext_resource path="res://textures/enemyanim/ROBOT-artassets/robotATTACKright/robotATTACKright (11).png" type="Texture" id=25]
+[ext_resource path="res://textures/enemyanim/ROBOT-artassets/robotATTACKright/robotATTACKright (12).png" type="Texture" id=26]
+[ext_resource path="res://textures/enemyanim/ROBOT-artassets/robotATTACKright/robotATTACKright (13).png" type="Texture" id=27]
+[ext_resource path="res://textures/enemyanim/ROBOT-artassets/robotWALKleft/robotWALKleft (1).png" type="Texture" id=28]
+[ext_resource path="res://textures/enemyanim/ROBOT-artassets/robotWALKleft/robotWALKleft (2).png" type="Texture" id=29]
+[ext_resource path="res://textures/enemyanim/ROBOT-artassets/robotWALKleft/robotWALKleft (3).png" type="Texture" id=30]
+[ext_resource path="res://textures/enemyanim/ROBOT-artassets/robotWALKleft/robotWALKleft (4).png" type="Texture" id=31]
+[ext_resource path="res://textures/enemyanim/ROBOT-artassets/robotWALKleft/robotWALKleft (5).png" type="Texture" id=32]
+[ext_resource path="res://textures/enemyanim/ROBOT-artassets/robotWALKleft/robotWALKleft (6).png" type="Texture" id=33]
+[ext_resource path="res://textures/enemyanim/ROBOT-artassets/robotWALKleft/robotWALKleft (7).png" type="Texture" id=34]
+[ext_resource path="res://textures/enemyanim/ROBOT-artassets/robotWALKleft/robotWALKleft (8).png" type="Texture" id=35]
+[ext_resource path="res://textures/enemyanim/ROBOT-artassets/robotWALKleft/robotWALKleft (9).png" type="Texture" id=36]
+
+[sub_resource type="RectangleShape2D" id=1]
+
+custom_solver_bias = 0.0
+extents = Vector2( 30, 32 )
+
+[sub_resource type="SpriteFrames" id=2]
+
+animations = [ {
+"frames": [ ExtResource( 2 ), ExtResource( 3 ), ExtResource( 4 ), ExtResource( 5 ), ExtResource( 6 ), ExtResource( 7 ), ExtResource( 8 ), ExtResource( 9 ), ExtResource( 10 ), ExtResource( 11 ), ExtResource( 12 ), ExtResource( 13 ), ExtResource( 14 ), ExtResource( 15 ), ExtResource( 16 ), ExtResource( 17 ), ExtResource( 18 ), ExtResource( 19 ) ],
+"loop": true,
+"name": "idle",
+"speed": 20.0
+}, {
+"frames": [ ExtResource( 20 ), ExtResource( 21 ), ExtResource( 22 ), ExtResource( 23 ), ExtResource( 24 ), ExtResource( 25 ), ExtResource( 26 ), ExtResource( 27 ) ],
+"loop": true,
+"name": "attack",
+"speed": 15.0
+}, {
+"frames": [ ExtResource( 28 ), ExtResource( 29 ), ExtResource( 30 ), ExtResource( 31 ), ExtResource( 32 ), ExtResource( 33 ), ExtResource( 34 ), ExtResource( 35 ), ExtResource( 36 ) ],
+"loop": true,
+"name": "run",
+"speed": 10.0
+} ]
+
+[sub_resource type="RectangleShape2D" id=3]
+
+custom_solver_bias = 0.0
+extents = Vector2( 32, 32 )
+
+[sub_resource type="Animation" id=4]
+
+length = 0.2
+loop = true
+step = 0.1
+
+[sub_resource type="Animation" id=5]
+
+length = 0.4
+loop = true
+step = 0.1
+
+[sub_resource type="Animation" id=6]
+
+length = 0.4
+loop = true
+step = 0.1
+
+[sub_resource type="RectangleShape2D" id=7]
+
+custom_solver_bias = 0.0
+extents = Vector2( 32, 32 )
+
+[node name="robot_1" type="KinematicBody2D" groups=[
+"enemy",
+]]
+
+input_pickable = false
+collision_layer = 12
+collision_mask = 2
+collision/safe_margin = 0.001
+script = ExtResource( 1 )
+_sections_unfolded = [ "Collision", "collision" ]
+dir_nxt = 1
+
+[node name="rotate" type="Node2D" parent="." index="0"]
+
+[node name="hitbox" type="Area2D" parent="rotate" index="0" groups=[
+"hitbox",
+]]
+
+position = Vector2( 2, -8 )
+input_pickable = true
+gravity_vec = Vector2( 0, 1 )
+gravity = 98.0
+linear_damp = 0.1
+angular_damp = 1.0
+monitorable = false
+audio_bus_override = false
+audio_bus_name = "Master"
+_sections_unfolded = [ "Collision" ]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="rotate/hitbox" index="0"]
+
+visible = false
+position = Vector2( -2, 8 )
+shape = SubResource( 1 )
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="rotate" index="1"]
+
+position = Vector2( 0, 3.94928 )
+scale = Vector2( 0.333333, 0.374472 )
+frames = SubResource( 2 )
+animation = "attack"
+frame = 6
+playing = true
+
+[node name="collision" type="CollisionShape2D" parent="." index="1"]
+
+visible = false
+shape = SubResource( 3 )
+
+[node name="anim" type="AnimationPlayer" parent="." index="2"]
+
+root_node = NodePath("..")
+autoplay = "idle"
+playback_process_mode = 1
+playback_default_blend_time = 0.0
+playback_speed = 1.0
+anims/dead = SubResource( 4 )
+anims/idle = SubResource( 5 )
+anims/run = SubResource( 6 )
+blend_times = [  ]
+
+[node name="statetimer" type="Timer" parent="." index="3"]
+
+process_mode = 1
+wait_time = 1.0
+one_shot = true
+autostart = true
+
+[node name="ray1" type="RayCast2D" parent="." index="4"]
+
+visible = false
+position = Vector2( -6, -2 )
+enabled = true
+exclude_parent = true
+cast_to = Vector2( 0, 3 )
+collision_mask = 2
+
+[node name="ray2" type="RayCast2D" parent="." index="5"]
+
+visible = false
+position = Vector2( 6, -2 )
+enabled = true
+exclude_parent = true
+cast_to = Vector2( 0, 3 )
+collision_mask = 2
+
+[node name="damagebox" type="Area2D" parent="." index="6" groups=[
+"damagebox",
+]]
+
+position = Vector2( 0, -7 )
+input_pickable = true
+gravity_vec = Vector2( 0, 1 )
+gravity = 98.0
+linear_damp = 0.1
+angular_damp = 1.0
+monitoring = false
+collision_layer = 4
+collision_mask = 4
+audio_bus_override = false
+audio_bus_name = "Master"
+_sections_unfolded = [ "Collision" ]
+
+[node name="collision" type="CollisionShape2D" parent="damagebox" index="0"]
+
+visible = false
+position = Vector2( 0, 7 )
+shape = SubResource( 7 )
+
+[node name="VisibilityNotifier2D" type="VisibilityNotifier2D" parent="." index="7"]
+
+visible = false
+rect = Rect2( -80, -80, 160, 160 )
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." index="8"]
+
+stream = null
+volume_db = 0.0
+pitch_scale = 1.0
+autoplay = false
+mix_target = 0
+bus = "Master"
+
+[connection signal="area_entered" from="rotate/hitbox" to="." method="_on_hitbox_area_entered"]
+
+[connection signal="timeout" from="statetimer" to="." method="_on_statetimer_timeout"]
+
+[connection signal="screen_entered" from="VisibilityNotifier2D" to="." method="_on_VisibilityNotifier2D_screen_entered"]
+
+
