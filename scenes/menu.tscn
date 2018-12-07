@@ -1,15 +1,21 @@
-[gd_scene load_steps=4 format=2]
+[gd_scene load_steps=3 format=2]
 
 [ext_resource path="res://scripts/tolevel1.gd" type="Script" id=1]
-[ext_resource path="res://scenes/rain.tscn" type="PackedScene" id=2]
-[ext_resource path="res://scenes/ParallaxBackgroundFabric.tscn" type="PackedScene" id=3]
+[ext_resource path="res://textures/backgrounds/back.png" type="Texture" id=2]
 
 [node name="Node2D" type="Node2D"]
 
 script = ExtResource( 1 )
 _sections_unfolded = [ "Material", "Transform", "Visibility", "Z Index" ]
 
-[node name="menu" type="Control" parent="." index="0"]
+[node name="bg" type="Sprite" parent="." index="0"]
+
+scale = Vector2( 0.800781, 0.726392 )
+z_index = -11
+texture = ExtResource( 2 )
+_sections_unfolded = [ "Offset", "Transform", "Z Index" ]
+
+[node name="menu" type="Control" parent="." index="1"]
 
 anchor_left = 0.0
 anchor_top = 0.0
@@ -154,12 +160,6 @@ group = null
 text = "EXIT"
 flat = false
 align = 1
-
-[node name="rain" parent="." index="1" instance=ExtResource( 2 )]
-
-Extent = Vector2( 1000, 640 )
-
-[node name="ParallaxBackground" parent="." index="2" instance=ExtResource( 3 )]
 
 [connection signal="button_up" from="menu/new game" to="menu" method="_on_start_button_button_up"]
 

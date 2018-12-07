@@ -1,16 +1,16 @@
-[gd_scene load_steps=15 format=2]
+[gd_scene load_steps=14 format=2]
 
 [ext_resource path="res://scripts/player.gd" type="Script" id=1]
 [ext_resource path="res://textures/npc/miner/tile000.png" type="Texture" id=2]
-[ext_resource path="res://textures/npc/miner/tile013.png" type="Texture" id=3]
-[ext_resource path="res://textures/npc/miner/tile014.png" type="Texture" id=4]
-[ext_resource path="res://textures/npc/miner/tile015.png" type="Texture" id=5]
-[ext_resource path="res://textures/npc/miner/tile016.png" type="Texture" id=6]
-[ext_resource path="res://textures/npc/miner/tile017.png" type="Texture" id=7]
-[ext_resource path="res://textures/npc/miner/tile018.png" type="Texture" id=8]
-[ext_resource path="res://textures/npc/miner/tile019.png" type="Texture" id=9]
-[ext_resource path="res://textures/npc/miner/tile020.png" type="Texture" id=10]
-[ext_resource path="res://textures/npc/miner/tile069.png" type="Texture" id=11]
+[ext_resource path="res://textures/npc/miner/tile069.png" type="Texture" id=3]
+[ext_resource path="res://textures/npc/miner/tile013.png" type="Texture" id=4]
+[ext_resource path="res://textures/npc/miner/tile014.png" type="Texture" id=5]
+[ext_resource path="res://textures/npc/miner/tile015.png" type="Texture" id=6]
+[ext_resource path="res://textures/npc/miner/tile016.png" type="Texture" id=7]
+[ext_resource path="res://textures/npc/miner/tile017.png" type="Texture" id=8]
+[ext_resource path="res://textures/npc/miner/tile018.png" type="Texture" id=9]
+[ext_resource path="res://textures/npc/miner/tile019.png" type="Texture" id=10]
+[ext_resource path="res://textures/npc/miner/tile020.png" type="Texture" id=11]
 
 [sub_resource type="RectangleShape2D" id=1]
 
@@ -25,55 +25,52 @@ animations = [ {
 "name": "idle",
 "speed": 3.0
 }, {
-"frames": [ ExtResource( 3 ), ExtResource( 4 ), ExtResource( 5 ), ExtResource( 6 ), ExtResource( 7 ), ExtResource( 8 ), ExtResource( 9 ), ExtResource( 10 ) ],
-"loop": true,
-"name": "run",
-"speed": 10.0
-}, {
-"frames": [ ExtResource( 11 ) ],
+"frames": [ ExtResource( 3 ) ],
 "loop": false,
 "name": "jump",
 "speed": 5.0
+}, {
+"frames": [ ExtResource( 4 ), ExtResource( 5 ), ExtResource( 6 ), ExtResource( 7 ), ExtResource( 8 ), ExtResource( 9 ), ExtResource( 10 ), ExtResource( 11 ) ],
+"loop": true,
+"name": "run",
+"speed": 10.0
 } ]
 
-[sub_resource type="CapsuleShape2D" id=3]
-
-custom_solver_bias = 0.0
-radius = 5.88298
-height = 3.56428
-
-[node name="player" type="Node2D"]
+[node name="player" type="Node2D" index="0"]
 
 z_index = -1
 _sections_unfolded = [ "Transform", "Z Index" ]
 
-[node name="player" type="KinematicBody2D" parent="." index="0"]
+[node name="KinematicBody2D" type="KinematicBody2D" parent="." index="0"]
 
-scale = Vector2( 2, 2 )
+scale = Vector2( 2.14886, 2.26866 )
 input_pickable = false
 collision_layer = 1
 collision_mask = 1
 collision/safe_margin = 0.08
 script = ExtResource( 1 )
 _sections_unfolded = [ "Transform" ]
+max_speed = 200
+jump_height = 300
+friction = 0.2
+gravity = 10
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="player" index="0"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="KinematicBody2D" index="0"]
 
 position = Vector2( 1.37628, 7.04133 )
 shape = SubResource( 1 )
 _sections_unfolded = [ "Transform" ]
 
-[node name="AnimatedSprite" type="AnimatedSprite" parent="player" index="1"]
+[node name="AnimatedSprite" type="AnimatedSprite" parent="KinematicBody2D" index="1"]
 
 position = Vector2( 3, 3 )
 scale = Vector2( 0.8125, 0.8125 )
 frames = SubResource( 2 )
-animation = "run"
-frame = 7
+animation = "idle"
 playing = true
 _sections_unfolded = [ "Transform" ]
 
-[node name="Camera2D" type="Camera2D" parent="player" index="2"]
+[node name="Camera2D" type="Camera2D" parent="KinematicBody2D" index="2"]
 
 position = Vector2( 1.09284, 7.1484 )
 scale = Vector2( 0.337576, 0.273522 )
@@ -100,27 +97,5 @@ editor_draw_screen = true
 editor_draw_limits = false
 editor_draw_drag_margin = false
 _sections_unfolded = [ "Offset", "Smoothing" ]
-
-[node name="hitbox" type="Area2D" parent="player" index="3"]
-
-self_modulate = Color( 1, 0, 0, 1 )
-input_pickable = true
-gravity_vec = Vector2( 0, 1 )
-gravity = 98.0
-linear_damp = 0.1
-angular_damp = 1.0
-audio_bus_override = false
-audio_bus_name = "Master"
-_sections_unfolded = [ "Visibility" ]
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="player/hitbox" index="0"]
-
-modulate = Color( 1, 0, 0, 1 )
-self_modulate = Color( 1, 0, 0, 1 )
-position = Vector2( 1.32532, 7.09262 )
-shape = SubResource( 3 )
-_sections_unfolded = [ "Visibility" ]
-
-[connection signal="body_entered" from="player/hitbox" to="player" method="_on_hitbox_body_entered"]
 
 
