@@ -3,11 +3,9 @@ extends KinematicBody2D
 var motion = Vector2()
 var totheleft = true
 const UP = Vector2(0, -1)
-export (int) var max_speed = 100
-var friction = 0.2
-const ACCELERATION = 50
+var max_speed = 50
 var gravity = 10
-export (float) var patroldistance = 1
+var patroldistance = 2
 var timer
 
 func _ready():
@@ -17,6 +15,7 @@ func _ready():
 	add_child(timer)
 	timer.wait_time = patroldistance
 	timer.start()
+	tick()
 	
 	pass
 
@@ -31,7 +30,7 @@ func tick():
 
 func moveleft():
 	if totheleft == true:
-		motion.x = max(motion.x-ACCELERATION, max_speed)
+		motion.x = max_speed
 		$AnimatedSprite.play("run")
 		$AnimatedSprite.flip_h = false
 	else:
@@ -40,7 +39,7 @@ func moveleft():
 
 func moveright():
 	if totheleft == false:
-		motion.x = min(motion.x-ACCELERATION, -max_speed)
+		motion.x = -max_speed
 		$AnimatedSprite.play("run")
 		$AnimatedSprite.flip_h = true
 	else:

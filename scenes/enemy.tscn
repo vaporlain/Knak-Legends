@@ -25,7 +25,7 @@ animations = [ {
 custom_solver_bias = 0.0
 extents = Vector2( 10, 27.3816 )
 
-[node name="enemy" type="Node2D" groups=[
+[node name="enemy" type="Node2D" index="0" groups=[
 "enemy",
 ]]
 
@@ -39,8 +39,6 @@ script = ExtResource( 1 )
 __meta__ = {
 "_edit_group_": true
 }
-max_speed = 200
-patroldistance = 0.5
 
 [node name="AnimatedSprite" type="AnimatedSprite" parent="EnemyKB" index="0"]
 

@@ -5,60 +5,19 @@ extends KinematicBody2D
 #======================
 
 #easy acces vars
-const MAX_SPEED = 300
-const FRICTION = 0.2
-const ACCELERATION = 50
+const SPEED = 300
 const GRAVITY = 10
 const JUMP_H = -400
+const MAXJUMPS = 2
 
 #advanced vars
 var motion = Vector2(0,0)
 const UP = Vector2(0, -1)
-var attacking = false
 var offsetright = Vector2(25,0)
 var offsetleft = Vector2(-25, 0)
-
-
-#======================
-#My Functions:
-#======================
-
-func get_input():
-	
-	#Input for moving to the left or right
-	if Input.is_action_pressed("attack"):
-		attacking=true
-		attack()
-	
-	elif Input.is_action_pressed("ui_right"):
-		$AnimatedSprite.offset = offsetright
-		motion.x = min(motion.x+ACCELERATION, MAX_SPEED)
-		$AnimatedSprite.flip_h=false
-		$AnimatedSprite.play("run")
-	elif Input.is_action_pressed("ui_left"):
-		motion.x = max(motion.x-ACCELERATION, -MAX_SPEED)
-		$AnimatedSprite.offset = offsetleft
-		$AnimatedSprite.flip_h=true
-		$AnimatedSprite.play("run")
-	else:
-		motion.x=0
-		$AnimatedSprite.play("idle")
-	
-	#input for jumping
-	if is_on_floor():
-		if Input.is_action_pressed("ui_up") || Input.is_action_pressed("jump"):
-			motion.y = JUMP_H
-	
-
-	
-	pass
-
-func attack():
-	if(attacking==true):
-		$AnimatedSprite.play("attack")
-	else:
-		$AnimatedSprite.play("idle")
-	pass
+enum PlayerStates {left, right, idle, attacking = 0, dead}
+var excecuted = false
+var timesjumped = 0
 
 #If the players HITbox gets HIT
 func _on_hitbox_body_entered(body):
@@ -67,42 +26,98 @@ func _on_hitbox_body_entered(body):
 		get_tree().change_scene("res://scenes/gameover.tscn")
 	pass 
 
-#======================
-#Built-in functions
-#Scope: this script
-#======================
-
-func _ready():
-	#player is loaded
-	
-	pass
-
 #Updates every stable physics framerate.
 func _physics_process(delta):
 	#apply gravity, always
 	motion.y += GRAVITY
-	
-	get_input();
-	
+
 	#apply the motion/ movement to the player
 	#UP means platformer style
 	motion = move_and_slide(motion, UP)
 	
 	pass
 
-func _on_leftattack2_body_entered(body):
-	if body.name == "enemyKB":
-		print("I can kill on my left"+body.name)
-	pass # replace with function body
 
 
-func _on_rightattack_body_entered(body):
-	if body.name == "enemyKB":
-		print("I can kill on my right "+body.name)
-	pass # replace with function body
+func _unhandled_input(event):
+	
+	if is_on_floor():
+		timesjumped = 0
+	
+	if event.is_action("ui_left") == true:
+		
+		if event.is_action_pressed("ui_left"):
+			print("go left")
+			motion.x = (SPEED * -1)
+			$AnimatedSprite.offset = offsetleft
+			$AnimatedSprite.flip_h=true
+			$AnimatedSprite.play("run")
+		
+		elif event.is_action_released("ui_left"):
+			print("stop left")
+			motion.x = 0
+			$AnimatedSprite.offset = offsetleft
+			$AnimatedSprite.flip_h=true
+			$AnimatedSprite.play("idle")
+
+	
+	if event.is_action("ui_right")==true:
+		
+		if event.is_action_pressed("ui_right"):
+				print("go right")
+				$AnimatedSprite.offset = offsetright
+				motion.x = SPEED
+				$AnimatedSprite.flip_h=false
+				$AnimatedSprite.play("run")
+		
+		elif event.is_action_released("ui_right"):
+			print("stop right")
+			motion.x = 0
+			$AnimatedSprite.offset = offsetright
+			$AnimatedSprite.flip_h=false
+			$AnimatedSprite.play("idle")
+		
+	
+	if event.is_action("jump"):
+		if timesjumped <= MAXJUMPS && event.is_action_pressed("jump"):
+			motion.y = JUMP_H
+			timesjumped = timesjumped + 1
+	
+	if event.is_action("attack"):
+		
+		if event.is_action_pressed("attack"):
+			$AnimatedSprite.play("attack")
+			PlayerStates.attacking=1
+		
+	
+	pass
+
+#func _on_rightattack_body_entered(body):
+#	if body.name == "enemyKB":
+#		print("I can kill on my right "+body.name)
+#	pass # replace with function body
 
 
-func _on_AnimatedSprite_animation_finished():
-	if $AnimatedSprite.is_playing("attack"):
+func _on_player_animation_finished():
+	if $AnimatedSprite.get_animation() == "attack":
 		$AnimatedSprite.play("idle")
+		PlayerStates.attacking = 0
+	pass # replace with function body
+
+
+func _on_right_body_entered(body):
+	if body.name == "EnemyKB":
+#		print("i can kil on my right")
+		if PlayerStates.attacking == 1:
+			print("KILLED ON MY RIGHT")
+#			something like enemy.state = dead
+	pass # replace with function body
+
+
+func _on_left_body_entered(body):
+	if body.name == "EnemyKB":
+#		print("i can kil on my left")
+		if PlayerStates.attacking == 1:
+			print("KILLED ON MY LEFT")
+#			something like enemy.state = dead
 	pass # replace with function body
