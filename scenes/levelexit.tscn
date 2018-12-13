@@ -1,7 +1,7 @@
 [gd_scene load_steps=4 format=2]
 
 [ext_resource path="res://scripts/tolevel2.gd" type="Script" id=1]
-[ext_resource path="res://textures/icons/x.png" type="Texture" id=2]
+[ext_resource path="res://textures/icons/map.png" type="Texture" id=2]
 
 [sub_resource type="RectangleShape2D" id=1]
 
@@ -31,6 +31,27 @@ audio_bus_name = "Master"
 
 position = Vector2( 0.794434, 0.794426 )
 shape = SubResource( 1 )
+
+[node name="Label" type="Label" parent="." index="2"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = -33.0
+margin_top = -31.0
+margin_right = 32.0
+margin_bottom = -17.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 2
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 4
+text = "Next level"
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
 
 [connection signal="body_entered" from="Area2D" to="." method="_on_Area2D_body_entered"]
 
