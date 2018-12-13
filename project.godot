@@ -15,6 +15,10 @@ run/main_scene="res://scenes/menu.tscn"
 boot_splash/image="res://textures/icons/axeDouble2.png"
 config/icon="res://textures/icons/axeDouble2.png"
 
+[debug]
+
+settings/stdout/print_fps=true
+
 [display]
 
 window/size/width=1920

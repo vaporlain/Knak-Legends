@@ -1,4 +1,6 @@
 extends Node2D
+var main = preload("res://scenes/map1.tscn")
+
 
 func _ready():
 	position = Vector2(get_viewport().size.x/2, get_viewport().size.y/2)

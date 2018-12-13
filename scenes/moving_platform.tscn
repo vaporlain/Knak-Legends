@@ -21,7 +21,7 @@ collision/safe_margin = 0.08
 texture = ExtResource( 2 )
 region_enabled = true
 region_rect = Rect2( 96, 0, 96, 31 )
-_sections_unfolded = [ "Region" ]
+_sections_unfolded = [ "Animation", "Region", "Transform" ]
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="platform" index="1"]
 

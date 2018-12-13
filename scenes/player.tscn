@@ -69,7 +69,7 @@ position = Vector2( 3, 3 )
 scale = Vector2( 0.8125, 0.8125 )
 frames = SubResource( 2 )
 animation = "run"
-frame = 7
+frame = 5
 playing = true
 _sections_unfolded = [ "Transform" ]
 
