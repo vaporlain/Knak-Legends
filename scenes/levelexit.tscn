@@ -3,15 +3,15 @@
 [ext_resource path="res://scripts/tolevel2.gd" type="Script" id=1]
 [ext_resource path="res://textures/icons/x.png" type="Texture" id=2]
 
-
 [sub_resource type="RectangleShape2D" id=1]
 
 custom_solver_bias = 0.0
 extents = Vector2( 13.4809, 15.3362 )
 
-[node name="levelexit" type="Node2D" index="0"]
+[node name="levelexit" type="Node2D"]
 
 script = ExtResource( 1 )
+worldscene = null
 
 [node name="Sprite" type="Sprite" parent="." index="0"]
 
@@ -19,8 +19,6 @@ texture = ExtResource( 2 )
 
 [node name="Area2D" type="Area2D" parent="." index="1"]
 
-editor/display_folded = true
-visible = false
 input_pickable = true
 gravity_vec = Vector2( 0, 1 )
 gravity = 98.0
@@ -33,5 +31,7 @@ audio_bus_name = "Master"
 
 position = Vector2( 0.794434, 0.794426 )
 shape = SubResource( 1 )
+
+[connection signal="body_entered" from="Area2D" to="." method="_on_Area2D_body_entered"]
 
 

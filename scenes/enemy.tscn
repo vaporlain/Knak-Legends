@@ -25,7 +25,7 @@ animations = [ {
 custom_solver_bias = 0.0
 extents = Vector2( 10, 27.3816 )
 
-[node name="enemy" type="Node2D" index="0" groups=[
+[node name="enemy" type="Node2D" groups=[
 "enemy",
 ]]
 
@@ -44,8 +44,6 @@ __meta__ = {
 
 frames = SubResource( 1 )
 animation = "run"
-frame = 1
-playing = true
 flip_h = true
 _sections_unfolded = [ "Material" ]
 

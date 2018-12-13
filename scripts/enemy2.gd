@@ -68,6 +68,9 @@ func _on_viewleft_body_entered(body):
 		$AnimatedSprite.play("attackright")
 	pass 
 
+func bekilled():
+	
+	pass
 
 func _on_Wizard_animation_finished():
 	#if animation attacking completed, now idle!

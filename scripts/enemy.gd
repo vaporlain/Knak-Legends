@@ -15,8 +15,8 @@ func _ready():
 	add_child(timer)
 	timer.wait_time = patroldistance
 	timer.start()
-	tick()
 	
+	tick()
 	pass
 
 func tick():
@@ -46,6 +46,9 @@ func moveright():
 		$AnimatedSprite.play("idle")
 	pass
 
+func bekilled():
+	
+	pass
 
 #The most advanced in-built function
 #Updates every stable physics framerate.

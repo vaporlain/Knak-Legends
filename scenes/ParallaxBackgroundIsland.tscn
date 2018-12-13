@@ -1,0 +1,26 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://textures/backgrounds/fantasy_005_2048x1536.png" type="Texture" id=1]
+
+[node name="ParallaxBackground" type="ParallaxBackground" index="0"]
+
+layer = -1
+offset = Vector2( 0, 0 )
+rotation = 0.0
+scale = Vector2( 1, 1 )
+transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+scroll_offset = Vector2( 0, 0 )
+scroll_base_offset = Vector2( 0, 0 )
+scroll_base_scale = Vector2( 1, 1 )
+scroll_limit_begin = Vector2( 0, 0 )
+scroll_limit_end = Vector2( 0, 0 )
+scroll_ignore_camera_zoom = false
+_sections_unfolded = [ "Scroll" ]
+
+[node name="Sprite" type="Sprite" parent="." index="0"]
+
+position = Vector2( 682.687, 512.015 )
+scale = Vector2( 1.66669, 1.66669 )
+texture = ExtResource( 1 )
+
+

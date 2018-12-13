@@ -4,7 +4,7 @@
 [ext_resource path="res://textures/backgrounds/skill-desc_0002_far-buildings.png" type="Texture" id=2]
 [ext_resource path="res://textures/backgrounds/skill-desc_0000_foreground.png" type="Texture" id=3]
 
-[node name="ParallaxBackground" type="ParallaxBackground" index="0"]
+[node name="ParallaxBackground" type="ParallaxBackground"]
 
 layer = -1
 offset = Vector2( 0, 0 )
