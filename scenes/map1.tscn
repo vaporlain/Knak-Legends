@@ -142,20 +142,20 @@ size_flags_horizontal = 1
 size_flags_vertical = 1
 bbcode_enabled = true
 bbcode_text = "This game is made by:
-Andrés Bechger & Murad Buyukasik 
+Andrés Bechger & Murad Buyükasik 
 "
 visible_characters = -1
 percent_visible = 1.0
 meta_underlined = true
 tab_size = 9
 text = "This game is made by:
-Andrés Bechger & Murad Buyukasik 
+Andrés Bechger & Murad Buyükasik 
 "
 scroll_active = true
 scroll_following = false
 selection_enabled = false
 override_selected_font_color = false
-_sections_unfolded = [ "BBCode", "Theme" ]
+_sections_unfolded = [ "BBCode", "Rect", "Theme" ]
 
 [node name="RichTextLabel4" type="RichTextLabel" parent="Control" index="3"]
 
@@ -181,7 +181,7 @@ visible_characters = -1
 percent_visible = 1.0
 meta_underlined = true
 tab_size = 9
-text = "A special thanks to:
+text = "A Special thanks to:
 "
 scroll_active = true
 scroll_following = false
@@ -339,7 +339,7 @@ mouse_default_cursor_shape = 0
 size_flags_horizontal = 1
 size_flags_vertical = 1
 bbcode_enabled = true
-bbcode_text = "Astrum College"
+bbcode_text = "Astum College"
 visible_characters = -1
 percent_visible = 1.0
 meta_underlined = true
@@ -351,7 +351,37 @@ selection_enabled = false
 override_selected_font_color = false
 _sections_unfolded = [ "BBCode", "Rect", "Theme" ]
 
-[node name="RichTextLabel8" type="RichTextLabel" parent="Control" index="9"]
+[node name="RichTextLabel11" type="RichTextLabel" parent="Control" index="9"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 3159.0
+margin_top = 500.0
+margin_right = 3289.0
+margin_bottom = 526.0
+rect_scale = Vector2( 2.5, 2.5 )
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = true
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+bbcode_enabled = true
+bbcode_text = "Astum College"
+visible_characters = -1
+percent_visible = 1.0
+meta_underlined = true
+tab_size = 9
+text = "Berry Clappers <3"
+scroll_active = true
+scroll_following = false
+selection_enabled = false
+override_selected_font_color = false
+_sections_unfolded = [ "BBCode", "Rect", "Theme" ]
+
+[node name="RichTextLabel8" type="RichTextLabel" parent="Control" index="10"]
 
 anchor_left = 0.0
 anchor_top = 0.0
