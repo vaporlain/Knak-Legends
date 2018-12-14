@@ -1,0 +1,51 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://enemy.gd" type="Script" id=1]
+
+[sub_resource type="SpriteFrames" id=1]
+
+animations = [ {
+"frames": [ null ],
+"loop": true,
+"name": "idle",
+"speed": 2.0
+}, {
+"frames": [ null, null, null ],
+"loop": true,
+"name": "run",
+"speed": 5.0
+} ]
+_sections_unfolded = [ "Resource" ]
+
+[sub_resource type="RectangleShape2D" id=2]
+
+custom_solver_bias = 0.0
+extents = Vector2( 10, 27.3816 )
+
+[node name="enemy" type="Node2D" index="0" groups=[
+"enemy",
+]]
+
+[node name="EnemyKB" type="KinematicBody2D" parent="." index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+collision/safe_margin = 0.08
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="EnemyKB" index="0"]
+
+frames = SubResource( 1 )
+animation = "run"
+flip_h = true
+_sections_unfolded = [ "Material" ]
+
+[node name="collisionshape1" type="CollisionShape2D" parent="EnemyKB" index="1"]
+
+shape = SubResource( 2 )
+
+
