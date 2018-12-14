@@ -1,0 +1,671 @@
+[gd_scene load_steps=21 format=2]
+
+[ext_resource path="res://scripts/gameover.gd" type="Script" id=1]
+[ext_resource path="res://textures/effects/fires/loop/fireV004effect-loop/fireV004effect-loop000.png" type="Texture" id=2]
+[ext_resource path="res://textures/effects/fires/loop/fireV004effect-loop/fireV004effect-loop001.png" type="Texture" id=3]
+[ext_resource path="res://textures/effects/fires/loop/fireV004effect-loop/fireV004effect-loop002.png" type="Texture" id=4]
+[ext_resource path="res://textures/effects/fires/loop/fireV004effect-loop/fireV004effect-loop003.png" type="Texture" id=5]
+[ext_resource path="res://textures/effects/fires/loop/fireV004effect-loop/fireV004effect-loop004.png" type="Texture" id=6]
+[ext_resource path="res://textures/effects/fires/loop/fireV004effect-loop/fireV004effect-loop005.png" type="Texture" id=7]
+[ext_resource path="res://textures/effects/fires/loop/fireV004effect-loop/fireV004effect-loop006.png" type="Texture" id=8]
+[ext_resource path="res://textures/effects/fires/loop/fireV004effect-loop/fireV004effect-loop007.png" type="Texture" id=9]
+[ext_resource path="res://textures/effects/fires/loop/fireV004effect-loop/fireV004effect-loop008.png" type="Texture" id=10]
+[ext_resource path="res://textures/effects/fires/loop/fireV004effect-loop/fireV004effect-loop009.png" type="Texture" id=11]
+[ext_resource path="res://textures/effects/fires/loop/fireV004effect-loop/fireV004effect-loop010.png" type="Texture" id=12]
+[ext_resource path="res://textures/effects/fires/loop/fireV004effect-loop/fireV004effect-loop011.png" type="Texture" id=13]
+[ext_resource path="res://textures/effects/fires/loop/fireV004effect-loop/fireV004effect-loop012.png" type="Texture" id=14]
+[ext_resource path="res://textures/effects/fires/loop/fireV004effect-loop/fireV004effect-loop013.png" type="Texture" id=15]
+[ext_resource path="res://textures/effects/fires/loop/fireV004effect-loop/fireV004effect-loop014.png" type="Texture" id=16]
+[ext_resource path="res://textures/effects/fires/loop/fireV004effect-loop/fireV004effect-loop015.png" type="Texture" id=17]
+[ext_resource path="res://textures/backgrounds/back.png" type="Texture" id=18]
+
+[sub_resource type="Theme" id=1]
+
+Label/fonts/label2 = null
+
+[sub_resource type="SpriteFrames" id=2]
+
+animations = [ {
+"frames": [ ExtResource( 2 ), ExtResource( 3 ), ExtResource( 4 ), ExtResource( 5 ), ExtResource( 6 ), ExtResource( 7 ), ExtResource( 8 ), ExtResource( 9 ), ExtResource( 10 ), ExtResource( 11 ), ExtResource( 12 ), ExtResource( 13 ), ExtResource( 14 ), ExtResource( 15 ), ExtResource( 16 ), ExtResource( 17 ) ],
+"loop": true,
+"name": "default",
+"speed": 25.0
+} ]
+
+[node name="Control" type="Control" index="0"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_right = 40.0
+margin_bottom = 40.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+script = ExtResource( 1 )
+
+[node name="Label" type="Label" parent="." index="0"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 162.0
+margin_right = 205.0
+margin_bottom = 250.0
+rect_scale = Vector2( 5, 5 )
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 2
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 4
+theme = SubResource( 1 )
+text = "You have died"
+align = 1
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+_sections_unfolded = [ "Focus", "Hint", "Mouse", "Rect", "Size Flags", "Theme", "custom_colors", "custom_constants", "custom_fonts", "custom_styles" ]
+
+[node name="mainmenu" type="Button" parent="Label" index="0"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 49.0
+margin_top = 33.0
+margin_right = 153.0
+margin_bottom = 53.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+focus_mode = 2
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+group = null
+text = "To main menu"
+flat = false
+align = 1
+
+[node name="exit" type="Button" parent="Label" index="1"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 49.0
+margin_top = 58.0
+margin_right = 153.0
+margin_bottom = 78.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+focus_mode = 2
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+group = null
+text = "Exit"
+flat = false
+align = 1
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="." index="1"]
+
+position = Vector2( 49.8767, 490.971 )
+scale = Vector2( 7.72675, 9.21295 )
+z_index = -100
+frames = SubResource( 2 )
+animation = "default"
+frame = 2
+playing = true
+
+[node name="AnimatedSprite28" type="AnimatedSprite" parent="." index="2"]
+
+position = Vector2( 0.134392, 513.581 )
+scale = Vector2( 7.72675, 9.21295 )
+z_index = -100
+frames = SubResource( 2 )
+animation = "default"
+frame = 2
+playing = true
+
+[node name="AnimatedSprite4" type="AnimatedSprite" parent="." index="3"]
+
+position = Vector2( 221.714, 492.478 )
+scale = Vector2( 7.72675, 9.21295 )
+z_index = -100
+frames = SubResource( 2 )
+animation = "default"
+frame = 1
+playing = true
+
+[node name="AnimatedSprite31" type="AnimatedSprite" parent="." index="4"]
+
+position = Vector2( 171.972, 515.089 )
+scale = Vector2( 7.72675, 9.21295 )
+z_index = -100
+frames = SubResource( 2 )
+animation = "default"
+frame = 2
+playing = true
+
+[node name="AnimatedSprite7" type="AnimatedSprite" parent="." index="5"]
+
+position = Vector2( 372.448, 507.552 )
+scale = Vector2( 7.72675, 9.21295 )
+z_index = -100
+frames = SubResource( 2 )
+animation = "default"
+frame = 1
+playing = true
+
+[node name="AnimatedSprite37" type="AnimatedSprite" parent="." index="6"]
+
+position = Vector2( 322.706, 530.162 )
+scale = Vector2( 7.72675, 9.21295 )
+z_index = -100
+frames = SubResource( 2 )
+animation = "default"
+frame = 2
+playing = true
+
+[node name="AnimatedSprite10" type="AnimatedSprite" parent="." index="7"]
+
+position = Vector2( 456.86, 492.478 )
+scale = Vector2( 7.72675, 9.21295 )
+z_index = -100
+frames = SubResource( 2 )
+animation = "default"
+playing = true
+
+[node name="AnimatedSprite52" type="AnimatedSprite" parent="." index="8"]
+
+position = Vector2( 407.117, 515.089 )
+scale = Vector2( 7.72675, 9.21295 )
+z_index = -100
+frames = SubResource( 2 )
+animation = "default"
+frame = 2
+playing = true
+
+[node name="AnimatedSprite15" type="AnimatedSprite" parent="." index="9"]
+
+position = Vector2( 574.432, 518.103 )
+scale = Vector2( 7.72675, 9.21295 )
+z_index = -100
+frames = SubResource( 2 )
+animation = "default"
+frame = 1
+playing = true
+
+[node name="AnimatedSprite53" type="AnimatedSprite" parent="." index="10"]
+
+position = Vector2( 524.69, 540.713 )
+scale = Vector2( 7.72675, 9.21295 )
+z_index = -100
+frames = SubResource( 2 )
+animation = "default"
+frame = 2
+playing = true
+
+[node name="AnimatedSprite18" type="AnimatedSprite" parent="." index="11"]
+
+position = Vector2( 705.572, 512.074 )
+scale = Vector2( 7.72675, 9.21295 )
+z_index = -100
+frames = SubResource( 2 )
+animation = "default"
+frame = 14
+playing = true
+
+[node name="AnimatedSprite45" type="AnimatedSprite" parent="." index="12"]
+
+position = Vector2( 655.829, 534.684 )
+scale = Vector2( 7.72675, 9.21295 )
+z_index = -100
+frames = SubResource( 2 )
+animation = "default"
+frame = 2
+playing = true
+
+[node name="AnimatedSprite20" type="AnimatedSprite" parent="." index="13"]
+
+position = Vector2( 811.086, 524.133 )
+scale = Vector2( 7.72675, 9.21295 )
+z_index = -100
+frames = SubResource( 2 )
+animation = "default"
+playing = true
+
+[node name="AnimatedSprite46" type="AnimatedSprite" parent="." index="14"]
+
+position = Vector2( 761.343, 546.743 )
+scale = Vector2( 7.72675, 9.21295 )
+z_index = -100
+frames = SubResource( 2 )
+animation = "default"
+frame = 2
+playing = true
+
+[node name="AnimatedSprite22" type="AnimatedSprite" parent="." index="15"]
+
+position = Vector2( 907.556, 497 )
+scale = Vector2( 7.72675, 9.21295 )
+z_index = -100
+frames = SubResource( 2 )
+animation = "default"
+frame = 14
+playing = true
+
+[node name="AnimatedSprite40" type="AnimatedSprite" parent="." index="16"]
+
+position = Vector2( 857.813, 519.611 )
+scale = Vector2( 7.72675, 9.21295 )
+z_index = -100
+frames = SubResource( 2 )
+animation = "default"
+frame = 2
+playing = true
+
+[node name="AnimatedSprite27" type="AnimatedSprite" parent="." index="17"]
+
+position = Vector2( 979.908, 512.074 )
+scale = Vector2( 7.72675, 9.21295 )
+z_index = -100
+frames = SubResource( 2 )
+animation = "default"
+frame = 14
+playing = true
+
+[node name="AnimatedSprite34" type="AnimatedSprite" parent="." index="18"]
+
+position = Vector2( 930.166, 534.684 )
+scale = Vector2( 7.72675, 9.21295 )
+z_index = -100
+frames = SubResource( 2 )
+animation = "default"
+frame = 2
+playing = true
+
+[node name="AnimatedSprite2" type="AnimatedSprite" parent="." index="19"]
+
+position = Vector2( 103.648, 515.089 )
+scale = Vector2( 7.72675, 9.21295 )
+z_index = -100
+frames = SubResource( 2 )
+animation = "default"
+frame = 2
+playing = true
+
+[node name="AnimatedSprite30" type="AnimatedSprite" parent="." index="20"]
+
+position = Vector2( 53.9061, 537.699 )
+scale = Vector2( 7.72675, 9.21295 )
+z_index = -100
+frames = SubResource( 2 )
+animation = "default"
+frame = 2
+playing = true
+
+[node name="AnimatedSprite6" type="AnimatedSprite" parent="." index="21"]
+
+position = Vector2( 275.486, 516.596 )
+scale = Vector2( 7.72675, 9.21295 )
+z_index = -100
+frames = SubResource( 2 )
+animation = "default"
+frame = 1
+playing = true
+
+[node name="AnimatedSprite33" type="AnimatedSprite" parent="." index="22"]
+
+position = Vector2( 225.743, 539.206 )
+scale = Vector2( 7.72675, 9.21295 )
+z_index = -100
+frames = SubResource( 2 )
+animation = "default"
+frame = 2
+playing = true
+
+[node name="AnimatedSprite9" type="AnimatedSprite" parent="." index="23"]
+
+position = Vector2( 426.22, 531.669 )
+scale = Vector2( 7.72675, 9.21295 )
+z_index = -100
+frames = SubResource( 2 )
+animation = "default"
+frame = 1
+playing = true
+
+[node name="AnimatedSprite49" type="AnimatedSprite" parent="." index="24"]
+
+position = Vector2( 376.478, 554.279 )
+scale = Vector2( 7.72675, 9.21295 )
+z_index = -100
+frames = SubResource( 2 )
+animation = "default"
+frame = 2
+playing = true
+
+[node name="AnimatedSprite12" type="AnimatedSprite" parent="." index="25"]
+
+position = Vector2( 510.631, 516.596 )
+scale = Vector2( 7.72675, 9.21295 )
+z_index = -100
+frames = SubResource( 2 )
+animation = "default"
+playing = true
+
+[node name="AnimatedSprite51" type="AnimatedSprite" parent="." index="26"]
+
+position = Vector2( 460.889, 539.206 )
+scale = Vector2( 7.72675, 9.21295 )
+z_index = -100
+frames = SubResource( 2 )
+animation = "default"
+frame = 2
+playing = true
+
+[node name="AnimatedSprite14" type="AnimatedSprite" parent="." index="27"]
+
+position = Vector2( 628.204, 542.221 )
+scale = Vector2( 7.72675, 9.21295 )
+z_index = -100
+frames = SubResource( 2 )
+animation = "default"
+frame = 1
+playing = true
+
+[node name="AnimatedSprite43" type="AnimatedSprite" parent="." index="28"]
+
+position = Vector2( 578.462, 564.831 )
+scale = Vector2( 7.72675, 9.21295 )
+z_index = -100
+frames = SubResource( 2 )
+animation = "default"
+frame = 2
+playing = true
+
+[node name="AnimatedSprite16" type="AnimatedSprite" parent="." index="29"]
+
+position = Vector2( 759.343, 536.191 )
+scale = Vector2( 7.72675, 9.21295 )
+z_index = -100
+frames = SubResource( 2 )
+animation = "default"
+frame = 14
+playing = true
+
+[node name="AnimatedSprite48" type="AnimatedSprite" parent="." index="30"]
+
+position = Vector2( 709.601, 558.801 )
+scale = Vector2( 7.72675, 9.21295 )
+z_index = -100
+frames = SubResource( 2 )
+animation = "default"
+frame = 2
+playing = true
+
+[node name="AnimatedSprite21" type="AnimatedSprite" parent="." index="31"]
+
+position = Vector2( 864.857, 548.25 )
+scale = Vector2( 7.72675, 9.21295 )
+z_index = -100
+frames = SubResource( 2 )
+animation = "default"
+playing = true
+
+[node name="AnimatedSprite50" type="AnimatedSprite" parent="." index="32"]
+
+position = Vector2( 815.115, 570.86 )
+scale = Vector2( 7.72675, 9.21295 )
+z_index = -100
+frames = SubResource( 2 )
+animation = "default"
+frame = 2
+playing = true
+
+[node name="AnimatedSprite23" type="AnimatedSprite" parent="." index="33"]
+
+position = Vector2( 961.327, 521.118 )
+scale = Vector2( 7.72675, 9.21295 )
+z_index = -100
+frames = SubResource( 2 )
+animation = "default"
+frame = 14
+playing = true
+
+[node name="AnimatedSprite38" type="AnimatedSprite" parent="." index="34"]
+
+position = Vector2( 911.585, 543.728 )
+scale = Vector2( 7.72675, 9.21295 )
+z_index = -100
+frames = SubResource( 2 )
+animation = "default"
+frame = 2
+playing = true
+
+[node name="AnimatedSprite26" type="AnimatedSprite" parent="." index="35"]
+
+position = Vector2( 1033.68, 536.191 )
+scale = Vector2( 7.72675, 9.21295 )
+z_index = -100
+frames = SubResource( 2 )
+animation = "default"
+frame = 14
+playing = true
+
+[node name="AnimatedSprite41" type="AnimatedSprite" parent="." index="36"]
+
+position = Vector2( 983.938, 558.801 )
+scale = Vector2( 7.72675, 9.21295 )
+z_index = -100
+frames = SubResource( 2 )
+animation = "default"
+frame = 2
+playing = true
+
+[node name="AnimatedSprite3" type="AnimatedSprite" parent="." index="37"]
+
+position = Vector2( 156.898, 487.956 )
+scale = Vector2( 7.72675, 9.21295 )
+z_index = -100
+frames = SubResource( 2 )
+animation = "default"
+frame = 2
+playing = true
+
+[node name="AnimatedSprite29" type="AnimatedSprite" parent="." index="38"]
+
+position = Vector2( 107.156, 510.567 )
+scale = Vector2( 7.72675, 9.21295 )
+z_index = -100
+frames = SubResource( 2 )
+animation = "default"
+frame = 2
+playing = true
+
+[node name="AnimatedSprite5" type="AnimatedSprite" parent="." index="39"]
+
+position = Vector2( 328.735, 489.464 )
+scale = Vector2( 7.72675, 9.21295 )
+z_index = -100
+frames = SubResource( 2 )
+animation = "default"
+frame = 1
+playing = true
+
+[node name="AnimatedSprite32" type="AnimatedSprite" parent="." index="40"]
+
+position = Vector2( 278.993, 512.074 )
+scale = Vector2( 7.72675, 9.21295 )
+z_index = -100
+frames = SubResource( 2 )
+animation = "default"
+frame = 2
+playing = true
+
+[node name="AnimatedSprite8" type="AnimatedSprite" parent="." index="41"]
+
+position = Vector2( 479.47, 504.537 )
+scale = Vector2( 7.72675, 9.21295 )
+z_index = -100
+frames = SubResource( 2 )
+animation = "default"
+frame = 1
+playing = true
+
+[node name="AnimatedSprite44" type="AnimatedSprite" parent="." index="42"]
+
+position = Vector2( 429.727, 527.147 )
+scale = Vector2( 7.72675, 9.21295 )
+z_index = -100
+frames = SubResource( 2 )
+animation = "default"
+frame = 2
+playing = true
+
+[node name="AnimatedSprite11" type="AnimatedSprite" parent="." index="43"]
+
+position = Vector2( 563.881, 489.464 )
+scale = Vector2( 7.72675, 9.21295 )
+z_index = -100
+frames = SubResource( 2 )
+animation = "default"
+playing = true
+
+[node name="AnimatedSprite42" type="AnimatedSprite" parent="." index="44"]
+
+position = Vector2( 514.139, 512.074 )
+scale = Vector2( 7.72675, 9.21295 )
+z_index = -100
+frames = SubResource( 2 )
+animation = "default"
+frame = 2
+playing = true
+
+[node name="AnimatedSprite13" type="AnimatedSprite" parent="." index="45"]
+
+position = Vector2( 681.454, 515.089 )
+scale = Vector2( 7.72675, 9.21295 )
+z_index = -100
+frames = SubResource( 2 )
+animation = "default"
+frame = 1
+playing = true
+
+[node name="AnimatedSprite47" type="AnimatedSprite" parent="." index="46"]
+
+position = Vector2( 631.712, 537.699 )
+scale = Vector2( 7.72675, 9.21295 )
+z_index = -100
+frames = SubResource( 2 )
+animation = "default"
+frame = 2
+playing = true
+
+[node name="AnimatedSprite17" type="AnimatedSprite" parent="." index="47"]
+
+position = Vector2( 812.593, 509.059 )
+scale = Vector2( 7.72675, 9.21295 )
+z_index = -100
+frames = SubResource( 2 )
+animation = "default"
+frame = 14
+playing = true
+
+[node name="AnimatedSprite39" type="AnimatedSprite" parent="." index="48"]
+
+position = Vector2( 762.851, 531.669 )
+scale = Vector2( 7.72675, 9.21295 )
+z_index = -100
+frames = SubResource( 2 )
+animation = "default"
+frame = 2
+playing = true
+
+[node name="AnimatedSprite19" type="AnimatedSprite" parent="." index="49"]
+
+position = Vector2( 918.107, 521.118 )
+scale = Vector2( 7.72675, 9.21295 )
+z_index = -100
+frames = SubResource( 2 )
+animation = "default"
+playing = true
+
+[node name="AnimatedSprite54" type="AnimatedSprite" parent="." index="50"]
+
+position = Vector2( 868.365, 543.728 )
+scale = Vector2( 7.72675, 9.21295 )
+z_index = -100
+frames = SubResource( 2 )
+animation = "default"
+frame = 2
+playing = true
+
+[node name="AnimatedSprite24" type="AnimatedSprite" parent="." index="51"]
+
+position = Vector2( 1014.58, 493.986 )
+scale = Vector2( 7.72675, 9.21295 )
+z_index = -100
+frames = SubResource( 2 )
+animation = "default"
+frame = 14
+playing = true
+
+[node name="AnimatedSprite35" type="AnimatedSprite" parent="." index="52"]
+
+position = Vector2( 964.835, 516.596 )
+scale = Vector2( 7.72675, 9.21295 )
+z_index = -100
+frames = SubResource( 2 )
+animation = "default"
+frame = 2
+playing = true
+
+[node name="AnimatedSprite25" type="AnimatedSprite" parent="." index="53"]
+
+position = Vector2( 1086.93, 509.059 )
+scale = Vector2( 7.72675, 9.21295 )
+z_index = -100
+frames = SubResource( 2 )
+animation = "default"
+frame = 14
+playing = true
+
+[node name="AnimatedSprite36" type="AnimatedSprite" parent="." index="54"]
+
+position = Vector2( 1037.19, 531.669 )
+scale = Vector2( 7.72675, 9.21295 )
+z_index = -100
+frames = SubResource( 2 )
+animation = "default"
+frame = 2
+playing = true
+
+[node name="back" type="Sprite" parent="." index="55"]
+
+position = Vector2( 525.064, 336.379 )
+scale = Vector2( 0.593225, 0.593225 )
+z_index = -101
+texture = ExtResource( 18 )
+_sections_unfolded = [ "Z Index" ]
+
+[connection signal="button_up" from="Label/mainmenu" to="." method="_on_mainmenu_button_up"]
+
+[connection signal="button_up" from="Label/exit" to="." method="_on_exit_button_up"]
+
+
