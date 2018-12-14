@@ -6,7 +6,7 @@
 [ext_resource path="res://scenes/levelexit.tscn" type="PackedScene" id=4]
 [ext_resource path="res://scenes/outofbound.tscn" type="PackedScene" id=5]
 
-[node name="map1" type="Node2D"]
+[node name="map1" type="Node2D" index="0"]
 
 position = Vector2( 2.27209, 0 )
 
@@ -48,7 +48,6 @@ worldscene = "res://scenes/map2.tscn"
 
 [node name="Control" type="Control" parent="." index="4"]
 
-editor/display_folded = true
 anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
@@ -302,7 +301,7 @@ size_flags_vertical = 1
 bbcode_enabled = true
 bbcode_text = "Friends that helped make textures:
 Artos von Nimwegen.
-Jan Verburg
+Jan Verborg
 Antoniëtta Bechger
 
 And the internet!"
@@ -312,7 +311,7 @@ meta_underlined = true
 tab_size = 9
 text = "Friends that helped make textures:
 Artos von Nimwegen.
-Jan Verburg
+Jan Verborg
 Antoniëtta Bechger
 
 And the internet!"
@@ -345,7 +344,7 @@ visible_characters = -1
 percent_visible = 1.0
 meta_underlined = true
 tab_size = 9
-text = "Astum College"
+text = "Astrum College"
 scroll_active = true
 scroll_following = false
 selection_enabled = false
@@ -375,7 +374,7 @@ visible_characters = -1
 percent_visible = 1.0
 meta_underlined = true
 tab_size = 9
-text = "Astum College"
+text = "Berry Clappers"
 scroll_active = true
 scroll_following = false
 selection_enabled = false

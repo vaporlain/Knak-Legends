@@ -7,7 +7,7 @@
 [ext_resource path="res://scenes/spikes.tscn" type="PackedScene" id=5]
 [ext_resource path="res://scenes/outofbound.tscn" type="PackedScene" id=6]
 
-[node name="map2" type="Node2D" index="0"]
+[node name="map2" type="Node2D"]
 
 position = Vector2( 2.27209, 0 )
 __meta__ = {
@@ -16,7 +16,7 @@ __meta__ = {
 
 [node name="player" parent="." index="0" instance=ExtResource( 1 )]
 
-position = Vector2( 319.152, 280.054 )
+position = Vector2( -340.848, 640.054 )
 
 [node name="ParallaxBackground" parent="." index="1" instance=ExtResource( 2 )]
 
