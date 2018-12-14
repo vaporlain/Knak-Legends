@@ -10,8 +10,12 @@ config_version=3
 
 [application]
 
-config/name="Knak Legend"
+config/name="KnakLegend"
 run/main_scene="res://scenes/menu.tscn"
+
+[debug]
+
+settings/stdout/print_fps=true
 
 [display]
 
@@ -30,5 +34,8 @@ attack=[ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":""
 
 [rendering]
 
+quality/intended_usage/framebuffer_allocation=0
 quality/2d/use_pixel_snap=true
+quality/subsurface_scattering/quality=2
 environment/default_environment="res://default_env.tres"
+quality/dynamic_fonts/use_oversampling=true
