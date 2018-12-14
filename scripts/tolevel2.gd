@@ -8,10 +8,7 @@ export(String, FILE, "*.tscn") var worldscene
 func _ready():
 	pass
 
-func _physics_process(delta):
-	var bodies = get_overlapping_bodies()
-	for body in bodies:
-		print(body.name)
-		if body.name == "player":
+func _on_Area2D_body_entered(body):
+	if body.name == "player":
 			get_tree().change_scene(worldscene)
-	pass
+	pass # replace with function body

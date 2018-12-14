@@ -3,11 +3,9 @@ extends KinematicBody2D
 var motion = Vector2()
 var totheleft = true
 const UP = Vector2(0, -1)
-export (int) var max_speed = 200
-export (int) var friction = 0.2
-const ACCELERATION = 50
-export (int) var gravity = 10
-export var patroldistance = 0.5
+var max_speed = 50
+var gravity = 10
+var patroldistance = 2
 var timer
 
 func _ready():
@@ -15,9 +13,10 @@ func _ready():
 	timer = Timer.new()
 	timer.connect("timeout",self, "tick")
 	add_child(timer)
-	timer.wait_time=patroldistance
+	timer.wait_time = patroldistance
 	timer.start()
 	
+	tick()
 	pass
 
 func tick():
@@ -31,7 +30,7 @@ func tick():
 
 func moveleft():
 	if totheleft == true:
-		motion.x = max(motion.x-ACCELERATION, max_speed)
+		motion.x = max_speed
 		$AnimatedSprite.play("run")
 		$AnimatedSprite.flip_h = false
 	else:
@@ -40,15 +39,25 @@ func moveleft():
 
 func moveright():
 	if totheleft == false:
-		motion.x = min(motion.x-ACCELERATION, -max_speed)
+		motion.x = -max_speed
 		$AnimatedSprite.play("run")
 		$AnimatedSprite.flip_h = true
 	else:
 		$AnimatedSprite.play("idle")
 	pass
 
+func bekilled():
+	
+	pass
+
+#The most advanced in-built function
+#Updates every stable physics framerate.
 func _physics_process(delta):
+	#apply gravity, always
 	motion.y += gravity
+	
+	#apply the motion/ movement to the player
+	#UP means platformer style
 	motion = move_and_slide(motion, UP)
 	
 	pass

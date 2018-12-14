@@ -1,7 +1,8 @@
 [gd_scene load_steps=3 format=2]
 
-[ext_resource path="res://moving_platform.gd" type="Script" id=1]
+[ext_resource path="res://scripts/moving_platform.gd" type="Script" id=1]
 [ext_resource path="res://textures/tiles/tiles_001.png" type="Texture" id=2]
+
 
 [node name="moving_platform" type="Node2D"]
 
@@ -21,7 +22,7 @@ collision/safe_margin = 0.08
 texture = ExtResource( 2 )
 region_enabled = true
 region_rect = Rect2( 96, 0, 96, 31 )
-_sections_unfolded = [ "Region" ]
+_sections_unfolded = [ "Animation", "Region", "Transform" ]
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="platform" index="1"]
 

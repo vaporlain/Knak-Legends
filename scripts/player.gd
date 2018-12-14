@@ -1,89 +1,150 @@
 extends KinematicBody2D
+#======================
+#Variable declaration
+#Scope: this script
+#======================
 
-const GRAVITY_VEC = Vector2(0, 900)
-const FLOOR_NORMAL = Vector2(0, -1)
-const SLOPE_SLIDE_STOP = 25.0
-const MIN_ONAIR_TIME = 0.1
-const WALK_SPEED = 250 # pixels/sec
-const JUMP_SPEED = 480
-const SIDING_CHANGE_SPEED = 10
+#easy acces vars
+const SPEED = 300
+const GRAVITY = 20
+const JUMP_H = -500
+const MAXJUMPS = 1
 
-var linear_vel = Vector2()
-var onair_time = 0
-var on_floor = false
+#advanced vars
+var motion = Vector2(0,0)
+const UP = Vector2(0, -1)
+var offsetright = Vector2(25,0)
+var offsetleft = Vector2(-25, 0)
+enum PlayerStates {attacking = 0}
+var dead
+var movingleft
+var movingright
+var excecuted = false
+var timesjumped = 0
+var cankillright = false
+var cankillleft = false
 
-var anim=""
+#SIGNAL
+signal kills
 
-#cache the sprite here for fast access (we will set scale to flip it often)
-onready var sprite = $AnimatedSprite
-
+#Updates every stable physics framerate.5
 func _physics_process(delta):
-	#increment counters
 	
-	onair_time += delta
+	#apply gravity
+	motion.y += GRAVITY
 	
-	### MOVEMENT ###
+	if movingright == true:
+		motion.x = SPEED
 	
-	# Apply Gravity
-	linear_vel += delta * GRAVITY_VEC
-	# Move and Slide
-	linear_vel = move_and_slide(linear_vel, FLOOR_NORMAL, SLOPE_SLIDE_STOP)
-	# Detect Floor
-	if is_on_floor():
-		onair_time = 0
+	if movingleft == true:
+		motion.x = -SPEED
 	
-	on_floor = onair_time < MIN_ONAIR_TIME
+	if dead == false:
+		#apply the motion/ movement to the player
+		#UP means platformer style
+		motion = move_and_slide(motion, UP)
+		
 	
-	### CONTROL ###
+
+func _ready():
+	emit_signal("kills")
+	dead=false
+	movingright = false
+	movingright = false
+
+func _unhandled_input(event):
 	
-	# Horizontal Movement
-	var target_speed = 0
-	if Input.is_action_pressed("ui_left"):
-		target_speed += -1
-	if Input.is_action_pressed("ui_right"):
-		target_speed +=  1
+	if dead == false:
+		
+		if is_on_floor():
+			timesjumped = 0
+		
+		if event.is_action("ui_left") == true:
+			
+			if event.is_action_pressed("ui_left"):
+				movingleft = true
+				motion.x = (SPEED * -1)
+				$AnimatedSprite.offset = offsetleft
+				$AnimatedSprite.flip_h=true
+				$AnimatedSprite.play("run")
+			
+			elif event.is_action_released("ui_left"):
+				movingleft = false
+				motion.x = 0
+				$AnimatedSprite.offset = offsetleft
+				$AnimatedSprite.flip_h=true
+				$AnimatedSprite.play("idle")
+			
+		
+		if event.is_action("ui_right")==true:
+			
+			if event.is_action_pressed("ui_right"):
+				movingright = true
+				$AnimatedSprite.offset = offsetright
+				motion.x = SPEED
+				$AnimatedSprite.flip_h=false
+				$AnimatedSprite.play("run")
+				
+			
+			elif event.is_action_released("ui_right"):
+				movingright = false
+				motion.x = 0
+				$AnimatedSprite.offset = offsetright
+				$AnimatedSprite.flip_h=false
+				$AnimatedSprite.play("idle")
+		
+		if event.is_action("jump"):
+			
+			if movingright == true:
+				motion.x = SPEED
+			
+			if movingleft == true:
+				motion.x = -SPEED
+			
+			if timesjumped <= MAXJUMPS && event.is_action_pressed("jump"):
+				motion.y = JUMP_H
+				timesjumped = timesjumped + 1
+			
+		
+		if event.is_action("attack"):
+			$AnimatedSprite.play("attack")
+			PlayerStates.attacking = 1
+			
+		
 	
-	target_speed *= WALK_SPEED
-	linear_vel.x = lerp(linear_vel.x, target_speed, 0.1)
+
+func _on_player_animation_finished():
 	
-	# Jumping
-	if on_floor and Input.is_action_just_pressed("ui_up"):
-		linear_vel.y = -JUMP_SPEED
-		#$sound_jump.play()
+	if $AnimatedSprite.get_animation() == "attack":
+		$AnimatedSprite.play("idle")
+		PlayerStates.attacking = 0
 	
-	### ANIMATION ###
-	
-	var new_anim = "idle"
-	
-	if on_floor:
-		if linear_vel.x < -SIDING_CHANGE_SPEED:
-			sprite.scale.x = -1
-			new_anim = "run"
-	
-		if linear_vel.x > SIDING_CHANGE_SPEED:
-			sprite.scale.x = 1
-			new_anim = "run"
-	else:
-		# We want the character to immediately change facing side when the player
-		# tries to change direction, during air control.
-		# This allows for example the player to shoot quickly left then right.
-		if Input.is_action_pressed("ui_left") and not Input.is_action_pressed("ui_right"):
-			sprite.scale.x = -1
-		if Input.is_action_pressed("ui_right") and not Input.is_action_pressed("ui_left"):
-			sprite.scale.x = 1
-	
-		if linear_vel.y < 0:
-			new_anim = "jump"
-		else:
-			new_anim= "jump"
-	
-	if new_anim != anim:
-		anim = new_anim
-		$AnimatedSprite.play(anim)
-	
+	if $AnimatedSprite.get_animation() == "die":
+		dead = true
+		#get_tree().change_scene("res://scenes/gameover.tscn")
+		#var thisscene = get_tree().get_current_scene()
+		#get_tree().change_scene(thisscene)
+		#get_tree().set_current_scene(thisscene)
+		get_tree().reload_current_scene()
+
+func _on_right_body_entered(body):
+	if body.name == "EnemyKB":
+#		print("i can kil on my right")
+#			something like enemy.state = dead
+		if PlayerStates.attacking == 1:
+			print("KILLED ON MY RIGHT")
+
+func _on_left_body_entered(body):
+	if body.name == "EnemyKB":
+#		print("i can kil on my left")
+#		something like enemy.state = dead
+		if PlayerStates.attacking == 1:
+			print("KILLED ON MY LEFT")
 
 func _on_hitbox_body_entered(body):
-	print(body.name)
-	if body.name == "EnemyKB":
-		get_tree().change_scene("res://scenes/gameover.tscn")
-	pass # replace with function body
+	if body.name == "EnemyKB" || body.name == "spikes" :
+		dead = true
+		$AnimatedSprite.play("die")
+		$AnimatedSprite.offset = Vector2(0,10)
+		$AnimatedSprite.scale = Vector2(3,3)
+		print("OUCH!")

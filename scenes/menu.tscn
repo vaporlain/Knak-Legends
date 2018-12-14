@@ -1,8 +1,8 @@
 [gd_scene load_steps=4 format=2]
 
 [ext_resource path="res://scripts/tolevel1.gd" type="Script" id=1]
-[ext_resource path="res://scenes/rain.tscn" type="PackedScene" id=2]
-[ext_resource path="res://scenes/ParallaxBackgroundFabric.tscn" type="PackedScene" id=3]
+[ext_resource path="res://textures/backgrounds/village_004_2048x1536.png" type="Texture" id=2]
+[ext_resource path="res://scenes/rain.tscn" type="PackedScene" id=3]
 
 [node name="Node2D" type="Node2D"]
 
@@ -36,22 +36,23 @@ anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 0.0
-margin_left = -8.0
-margin_top = -18.0
-margin_right = 129.0
-margin_bottom = -4.0
+margin_left = -108.0
+margin_top = -108.0
+margin_right = 29.0
+margin_bottom = -94.0
+rect_scale = Vector2( 2.5, 2.5 )
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = false
 mouse_filter = 2
 mouse_default_cursor_shape = 0
 size_flags_horizontal = 1
 size_flags_vertical = 4
-text = "Dystopian RPG MENU"
+text = "Knak Legend"
 align = 1
 percent_visible = 1.0
 lines_skipped = 0
 max_lines_visible = -1
-_sections_unfolded = [ "custom_fonts" ]
+_sections_unfolded = [ "Rect", "custom_fonts" ]
 
 [node name="new game" type="Button" parent="menu" index="1"]
 
@@ -59,9 +60,9 @@ anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 0.0
-margin_left = 12.0
+margin_left = 5.0
 margin_top = 22.0
-margin_right = 104.0
+margin_right = 115.0
 margin_bottom = 42.0
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = false
@@ -74,19 +75,19 @@ toggle_mode = false
 enabled_focus_mode = 2
 shortcut = null
 group = null
-text = "START GAME"
+text = "Start new game"
 flat = false
 align = 1
 
-[node name="load game" type="Button" parent="menu" index="2"]
+[node name="continue" type="Button" parent="menu" index="2"]
 
 anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 0.0
-margin_left = 12.0
+margin_left = 14.0
 margin_top = 62.0
-margin_right = 104.0
+margin_right = 106.0
 margin_bottom = 82.0
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = false
@@ -100,7 +101,7 @@ toggle_mode = false
 enabled_focus_mode = 2
 shortcut = null
 group = null
-text = "LOAD GAME"
+text = "Continue"
 flat = false
 align = 1
 
@@ -110,9 +111,9 @@ anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 0.0
-margin_left = 12.0
+margin_left = 14.0
 margin_top = 102.0
-margin_right = 104.0
+margin_right = 106.0
 margin_bottom = 122.0
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = false
@@ -136,9 +137,9 @@ anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 0.0
-margin_left = 12.0
+margin_left = 14.0
 margin_top = 142.0
-margin_right = 104.0
+margin_right = 106.0
 margin_bottom = 162.0
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = false
@@ -155,11 +156,17 @@ text = "EXIT"
 flat = false
 align = 1
 
-[node name="rain" parent="." index="1" instance=ExtResource( 2 )]
+[node name="village_004_2048x1536" type="Sprite" parent="menu" index="5"]
+
+position = Vector2( 47.9996, 68.4995 )
+scale = Vector2( 0.568359, 0.568359 )
+z_index = -100
+texture = ExtResource( 2 )
+_sections_unfolded = [ "Z Index" ]
+
+[node name="rain" parent="." index="1" instance=ExtResource( 3 )]
 
 Extent = Vector2( 1000, 640 )
-
-[node name="ParallaxBackground" parent="." index="2" instance=ExtResource( 3 )]
 
 [connection signal="button_up" from="menu/new game" to="menu" method="_on_start_button_button_up"]
 
