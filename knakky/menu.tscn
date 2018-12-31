@@ -1,0 +1,226 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://tolevel1.gd" type="Script" id=1]
+[ext_resource path="res://Pixeled.ttf" type="DynamicFontData" id=2]
+[ext_resource path="res://pixeled.tres" type="DynamicFont" id=3]
+[ext_resource path="res://PNGs/village_004_2048x1536.png" type="Texture" id=4]
+
+[sub_resource type="DynamicFont" id=1]
+
+size = 11
+use_mipmaps = true
+use_filter = false
+font_data = ExtResource( 2 )
+_sections_unfolded = [ "Extra Spacing", "Font", "Resource", "Settings" ]
+
+[node name="Node2D" type="Node2D"]
+
+script = ExtResource( 1 )
+_sections_unfolded = [ "Material", "Transform", "Visibility", "Z Index" ]
+
+[node name="menu" type="Control" parent="." index="0"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = -19.0
+margin_top = -1.0
+margin_right = 21.0
+margin_bottom = 39.0
+rect_scale = Vector2( 0.4, 0.4 )
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+_sections_unfolded = [ "Focus", "Hint", "Material", "Mouse", "Rect", "Size Flags", "Theme", "Visibility" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="title" type="Label" parent="menu" index="0"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = -158.0
+margin_top = -227.0
+margin_right = 7.0
+margin_bottom = -172.0
+rect_scale = Vector2( 2.5, 2.5 )
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 2
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 4
+custom_fonts/font = SubResource( 1 )
+text = "Knak Legend"
+align = 1
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+_sections_unfolded = [ "Size Flags", "custom_fonts", "custom_styles" ]
+
+[node name="desc" type="Label" parent="menu" index="1"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = -184.0
+margin_top = -150.0
+margin_right = 279.0
+margin_bottom = 3.00002
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 2
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 4
+custom_fonts/font = ExtResource( 3 )
+text = "This demo was made by:
+Andrés Bechger - Murad Buyükasik
+Build: 0.9
+
+"
+align = 1
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+_sections_unfolded = [ "custom_fonts" ]
+
+[node name="intro" type="Button" parent="menu" index="2"]
+
+modulate = Color( 1, 0.88269, 0.757813, 0.883961 )
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = -52.0
+margin_top = 172.0
+margin_right = 144.0
+margin_bottom = 227.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+focus_mode = 2
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+custom_fonts/font = ExtResource( 3 )
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+group = null
+text = "credits"
+flat = false
+align = 1
+_sections_unfolded = [ "Rect", "Visibility", "custom_colors", "custom_fonts" ]
+
+[node name="skip_intro" type="Button" parent="menu" index="3"]
+
+modulate = Color( 1, 0.88269, 0.757813, 0.883961 )
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = -82.0
+margin_top = 18.0
+margin_right = 179.0
+margin_bottom = 73.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+focus_mode = 2
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+custom_fonts/font = ExtResource( 3 )
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+group = null
+text = "New Game"
+flat = false
+align = 1
+_sections_unfolded = [ "Visibility", "custom_fonts" ]
+
+[node name="highscores" type="Button" parent="menu" index="4"]
+
+modulate = Color( 1, 0.88269, 0.757813, 0.883961 )
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = -82.0
+margin_top = 93.0
+margin_right = 179.0
+margin_bottom = 148.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+focus_mode = 2
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+custom_fonts/font = ExtResource( 3 )
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+group = null
+text = "highscores"
+flat = false
+align = 1
+_sections_unfolded = [ "Visibility", "custom_fonts" ]
+
+[node name="exit" type="Button" parent="menu" index="5"]
+
+modulate = Color( 1, 0.88269, 0.757813, 0.883961 )
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 2.0
+margin_top = 241.0
+margin_right = 94.0
+margin_bottom = 296.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+focus_mode = 2
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+custom_fonts/font = ExtResource( 3 )
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+group = null
+text = "EXIT"
+flat = false
+align = 1
+_sections_unfolded = [ "Material", "Visibility", "custom_fonts" ]
+
+[node name="village_004_2048x1536" type="Sprite" parent="." index="1"]
+
+scale = Vector2( 0.236644, 0.181077 )
+z_index = -100
+texture = ExtResource( 4 )
+_sections_unfolded = [ "Animation", "Offset", "Region", "Transform", "Z Index" ]
+__meta__ = {
+"_edit_lock_": true
+}
+
+[connection signal="button_up" from="menu/intro" to="." method="_on_intro_button_up"]
+
+[connection signal="button_up" from="menu/skip_intro" to="." method="_on_skip_intro_button_up"]
+
+[connection signal="button_up" from="menu/highscores" to="." method="_on_highscores_button_up"]
+
+[connection signal="button_up" from="menu/exit" to="." method="_on_exit_button_up"]
+
+

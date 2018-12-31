@@ -1,0 +1,272 @@
+[gd_scene load_steps=9 format=2]
+
+[ext_resource path="res://dirtTILESET.tres" type="TileSet" id=1]
+[ext_resource path="res://player.tscn" type="PackedScene" id=2]
+[ext_resource path="res://ParallaxBackgroundFabric.tscn" type="PackedScene" id=3]
+[ext_resource path="res://falling_platform.tscn" type="PackedScene" id=4]
+[ext_resource path="res://levelexit.tscn" type="PackedScene" id=5]
+[ext_resource path="res://pixeled_small.tres" type="DynamicFont" id=6]
+[ext_resource path="res://outofbound.tscn" type="PackedScene" id=7]
+[ext_resource path="res://UI_shortcut.tscn" type="PackedScene" id=8]
+
+[node name="map3" type="Node2D"]
+
+_sections_unfolded = [ "Transform" ]
+
+[node name="TileMap" type="TileMap" parent="." index="0"]
+
+position = Vector2( 10, 70 )
+mode = 0
+tile_set = ExtResource( 1 )
+cell_size = Vector2( 32, 32 )
+cell_quadrant_size = 16
+cell_custom_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+cell_half_offset = 2
+cell_tile_origin = 0
+cell_y_sort = false
+cell_clip_uv = false
+collision_use_kinematic = false
+collision_friction = 1.0
+collision_bounce = 0.0
+collision_layer = 1
+collision_mask = 1
+occluder_light_mask = 1
+format = 1
+tile_data = PoolIntArray( 196653, 0, 0, 196654, 1, 0, 196655, 1, 0, 196656, 2, 0, 262189, 7, 0, 262190, 8, 0, 262191, 8, 0, 262192, 6, 0 )
+_sections_unfolded = [ "Cell" ]
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="player" parent="." index="1" instance=ExtResource( 2 )]
+
+position = Vector2( -530.226, -267.383 )
+
+[node name="ParallaxBackground" parent="." index="2" instance=ExtResource( 3 )]
+
+[node name="platforms" type="Node" parent="." index="3"]
+
+[node name="falling_platform" parent="platforms" index="0" instance=ExtResource( 4 )]
+
+position = Vector2( -534.647, -142.827 )
+
+[node name="falling_platform17" parent="platforms" index="1" instance=ExtResource( 4 )]
+
+position = Vector2( -519.842, 169.927 )
+
+[node name="falling_platform14" parent="platforms" index="2" instance=ExtResource( 4 )]
+
+position = Vector2( 485.652, 182.881 )
+
+[node name="falling_platform2" parent="platforms" index="3" instance=ExtResource( 4 )]
+
+position = Vector2( -410.348, 182.881 )
+
+[node name="falling_platform15" parent="platforms" index="4" instance=ExtResource( 4 )]
+
+position = Vector2( 613.652, 182.881 )
+
+[node name="falling_platform3" parent="platforms" index="5" instance=ExtResource( 4 )]
+
+position = Vector2( -282.348, 182.881 )
+
+[node name="falling_platform9" parent="platforms" index="6" instance=ExtResource( 4 )]
+
+position = Vector2( 741.652, 182.881 )
+
+[node name="falling_platform4" parent="platforms" index="7" instance=ExtResource( 4 )]
+
+position = Vector2( -154.348, 182.881 )
+
+[node name="falling_platform16" parent="platforms" index="8" instance=ExtResource( 4 )]
+
+position = Vector2( 869.652, 182.881 )
+
+[node name="falling_platform5" parent="platforms" index="9" instance=ExtResource( 4 )]
+
+position = Vector2( -26.3475, 182.881 )
+
+[node name="falling_platform10" parent="platforms" index="10" instance=ExtResource( 4 )]
+
+position = Vector2( 997.652, 182.881 )
+
+[node name="falling_platform6" parent="platforms" index="11" instance=ExtResource( 4 )]
+
+position = Vector2( 101.652, 182.881 )
+
+[node name="falling_platform11" parent="platforms" index="12" instance=ExtResource( 4 )]
+
+position = Vector2( 1125.65, 182.881 )
+
+[node name="falling_platform7" parent="platforms" index="13" instance=ExtResource( 4 )]
+
+position = Vector2( 229.652, 182.881 )
+
+[node name="falling_platform12" parent="platforms" index="14" instance=ExtResource( 4 )]
+
+position = Vector2( 1253.65, 182.881 )
+
+[node name="falling_platform8" parent="platforms" index="15" instance=ExtResource( 4 )]
+
+position = Vector2( 357.652, 182.881 )
+
+[node name="falling_platform13" parent="platforms" index="16" instance=ExtResource( 4 )]
+
+position = Vector2( 1381.65, 182.881 )
+
+[node name="levelexit" parent="." index="4" instance=ExtResource( 5 )]
+
+position = Vector2( 1568.22, 126 )
+worldscene = "res://map5.tscn"
+
+[node name="Label" type="Label" parent="." index="5"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = -451.0
+margin_top = 33.0
+margin_right = -251.0
+margin_bottom = 51.0
+rect_scale = Vector2( 3, 3 )
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 2
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 4
+custom_fonts/font = ExtResource( 6 )
+text = "RUN!"
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+_sections_unfolded = [ "Rect", "custom_fonts", "custom_styles" ]
+
+[node name="Label6" type="Label" parent="." index="6"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = -634.0
+margin_top = -356.0
+margin_right = -434.0
+margin_bottom = -338.0
+rect_scale = Vector2( 3, 3 )
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 2
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 4
+custom_fonts/font = ExtResource( 6 )
+text = "Level 4: falling"
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+_sections_unfolded = [ "Rect", "custom_fonts", "custom_styles" ]
+
+[node name="Label2" type="Label" parent="." index="7"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = -63.0
+margin_top = 270.0
+margin_right = 137.0
+margin_bottom = 288.0
+rect_scale = Vector2( 3, 3 )
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 2
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 4
+custom_fonts/font = ExtResource( 6 )
+text = "RUN!"
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+_sections_unfolded = [ "Rect", "custom_fonts", "custom_styles" ]
+
+[node name="Label3" type="Label" parent="." index="8"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 355.0
+margin_top = 16.0
+margin_right = 555.0
+margin_bottom = 34.0
+rect_scale = Vector2( 3, 3 )
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 2
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 4
+custom_fonts/font = ExtResource( 6 )
+text = "RUN!"
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+_sections_unfolded = [ "Rect", "custom_fonts", "custom_styles" ]
+
+[node name="Label4" type="Label" parent="." index="9"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 720.0
+margin_top = 243.0
+margin_right = 920.0
+margin_bottom = 261.0
+rect_scale = Vector2( 3, 3 )
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 2
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 4
+custom_fonts/font = ExtResource( 6 )
+text = "RUN!"
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+_sections_unfolded = [ "Rect", "custom_fonts", "custom_styles" ]
+
+[node name="Label5" type="Label" parent="." index="10"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 1025.0
+margin_top = 26.0
+margin_right = 1225.0
+margin_bottom = 44.0
+rect_scale = Vector2( 3, 3 )
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 2
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 4
+custom_fonts/font = ExtResource( 6 )
+text = "RUN!"
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+_sections_unfolded = [ "Rect", "custom_fonts", "custom_styles" ]
+
+[node name="spikes" parent="." index="11" instance=ExtResource( 7 )]
+
+position = Vector2( 10.2743, 486.319 )
+
+[node name="UI" parent="." index="12" instance=ExtResource( 8 )]
+
+

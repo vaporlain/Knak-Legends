@@ -1,0 +1,33 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://ingameui.tscn" type="PackedScene" id=1]
+
+[node name="UI" type="ParallaxBackground"]
+
+layer = 12
+offset = Vector2( 0, 0 )
+rotation = 0.0
+scale = Vector2( 1, 1 )
+transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+scroll_offset = Vector2( 0, 0 )
+scroll_base_offset = Vector2( 0, 0 )
+scroll_base_scale = Vector2( 1, 1 )
+scroll_limit_begin = Vector2( 0, 0 )
+scroll_limit_end = Vector2( 0, 0 )
+scroll_ignore_camera_zoom = false
+_sections_unfolded = [ "Scroll" ]
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." index="0"]
+
+layer = 13
+offset = Vector2( 0, 0 )
+rotation = 0.0
+scale = Vector2( 1, 1 )
+transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+
+[node name="UI" parent="CanvasLayer" index="0" instance=ExtResource( 1 )]
+
+margin_bottom = 141.0
+_sections_unfolded = [ "Anchor", "Focus", "Grow Direction", "Hint", "Margin", "Material", "Mouse", "Pause", "Rect", "Size Flags", "Theme", "Visibility" ]
+
+
