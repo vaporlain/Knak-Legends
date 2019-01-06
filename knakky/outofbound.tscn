@@ -5,7 +5,7 @@
 custom_solver_bias = 0.0
 extents = Vector2( 6020.27, 28.6272 )
 
-[node name="EnemyKB" type="KinematicBody2D"]
+[node name="spikes" type="KinematicBody2D"]
 
 input_pickable = false
 collision_layer = 1

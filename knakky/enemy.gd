@@ -10,6 +10,15 @@ var timer
 
 func _ready():
 	
+	#random number from 1 to 2
+	var randir = randi()%3+1
+	print(randir)
+	
+	if randir == 1:
+		totheleft = true
+	else:
+		totheleft = false
+	
 	timer = Timer.new()
 	timer.connect("timeout",self, "tick")
 	add_child(timer)
@@ -47,7 +56,7 @@ func moveright():
 	pass
 
 func bekilled():
-	
+	self.free()
 	pass
 
 #The most advanced in-built function
