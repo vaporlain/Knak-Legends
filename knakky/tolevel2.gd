@@ -11,8 +11,8 @@ func _on_Area2D_body_entered(body):
 	if body.name == "player":
 			get_tree().change_scene(worldscene)
 			save_game() #Eerst veranderen van scene en dan niet bestaande functie aanroepen???
-
-#functie alleen voor het aanmaken van een variabele???
+			
+# functie voor maken van dictionary
 func save():
 	# create dictionary for json
 	var save_dict = {

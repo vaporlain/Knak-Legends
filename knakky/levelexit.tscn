@@ -4,13 +4,14 @@
 [ext_resource path="res://PNGs/icon.png" type="Texture" id=2]
 [ext_resource path="res://pixeled_small.tres" type="DynamicFont" id=3]
 
-
 [sub_resource type="RectangleShape2D" id=1]
 
 custom_solver_bias = 0.0
 extents = Vector2( 13.4809, 15.3362 )
 
-[node name="levelexit" type="Node2D"]
+[node name="levelexit" type="Node2D" index="0" groups=[
+"Persistent",
+]]
 
 script = ExtResource( 1 )
 worldscene = null
