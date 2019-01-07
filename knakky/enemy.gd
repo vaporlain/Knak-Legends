@@ -3,9 +3,9 @@ extends KinematicBody2D
 var motion = Vector2()
 var totheleft = true
 const UP = Vector2(0, -1)
-var max_speed = 50
+export var max_speed = 50
 var gravity = 10
-var patroldistance = 2
+export var patroldistance = 2
 var timer
 
 func _ready():

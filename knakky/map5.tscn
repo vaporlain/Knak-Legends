@@ -1,4 +1,4 @@
-[gd_scene load_steps=9 format=2]
+[gd_scene load_steps=10 format=2]
 
 [ext_resource path="res://leveloverseer.gd" type="Script" id=1]
 [ext_resource path="res://player.tscn" type="PackedScene" id=2]
@@ -6,8 +6,9 @@
 [ext_resource path="res://dirtTILESET.tres" type="TileSet" id=4]
 [ext_resource path="res://levelexit.tscn" type="PackedScene" id=5]
 [ext_resource path="res://pixeled_small.tres" type="DynamicFont" id=6]
-[ext_resource path="res://UI_shortcut.tscn" type="PackedScene" id=7]
+[ext_resource path="res://UI.tscn" type="PackedScene" id=7]
 [ext_resource path="res://enemy.tscn" type="PackedScene" id=8]
+[ext_resource path="res://coinNEW.tscn" type="PackedScene" id=9]
 
 [node name="map3" type="Node2D"]
 
@@ -106,54 +107,163 @@ _sections_unfolded = [ "custom_colors" ]
 [node name="enemy_kb" parent="." index="7" instance=ExtResource( 8 )]
 
 position = Vector2( 160, 663 )
+max_speed = 50
+patroldistance = 2
 
 [node name="enemy_kb22" parent="." index="8" instance=ExtResource( 8 )]
 
 position = Vector2( 290, 493 )
+max_speed = 50
+patroldistance = 2
 
 [node name="enemy_kb24" parent="." index="9" instance=ExtResource( 8 )]
 
 position = Vector2( 1150, 523 )
+max_speed = 50
+patroldistance = 2
 
 [node name="enemy_kb20" parent="." index="10" instance=ExtResource( 8 )]
 
 position = Vector2( 710, 423 )
+max_speed = 50
+patroldistance = 2
 
 [node name="enemy_kb23" parent="." index="11" instance=ExtResource( 8 )]
 
 position = Vector2( 1240, 203 )
+max_speed = 50
+patroldistance = 2
 
 [node name="enemy_kb4" parent="." index="12" instance=ExtResource( 8 )]
 
 position = Vector2( 330, 663 )
+max_speed = 50
+patroldistance = 2
 
 [node name="enemy_kb6" parent="." index="13" instance=ExtResource( 8 )]
 
 position = Vector2( 520, 663 )
+max_speed = 50
+patroldistance = 2
 
 [node name="enemy_kb8" parent="." index="14" instance=ExtResource( 8 )]
 
 position = Vector2( 680, 663 )
+max_speed = 50
+patroldistance = 2
 
 [node name="enemy_kb10" parent="." index="15" instance=ExtResource( 8 )]
 
 position = Vector2( 810, 663 )
+max_speed = 50
+patroldistance = 2
 
 [node name="enemy_kb12" parent="." index="16" instance=ExtResource( 8 )]
 
 position = Vector2( 960, 663 )
+max_speed = 50
+patroldistance = 2
 
 [node name="enemy_kb14" parent="." index="17" instance=ExtResource( 8 )]
 
 position = Vector2( 1120, 663 )
+max_speed = 50
+patroldistance = 2
 
 [node name="enemy_kb16" parent="." index="18" instance=ExtResource( 8 )]
 
 position = Vector2( 1260, 663 )
+max_speed = 50
+patroldistance = 2
 
 [node name="enemy_kb17" parent="." index="19" instance=ExtResource( 8 )]
 
 position = Vector2( 1410, 663 )
+max_speed = 50
+patroldistance = 2
+
+[node name="coin" parent="." index="20" instance=ExtResource( 9 )]
+
+position = Vector2( 247.588, 665.223 )
+
+[node name="coin2" parent="." index="21" instance=ExtResource( 9 )]
+
+position = Vector2( 432.599, 666.583 )
+
+[node name="coin3" parent="." index="22" instance=ExtResource( 9 )]
+
+position = Vector2( 432.599, 666.583 )
+rotation = 1.93908
+
+[node name="coin4" parent="." index="23" instance=ExtResource( 9 )]
+
+position = Vector2( 605.366, 672.025 )
+rotation = 0.399396
+
+[node name="coin5" parent="." index="24" instance=ExtResource( 9 )]
+
+position = Vector2( 748.206, 670.664 )
+rotation = -0.901968
+
+[node name="coin6" parent="." index="25" instance=ExtResource( 9 )]
+
+position = Vector2( 876.081, 665.223 )
+rotation = -0.901968
+
+[node name="coin7" parent="." index="26" instance=ExtResource( 9 )]
+
+position = Vector2( 1050.21, 667.944 )
+rotation = -0.328635
+
+[node name="coin8" parent="." index="27" instance=ExtResource( 9 )]
+
+position = Vector2( 1195.77, 670.664 )
+rotation = 0.133787
+
+[node name="coin9" parent="." index="28" instance=ExtResource( 9 )]
+
+position = Vector2( 1331.81, 659.781 )
+rotation = 0.133787
+
+[node name="coin10" parent="." index="29" instance=ExtResource( 9 )]
+
+position = Vector2( 1331.81, 659.781 )
+rotation = 0.133787
+
+[node name="coin11" parent="." index="30" instance=ExtResource( 9 )]
+
+position = Vector2( 1722.23, 657.061 )
+rotation = -0.143015
+
+[node name="coin12" parent="." index="31" instance=ExtResource( 9 )]
+
+position = Vector2( 1705.91, 658.421 )
+rotation = 1.12991
+
+[node name="coin13" parent="." index="32" instance=ExtResource( 9 )]
+
+position = Vector2( 1716.79, 646.178 )
+rotation = -1.25763
+
+[node name="coin14" parent="." index="33" instance=ExtResource( 9 )]
+
+position = Vector2( 948.181, 439.401 )
+rotation = -1.25763
+
+[node name="coin15" parent="." index="34" instance=ExtResource( 9 )]
+
+position = Vector2( 657.061, 397.229 )
+rotation = -1.25763
+
+[node name="coin16" parent="." index="35" instance=ExtResource( 9 )]
+
+position = Vector2( 448.923, 250.309 )
+rotation = -1.25763
+
+[node name="coin17" parent="." index="36" instance=ExtResource( 9 )]
+
+position = Vector2( 250.309, 512.861 )
+rotation = -1.25763
 
 [connection signal="hits" from="player" to="." method="_on_player_hits"]
 

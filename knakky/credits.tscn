@@ -6,7 +6,9 @@
 [ext_resource path="res://levelexit.tscn" type="PackedScene" id=4]
 [ext_resource path="res://pixeled_small.tres" type="DynamicFont" id=5]
 [ext_resource path="res://outofbound.tscn" type="PackedScene" id=6]
-[ext_resource path="res://UI_shortcut.tscn" type="PackedScene" id=7]
+[ext_resource path="res://UI.tscn" type="PackedScene" id=7]
+
+
 
 [node name="map1" type="Node2D"]
 

@@ -1,0 +1,115 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://pixeled_small.tres" type="DynamicFont" id=1]
+[ext_resource path="res://gametime.gd" type="Script" id=2]
+
+[node name="ParallaxLayer" type="ParallaxBackground" index="0"]
+
+layer = 12
+offset = Vector2( 0, 0 )
+rotation = 0.0
+scale = Vector2( 1, 1 )
+transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+scroll_offset = Vector2( 0, 0 )
+scroll_base_offset = Vector2( 0, 0 )
+scroll_base_scale = Vector2( 1, 1 )
+scroll_limit_begin = Vector2( 0, 0 )
+scroll_limit_end = Vector2( 0, 0 )
+scroll_ignore_camera_zoom = false
+_sections_unfolded = [ "Scroll" ]
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." index="0"]
+
+layer = 13
+offset = Vector2( 0, 0 )
+rotation = 0.0
+scale = Vector2( 1, 1 )
+transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+
+[node name="UI" type="Control" parent="CanvasLayer" index="0"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 0.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Container" type="Container" parent="CanvasLayer/UI" index="0"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 0.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="score" type="Label" parent="CanvasLayer/UI/Container" index="0"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_right = 140.0
+margin_bottom = 18.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 2
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 4
+custom_fonts/font = ExtResource( 1 )
+text = "Current Score: 10000"
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+script = ExtResource( 2 )
+_sections_unfolded = [ "Anchor", "Margin", "custom_fonts" ]
+
+[node name="Timer" type="Timer" parent="CanvasLayer/UI/Container/score" index="0"]
+
+process_mode = 1
+wait_time = 1.0
+one_shot = false
+autostart = false
+
+[node name="version" type="Label" parent="CanvasLayer/UI/Container" index="1"]
+
+modulate = Color( 1, 1, 1, 0.552471 )
+anchor_left = 1.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 0.0
+margin_left = -38.0
+margin_right = 29.0
+margin_bottom = 18.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 2
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 4
+custom_fonts/font = ExtResource( 1 )
+text = "v0.975"
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+_sections_unfolded = [ "Theme", "Visibility", "custom_colors", "custom_constants", "custom_fonts" ]
+
+[connection signal="timeout" from="CanvasLayer/UI/Container/score/Timer" to="CanvasLayer/UI/Container/score" method="_on_Timer_timeout"]
+
+

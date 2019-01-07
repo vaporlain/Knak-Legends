@@ -152,9 +152,12 @@ func _on_left_body_entered(body):
 		enemyspotted_left = true
 		colliding_body = body.name
 
-
-
 func _on_hitbox_body_entered(body):
+	if "coin" in body.name:
+		colliding_body = body.name
+		print("player sees coin")
+		emit_signal("hits", colliding_body)
+	
 	if "enemy" in body.name || "spikes" in body.name :
 		dead = true
 		$AnimatedSprite.play("die")
