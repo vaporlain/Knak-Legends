@@ -1,0 +1,40 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://textures/icon.png" type="Texture" id=1]
+
+[sub_resource type="RectangleShape2D" id=1]
+
+custom_solver_bias = 0.0
+extents = Vector2( 32.0907, 32.1529 )
+
+[node name="wall" type="Node2D"]
+
+position = Vector2( 545.298, 268.105 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="wall" type="StaticBody2D" parent="." index="0"]
+
+position = Vector2( 3.7442, 0.260193 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="Sprite" type="Sprite" parent="wall" index="0"]
+
+modulate = Color( 0.6875, 0, 0, 1 )
+texture = ExtResource( 1 )
+_sections_unfolded = [ "Visibility" ]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="wall" index="1"]
+
+position = Vector2( 0, 0.0740852 )
+scale = Vector2( 1, 1.00212 )
+shape = SubResource( 1 )
+
+

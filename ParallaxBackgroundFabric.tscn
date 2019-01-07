@@ -1,8 +1,9 @@
 [gd_scene load_steps=4 format=2]
 
-[ext_resource path="res://skill-desc_0003_bg.png" type="Texture" id=1]
-[ext_resource path="res://skill-desc_0002_far-buildings.png" type="Texture" id=2]
-[ext_resource path="res://skill-desc_0000_foreground.png" type="Texture" id=3]
+[ext_resource path="res://PNGs/skill-desc_0003_bg.png" type="Texture" id=1]
+[ext_resource path="res://PNGs/skill-desc_0002_far-buildings.png" type="Texture" id=2]
+[ext_resource path="res://PNGs/skill-desc_0000_foreground.png" type="Texture" id=3]
+
 
 
 [node name="ParallaxBackground" type="ParallaxBackground"]

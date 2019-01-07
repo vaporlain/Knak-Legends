@@ -1,8 +1,7 @@
 [gd_scene load_steps=5 format=2]
 
 [ext_resource path="res://spikes.gd" type="Script" id=1]
-[ext_resource path="res://traps.png" type="Texture" id=2]
-
+[ext_resource path="res://PNGs/traps.png" type="Texture" id=2]
 
 
 [sub_resource type="RectangleShape2D" id=1]
@@ -17,7 +16,9 @@ extents = Vector2( 12.8702, 5.53837 )
 
 [node name="Node2D" type="Node2D" index="0"]
 
-[node name="EnemyKB" type="Area2D" parent="." index="0"]
+[node name="enemy_kb" type="Area2D" parent="." index="0" groups=[
+"enemies",
+]]
 
 input_pickable = true
 gravity_vec = Vector2( 0, 1 )
@@ -27,19 +28,22 @@ angular_damp = 1.0
 audio_bus_override = false
 audio_bus_name = "Master"
 script = ExtResource( 1 )
+_sections_unfolded = [ "Material", "Visibility" ]
 
-[node name="Sprite" type="Sprite" parent="EnemyKB" index="0"]
+[node name="Sprite" type="Sprite" parent="enemy_kb" index="0"]
 
 texture = ExtResource( 2 )
 region_enabled = true
 region_rect = Rect2( 1, 14, 30, 18 )
 _sections_unfolded = [ "Region" ]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="EnemyKB" index="1"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="enemy_kb" index="1"]
 
 shape = SubResource( 1 )
 
-[node name="spikes" type="StaticBody2D" parent="." index="1"]
+[node name="enemy_spikes" type="StaticBody2D" parent="." index="1" groups=[
+"enemies",
+]]
 
 input_pickable = false
 collision_layer = 1
@@ -50,13 +54,13 @@ friction = 1.0
 bounce = 0.0
 _sections_unfolded = [ "Collision" ]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="spikes" index="0"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="enemy_spikes" index="0"]
 
 rotation = 6.28319
 shape = SubResource( 2 )
 one_way_collision = true
 _sections_unfolded = [ "Transform" ]
 
-[connection signal="body_entered" from="EnemyKB" to="EnemyKB" method="_on_body_entered"]
+[connection signal="body_entered" from="enemy_kb" to="enemy_kb" method="_on_body_entered"]
 
 

@@ -9,7 +9,7 @@ export var fallTime = 1
 var alpha = 1
 
 func _ready():
-	# create timers
+	
 	timer = Timer.new()
 	timer.connect("timeout", self, "start")
 	timer.wait_time = sleepTime
@@ -35,7 +35,7 @@ func _on_hitbox_body_entered(body):
 		timer.start()
 
 func start():
-	print("start")
+	#print("start")
 	timer.stop()
 	counter.start()
 	$PlatformCol.disabled = true
@@ -43,7 +43,7 @@ func start():
 	motion.y = 200
 	
 func stop():
-	print("stop")
+	#print("stop")
 	alpha = 1
 	modulate = Color(1,1,1,alpha)
 	$PlatformCol.disabled = false

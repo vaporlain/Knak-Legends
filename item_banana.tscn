@@ -1,0 +1,73 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://banana.png" type="Texture" id=1]
+
+[sub_resource type="CircleShape2D" id=3]
+
+custom_solver_bias = 0.0
+radius = 1.65425
+
+[sub_resource type="CircleShape2D" id=2]
+
+custom_solver_bias = 0.0
+radius = 2.55643
+
+[node name="item_banana" type="Node2D"]
+
+_sections_unfolded = [ "Transform" ]
+
+[node name="RigidBody2D" type="RigidBody2D" parent="." index="0"]
+
+input_pickable = false
+collision_layer = 2
+collision_mask = 2
+mode = 0
+mass = 1.0
+friction = 1.0
+bounce = 0.0
+gravity_scale = 1.0
+custom_integrator = false
+continuous_cd = 0
+contacts_reported = 0
+contact_monitor = false
+sleeping = false
+can_sleep = true
+linear_velocity = Vector2( 0, 0 )
+linear_damp = -1.0
+angular_velocity = 0.0
+angular_damp = -1.0
+_sections_unfolded = [ "Collision", "Transform", "Visibility" ]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="RigidBody2D" index="0"]
+
+position = Vector2( 0.305138, 2.51666 )
+rotation = 1.05418
+scale = Vector2( 7.54972, 10.2421 )
+shape = SubResource( 3 )
+_sections_unfolded = [ "Transform", "Visibility", "Z Index" ]
+
+[node name="banana" type="Sprite" parent="RigidBody2D" index="1"]
+
+texture = ExtResource( 1 )
+_sections_unfolded = [ "Offset", "Visibility" ]
+
+[node name="Area2D" type="Area2D" parent="RigidBody2D/banana" index="0"]
+
+position = Vector2( 90.0638, 45.7424 )
+scale = Vector2( 2.60258, 2.60258 )
+input_pickable = true
+gravity_vec = Vector2( 0, 1 )
+gravity = 98.0
+linear_damp = 0.1
+angular_damp = 1.0
+audio_bus_override = false
+audio_bus_name = "Master"
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="RigidBody2D/banana/Area2D" index="0"]
+
+position = Vector2( -34.2389, -17.5148 )
+scale = Vector2( 4.13263, 4.24936 )
+shape = SubResource( 2 )
+disabled = true
+
+

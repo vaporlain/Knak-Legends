@@ -2,20 +2,17 @@ extends Node2D
 
 #next level script!
 #foreach level the name of the next one is different
-
 export(String, FILE, "*.tscn") var worldscene
 
 # save to this location
 const SAVE_PATH = "user://save.json"
 
-func _ready():
-	pass
-
 func _on_Area2D_body_entered(body):
 	if body.name == "player":
-		get_tree().change_scene(worldscene)
-		save_game()
-		
+			get_tree().change_scene(worldscene)
+			save_game() #Eerst veranderen van scene en dan niet bestaande functie aanroepen???
+			
+# functie voor maken van dictionary
 func save():
 	# create dictionary for json
 	var save_dict = {

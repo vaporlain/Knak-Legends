@@ -1,4 +1,4 @@
-extends KinematicBody2D
+extends Node2D
 #======================
 #Variable declaration
 #Scope: this script
@@ -15,7 +15,7 @@ var motion = Vector2(0,0)
 const UP = Vector2(0, -1)
 var offsetright = Vector2(25,0)
 var offsetleft = Vector2(-25, 0)
-enum PlayerStates {attacking = 0}
+var attacking
 var dead
 var movingleft
 var movingright
@@ -23,9 +23,13 @@ var excecuted = false
 var timesjumped = 0
 var cankillright = false
 var cankillleft = false
+var enemyspotted_right = false
+var enemyspotted_left = false
+var colliding_body = null
 
 #SIGNAL
-signal kills
+signal hits(bodyname)
+signal gets_hit()
 
 #Updates every stable physics framerate.5
 func _physics_process(delta):
@@ -43,18 +47,30 @@ func _physics_process(delta):
 		#apply the motion/ movement to the player
 		#UP means platformer style
 		motion = move_and_slide(motion, UP)
+	
+	if enemyspotted_right == true && attacking == true:
+		#print("SIGNAL SENDT FROM PLAYER")
+		emit_signal("hits", colliding_body)
+		attacking = false
+		enemyspotted_left = false
 		
+	if enemyspotted_left == true && attacking == true:
+		#print("SIGNAL SENDT FROM PLAYER")
+		emit_signal("hits", colliding_body)
+		attacking = false
+		enemyspotted_left = false
 	
 
 func _ready():
-	emit_signal("kills")
 	dead=false
 	movingright = false
-	movingright = false
+	attacking = false
 
 func _unhandled_input(event):
 	
 	if dead == false:
+		
+		#attacking = false
 		
 		if is_on_floor():
 			timesjumped = 0
@@ -108,16 +124,14 @@ func _unhandled_input(event):
 		
 		if event.is_action("attack"):
 			$AnimatedSprite.play("attack")
-			PlayerStates.attacking = 1
-			
-		
-	
+			attacking = true
+
 
 func _on_player_animation_finished():
 	
 	if $AnimatedSprite.get_animation() == "attack":
+		attacking = false
 		$AnimatedSprite.play("idle")
-		PlayerStates.attacking = 0
 	
 	if $AnimatedSprite.get_animation() == "die":
 		dead = true
@@ -128,23 +142,31 @@ func _on_player_animation_finished():
 		get_tree().reload_current_scene()
 
 func _on_right_body_entered(body):
-	if body.name == "EnemyKB":
-#		print("i can kil on my right")
-#			something like enemy.state = dead
-		if PlayerStates.attacking == 1:
-			print("KILLED ON MY RIGHT")
+	if "enemy" in body.name:
+		enemyspotted_right=true
+		colliding_body = body.name
+
 
 func _on_left_body_entered(body):
-	if body.name == "EnemyKB":
-#		print("i can kil on my left")
-#		something like enemy.state = dead
-		if PlayerStates.attacking == 1:
-			print("KILLED ON MY LEFT")
+	if "enemy" in body.name:
+		enemyspotted_left = true
+		colliding_body = body.name
+
+
 
 func _on_hitbox_body_entered(body):
-	if body.name == "EnemyKB" || body.name == "spikes" :
+	if "enemy" in body.name || "spikes" in body.name :
 		dead = true
 		$AnimatedSprite.play("die")
 		$AnimatedSprite.offset = Vector2(0,10)
 		$AnimatedSprite.scale = Vector2(3,3)
 		print("OUCH!")
+
+
+func _on_right_body_exited(body):
+	if "enemy" in body.name || "spikes" in body.name :
+		enemyspotted_right = false
+
+func _on_left_body_exited(body):
+	if "enemy" in body.name || "spikes" in body.name :
+		enemyspotted_left = false
