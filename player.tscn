@@ -1,4 +1,4 @@
-[gd_scene load_steps=57 format=2]
+[gd_scene load_steps=51 format=2]
 
 [ext_resource path="res://player.gd" type="Script" id=1]
 [ext_resource path="res://PNGs/knightIDLEright/knightIDLEright (1).png" type="Texture" id=2]
@@ -26,31 +26,26 @@
 [ext_resource path="res://PNGs/knightWALKright/knightWALKright (10).png" type="Texture" id=24]
 [ext_resource path="res://PNGs/knightWALKright/knightWALKright (11).png" type="Texture" id=25]
 [ext_resource path="res://PNGs/knightWALKright/knightWALKright (12).png" type="Texture" id=26]
-[ext_resource path="res://PNGs/knightATTACKright/knightATTACKright (5).png" type="Texture" id=27]
-[ext_resource path="res://PNGs/knightATTACKright/knightATTACKright (6).png" type="Texture" id=28]
-[ext_resource path="res://PNGs/knightATTACKright/knightATTACKright (7).png" type="Texture" id=29]
-[ext_resource path="res://PNGs/knightATTACKright/knightATTACKright (8).png" type="Texture" id=30]
-[ext_resource path="res://PNGs/knightATTACKright/knightATTACKright (9).png" type="Texture" id=31]
-[ext_resource path="res://PNGs/knightATTACKright/knightATTACKright (10).png" type="Texture" id=32]
-[ext_resource path="res://PNGs/knightATTACKright/knightATTACKright (11).png" type="Texture" id=33]
-[ext_resource path="res://PNGs/knightATTACKright/knightATTACKright (12).png" type="Texture" id=34]
-[ext_resource path="res://PNGs/knightATTACKright/knightATTACKright (13).png" type="Texture" id=35]
-[ext_resource path="res://PNGs/knightATTACKright/knightATTACKright (14).png" type="Texture" id=36]
-[ext_resource path="res://PNGs/explosionV001effect/explosionV001effect000.png" type="Texture" id=37]
-[ext_resource path="res://PNGs/explosionV001effect/explosionV001effect001.png" type="Texture" id=38]
-[ext_resource path="res://PNGs/explosionV001effect/explosionV001effect002.png" type="Texture" id=39]
-[ext_resource path="res://PNGs/explosionV001effect/explosionV001effect003.png" type="Texture" id=40]
-[ext_resource path="res://PNGs/explosionV001effect/explosionV001effect004.png" type="Texture" id=41]
-[ext_resource path="res://PNGs/explosionV001effect/explosionV001effect005.png" type="Texture" id=42]
-[ext_resource path="res://PNGs/explosionV001effect/explosionV001effect006.png" type="Texture" id=43]
-[ext_resource path="res://PNGs/explosionV001effect/explosionV001effect007.png" type="Texture" id=44]
-[ext_resource path="res://PNGs/explosionV001effect/explosionV001effect008.png" type="Texture" id=45]
-[ext_resource path="res://PNGs/explosionV001effect/explosionV001effect009.png" type="Texture" id=46]
-[ext_resource path="res://PNGs/bloodsplatterV002effect/bloodsplatterV002effect000.png" type="Texture" id=47]
-[ext_resource path="res://PNGs/bloodsplatterV002effect/bloodsplatterV002effect001.png" type="Texture" id=48]
-[ext_resource path="res://PNGs/bloodsplatterV002effect/bloodsplatterV002effect002.png" type="Texture" id=49]
-[ext_resource path="res://PNGs/bloodsplatterV002effect/bloodsplatterV002effect003.png" type="Texture" id=50]
-[ext_resource path="res://PNGs/bloodsplatterV002effect/bloodsplatterV002effect004.png" type="Texture" id=51]
+[ext_resource path="res://PNGs/explosionV001effect/explosionV001effect000.png" type="Texture" id=27]
+[ext_resource path="res://PNGs/explosionV001effect/explosionV001effect001.png" type="Texture" id=28]
+[ext_resource path="res://PNGs/explosionV001effect/explosionV001effect002.png" type="Texture" id=29]
+[ext_resource path="res://PNGs/explosionV001effect/explosionV001effect003.png" type="Texture" id=30]
+[ext_resource path="res://PNGs/explosionV001effect/explosionV001effect004.png" type="Texture" id=31]
+[ext_resource path="res://PNGs/explosionV001effect/explosionV001effect005.png" type="Texture" id=32]
+[ext_resource path="res://PNGs/explosionV001effect/explosionV001effect006.png" type="Texture" id=33]
+[ext_resource path="res://PNGs/explosionV001effect/explosionV001effect007.png" type="Texture" id=34]
+[ext_resource path="res://PNGs/explosionV001effect/explosionV001effect008.png" type="Texture" id=35]
+[ext_resource path="res://PNGs/explosionV001effect/explosionV001effect009.png" type="Texture" id=36]
+[ext_resource path="res://PNGs/knightATTACKright/knightATTACKright (5).png" type="Texture" id=37]
+[ext_resource path="res://PNGs/knightATTACKright/knightATTACKright (6).png" type="Texture" id=38]
+[ext_resource path="res://PNGs/knightATTACKright/knightATTACKright (7).png" type="Texture" id=39]
+[ext_resource path="res://PNGs/knightATTACKright/knightATTACKright (8).png" type="Texture" id=40]
+[ext_resource path="res://PNGs/knightATTACKright/knightATTACKright (9).png" type="Texture" id=41]
+[ext_resource path="res://PNGs/knightATTACKright/knightATTACKright (10).png" type="Texture" id=42]
+[ext_resource path="res://PNGs/knightATTACKright/knightATTACKright (11).png" type="Texture" id=43]
+[ext_resource path="res://PNGs/knightATTACKright/knightATTACKright (12).png" type="Texture" id=44]
+[ext_resource path="res://PNGs/knightATTACKright/knightATTACKright (13).png" type="Texture" id=45]
+[ext_resource path="res://PNGs/knightATTACKright/knightATTACKright (14).png" type="Texture" id=46]
 
 [sub_resource type="SpriteFrames" id=1]
 
@@ -72,13 +67,13 @@ animations = [ {
 }, {
 "frames": [ ExtResource( 27 ), ExtResource( 28 ), ExtResource( 29 ), ExtResource( 30 ), ExtResource( 31 ), ExtResource( 32 ), ExtResource( 33 ), ExtResource( 34 ), ExtResource( 35 ), ExtResource( 36 ) ],
 "loop": true,
-"name": "attack",
-"speed": 27.0
+"name": "die",
+"speed": 25.0
 }, {
 "frames": [ ExtResource( 37 ), ExtResource( 38 ), ExtResource( 39 ), ExtResource( 40 ), ExtResource( 41 ), ExtResource( 42 ), ExtResource( 43 ), ExtResource( 44 ), ExtResource( 45 ), ExtResource( 46 ) ],
 "loop": true,
-"name": "die",
-"speed": 25.0
+"name": "attack",
+"speed": 27.0
 } ]
 _sections_unfolded = [ "Resource" ]
 
@@ -92,20 +87,6 @@ extents = Vector2( 18.3563, 25.0805 )
 custom_solver_bias = 0.0
 extents = Vector2( 49.0535, 20.6206 )
 
-[sub_resource type="SpriteFrames" id=4]
-
-animations = [ {
-"frames": [  ],
-"loop": true,
-"name": "empty",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 47 ), ExtResource( 48 ), ExtResource( 49 ), ExtResource( 50 ), ExtResource( 51 ) ],
-"loop": true,
-"name": "bleed",
-"speed": 10.0
-} ]
-
 [sub_resource type="RectangleShape2D" id=5]
 
 custom_solver_bias = 0.0
@@ -114,11 +95,11 @@ extents = Vector2( 19.6044, 25.8968 )
 [node name="player" type="KinematicBody2D"]
 
 input_pickable = false
-collision_layer = 2
+collision_layer = 1
 collision_mask = 1
 collision/safe_margin = 0.08
 script = ExtResource( 1 )
-_sections_unfolded = [ "Collision", "Transform", "collision" ]
+_sections_unfolded = [ "Transform", "collision" ]
 
 [node name="AnimatedSprite" type="AnimatedSprite" parent="." index="0"]
 
@@ -193,14 +174,6 @@ scale = Vector2( 1, 0.861999 )
 shape = SubResource( 3 )
 _sections_unfolded = [ "Visibility" ]
 
-[node name="rightsprite" type="AnimatedSprite" parent="rightattack" index="1"]
-
-position = Vector2( 81.0544, 9.52948 )
-scale = Vector2( 2.35869, 2.40641 )
-frames = SubResource( 4 )
-animation = "empty"
-playing = true
-
 [node name="leftattack2" type="Area2D" parent="." index="5"]
 
 position = Vector2( 3, 0 )
@@ -222,14 +195,6 @@ position = Vector2( -71, 6.92508 )
 scale = Vector2( 1, 0.861999 )
 shape = SubResource( 3 )
 _sections_unfolded = [ "Visibility" ]
-
-[node name="leftsprite" type="AnimatedSprite" parent="leftattack2" index="1"]
-
-position = Vector2( -74.9457, 9.52948 )
-scale = Vector2( 2.35869, 2.40641 )
-frames = SubResource( 4 )
-animation = "empty"
-playing = true
 
 [node name="hitbox" type="Area2D" parent="." index="6"]
 
@@ -255,8 +220,6 @@ shape = SubResource( 5 )
 _sections_unfolded = [ "Transform", "Visibility" ]
 
 [connection signal="animation_finished" from="AnimatedSprite" to="." method="_on_player_animation_finished"]
-
-[connection signal="area_entered" from="rightattack" to="." method="_on_rightattack_area_entered"]
 
 [connection signal="body_entered" from="rightattack" to="." method="_on_right_body_entered"]
 

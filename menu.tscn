@@ -1,9 +1,10 @@
-[gd_scene load_steps=6 format=2]
+[gd_scene load_steps=7 format=2]
 
 [ext_resource path="res://tolevel1.gd" type="Script" id=1]
 [ext_resource path="res://Pixeled.ttf" type="DynamicFontData" id=2]
 [ext_resource path="res://pixeled.tres" type="DynamicFont" id=3]
-[ext_resource path="res://PNGs/village_004_2048x1536.png" type="Texture" id=4]
+[ext_resource path="res://pixeled_small.tres" type="DynamicFont" id=4]
+[ext_resource path="res://PNGs/village_004_2048x1536.png" type="Texture" id=5]
 
 [sub_resource type="DynamicFont" id=1]
 
@@ -13,7 +14,7 @@ use_filter = false
 font_data = ExtResource( 2 )
 _sections_unfolded = [ "Extra Spacing", "Font", "Resource", "Settings" ]
 
-[node name="Node2D" type="Node2D" index="0"]
+[node name="Node2D" type="Node2D"]
 
 script = ExtResource( 1 )
 _sections_unfolded = [ "Material", "Transform", "Visibility", "Z Index" ]
@@ -37,7 +38,7 @@ size_flags_horizontal = 1
 size_flags_vertical = 1
 _sections_unfolded = [ "Focus", "Hint", "Material", "Mouse", "Rect", "Size Flags", "Theme", "Visibility" ]
 __meta__ = {
-"_edit_group_": true
+"_edit_lock_": true
 }
 
 [node name="title" type="Label" parent="menu" index="0"]
@@ -73,8 +74,8 @@ anchor_right = 0.0
 anchor_bottom = 0.0
 margin_left = -184.0
 margin_top = -150.0
-margin_right = 279.0
-margin_bottom = 3.00002
+margin_right = 292.0
+margin_bottom = 107.0
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = false
 mouse_filter = 2
@@ -83,8 +84,8 @@ size_flags_horizontal = 1
 size_flags_vertical = 4
 custom_fonts/font = ExtResource( 3 )
 text = "This demo was made by:
-Andrés Bechger - Murad Buyukasik
-Build: 0.92 STABLE
+Andrés Bechger - Murad Buyükasik
+Build: 0.975 STABLE
 
 "
 align = 1
@@ -93,17 +94,44 @@ lines_skipped = 0
 max_lines_visible = -1
 _sections_unfolded = [ "custom_fonts" ]
 
-[node name="skip_intro" type="Button" parent="menu" index="2"]
+[node name="desc2" type="Label" parent="menu" index="2"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = -287.0
+margin_top = 156.0
+margin_right = -9.0
+margin_bottom = 305.0
+rect_scale = Vector2( 2.5, 2.5 )
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 2
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 4
+custom_fonts/font = ExtResource( 4 )
+text = "Score tutorial:
+Completing levels faster gives more score.
+Killing enemies gives score, aswell as coins."
+align = 1
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+_sections_unfolded = [ "Rect", "custom_fonts" ]
+
+[node name="skip_intro" type="Button" parent="menu" index="3"]
 
 modulate = Color( 1, 0.88269, 0.757813, 0.883961 )
 anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 0.0
-margin_left = -82.0
-margin_top = 18.0
-margin_right = 179.0
-margin_bottom = 73.0
+margin_left = -250.0
+margin_top = 11.0
+margin_right = 11.0
+margin_bottom = 66.0
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = false
 focus_mode = 2
@@ -121,17 +149,17 @@ flat = false
 align = 1
 _sections_unfolded = [ "Visibility", "custom_fonts" ]
 
-[node name="continue" type="Button" parent="menu" index="3"]
+[node name="continue" type="Button" parent="menu" index="4"]
 
 modulate = Color( 1, 0.88269, 0.757813, 0.883961 )
 anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 0.0
-margin_left = -96.0
-margin_top = 93.0
-margin_right = 192.0
-margin_bottom = 148.0
+margin_left = -264.0
+margin_top = 80.0
+margin_right = 24.0
+margin_bottom = 135.0
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = false
 focus_mode = 2
@@ -149,17 +177,17 @@ flat = false
 align = 1
 _sections_unfolded = [ "Visibility", "custom_fonts" ]
 
-[node name="highscores" type="Button" parent="menu" index="4"]
+[node name="highscores" type="Button" parent="menu" index="5"]
 
 modulate = Color( 1, 0.88269, 0.757813, 0.883961 )
 anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 0.0
-margin_left = -82.0
-margin_top = 168.0
-margin_right = 179.0
-margin_bottom = 223.0
+margin_left = 70.0
+margin_top = 80.0
+margin_right = 331.0
+margin_bottom = 135.0
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = false
 focus_mode = 2
@@ -177,7 +205,7 @@ flat = false
 align = 1
 _sections_unfolded = [ "Visibility", "custom_fonts" ]
 
-[node name="exit" type="Button" parent="menu" index="5"]
+[node name="exit" type="Button" parent="menu" index="6"]
 
 modulate = Color( 1, 0.88269, 0.757813, 0.883961 )
 anchor_left = 0.0
@@ -205,17 +233,17 @@ flat = false
 align = 1
 _sections_unfolded = [ "Material", "Visibility", "custom_fonts" ]
 
-[node name="credits" type="Button" parent="menu" index="6"]
+[node name="credits" type="Button" parent="menu" index="7"]
 
 modulate = Color( 1, 0.88269, 0.757813, 0.883961 )
 anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 0.0
-margin_left = -53.0
-margin_top = 244.0
-margin_right = 143.0
-margin_bottom = 299.0
+margin_left = 96.0
+margin_top = 13.0
+margin_right = 292.0
+margin_bottom = 68.0
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = false
 focus_mode = 2
@@ -237,7 +265,7 @@ _sections_unfolded = [ "Rect", "Visibility", "custom_colors", "custom_fonts" ]
 
 scale = Vector2( 0.236644, 0.181077 )
 z_index = -100
-texture = ExtResource( 4 )
+texture = ExtResource( 5 )
 _sections_unfolded = [ "Animation", "Offset", "Region", "Transform", "Z Index" ]
 __meta__ = {
 "_edit_lock_": true

@@ -12,9 +12,17 @@ func _ready():
 	timer.start()
 	
 
+func add_score():
+	#print("UI RECIEVED SIGNAL!")
+	score+=1000
+	self.text = string1 % score
+
 func _on_Timer_timeout():
 	time = time + 1
-	score = score - time * 2
+	
+	if score > 0:
+		score -= 500
+	
 	self.text = string1 % score
 	emit_signal("score_change", score)
 	timer.start()
