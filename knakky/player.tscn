@@ -14,14 +14,14 @@
 [ext_resource path="res://PNGs/knightIDLEright/knightIDLEright (11).png" type="Texture" id=12]
 [ext_resource path="res://PNGs/knightIDLEright/knightIDLEright (12).png" type="Texture" id=13]
 [ext_resource path="res://PNGs/knightIDLEright/knightIDLEright (13).png" type="Texture" id=14]
-[ext_resource path="res://PNGs/knightWALKright/knightWALKright (7).png" type="Texture" id=15]
-[ext_resource path="res://PNGs/knightWALKright/knightWALKright (8).png" type="Texture" id=16]
-[ext_resource path="res://PNGs/knightWALKright/knightWALKright (1).png" type="Texture" id=17]
-[ext_resource path="res://PNGs/knightWALKright/knightWALKright (2).png" type="Texture" id=18]
-[ext_resource path="res://PNGs/knightWALKright/knightWALKright (3).png" type="Texture" id=19]
-[ext_resource path="res://PNGs/knightWALKright/knightWALKright (4).png" type="Texture" id=20]
-[ext_resource path="res://PNGs/knightWALKright/knightWALKright (5).png" type="Texture" id=21]
-[ext_resource path="res://PNGs/knightWALKright/knightWALKright (6).png" type="Texture" id=22]
+[ext_resource path="res://PNGs/knightWALKright/knightWALKright (1).png" type="Texture" id=15]
+[ext_resource path="res://PNGs/knightWALKright/knightWALKright (2).png" type="Texture" id=16]
+[ext_resource path="res://PNGs/knightWALKright/knightWALKright (3).png" type="Texture" id=17]
+[ext_resource path="res://PNGs/knightWALKright/knightWALKright (4).png" type="Texture" id=18]
+[ext_resource path="res://PNGs/knightWALKright/knightWALKright (5).png" type="Texture" id=19]
+[ext_resource path="res://PNGs/knightWALKright/knightWALKright (6).png" type="Texture" id=20]
+[ext_resource path="res://PNGs/knightWALKright/knightWALKright (7).png" type="Texture" id=21]
+[ext_resource path="res://PNGs/knightWALKright/knightWALKright (8).png" type="Texture" id=22]
 [ext_resource path="res://PNGs/knightWALKright/knightWALKright (9).png" type="Texture" id=23]
 [ext_resource path="res://PNGs/knightWALKright/knightWALKright (10).png" type="Texture" id=24]
 [ext_resource path="res://PNGs/knightWALKright/knightWALKright (11).png" type="Texture" id=25]
@@ -55,12 +55,7 @@ animations = [ {
 "name": "idle",
 "speed": 10.0
 }, {
-"frames": [ ExtResource( 15 ), ExtResource( 16 ) ],
-"loop": true,
-"name": "jump",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 17 ), ExtResource( 18 ), ExtResource( 19 ), ExtResource( 20 ), ExtResource( 21 ), ExtResource( 22 ), ExtResource( 15 ), ExtResource( 16 ), ExtResource( 23 ), ExtResource( 24 ), ExtResource( 25 ), ExtResource( 26 ) ],
+"frames": [ ExtResource( 15 ), ExtResource( 16 ), ExtResource( 17 ), ExtResource( 18 ), ExtResource( 19 ), ExtResource( 20 ), ExtResource( 21 ), ExtResource( 22 ), ExtResource( 23 ), ExtResource( 24 ), ExtResource( 25 ), ExtResource( 26 ) ],
 "loop": true,
 "name": "run",
 "speed": 15.0
@@ -74,6 +69,11 @@ animations = [ {
 "loop": true,
 "name": "attack",
 "speed": 27.0
+}, {
+"frames": [ ExtResource( 21 ), ExtResource( 22 ) ],
+"loop": true,
+"name": "jump",
+"speed": 5.0
 } ]
 _sections_unfolded = [ "Resource" ]
 
@@ -87,19 +87,19 @@ extents = Vector2( 18.3563, 25.0805 )
 custom_solver_bias = 0.0
 extents = Vector2( 49.0535, 20.6206 )
 
-[sub_resource type="RectangleShape2D" id=5]
+[sub_resource type="RectangleShape2D" id=4]
 
 custom_solver_bias = 0.0
 extents = Vector2( 19.6044, 25.8968 )
 
-[node name="player" type="KinematicBody2D"]
+[node name="player" type="KinematicBody2D" index="0"]
 
 input_pickable = false
 collision_layer = 1
-collision_mask = 1
+collision_mask = 7
 collision/safe_margin = 0.08
 script = ExtResource( 1 )
-_sections_unfolded = [ "Transform", "collision" ]
+_sections_unfolded = [ "Collision", "Transform", "collision" ]
 
 [node name="AnimatedSprite" type="AnimatedSprite" parent="." index="0"]
 
@@ -216,7 +216,7 @@ __meta__ = {
 modulate = Color( 1, 0, 0, 1 )
 self_modulate = Color( 1, 0, 0, 1 )
 position = Vector2( -0.3, 10.4422 )
-shape = SubResource( 5 )
+shape = SubResource( 4 )
 _sections_unfolded = [ "Transform", "Visibility" ]
 
 [connection signal="animation_finished" from="AnimatedSprite" to="." method="_on_player_animation_finished"]
