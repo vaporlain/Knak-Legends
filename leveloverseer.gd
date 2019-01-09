@@ -23,16 +23,7 @@ func getallnodes(node):
 func _on_player_hits(bodyname):
 	#print("DELETING:"+bodyname)
 	if "enemy" in bodyname || "coin" in bodyname && bodyname != null:
-		get_node(bodyname).set_visible(false)
-		
-		#set collisions to false!
-		get_node(bodyname).set_collision_layer_bit(0, false)
-		get_node(bodyname).set_collision_mask_bit(0, false) 
-		get_node(bodyname).set_collision_layer_bit(1, false)
-		get_node(bodyname).set_collision_mask_bit(1, false) 
-		get_node(bodyname).set_collision_layer_bit(2, false)
-		get_node(bodyname).set_collision_mask_bit(2, false) 
-		
+		get_node(bodyname).queue_free()
 		emit_signal("add_score")
 	else:
 		print("Send the wrong signal to level")

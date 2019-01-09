@@ -22,7 +22,7 @@ animations = [ {
 [node name="coin" type="StaticBody2D"]
 
 input_pickable = false
-collision_layer = 4
+collision_layer = 1
 collision_mask = 1
 constant_linear_velocity = Vector2( 0, 0 )
 constant_angular_velocity = 0.0
@@ -38,7 +38,7 @@ shape = SubResource( 1 )
 
 frames = SubResource( 2 )
 animation = "default"
-frame = 3
+frame = 2
 playing = true
 
 

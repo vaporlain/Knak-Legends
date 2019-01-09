@@ -31,16 +31,13 @@ extents = Vector2( 10, 27.3816 )
 ]]
 
 input_pickable = false
-collision_layer = 2
+collision_layer = 1
 collision_mask = 1
 collision/safe_margin = 0.08
 script = ExtResource( 1 )
-_sections_unfolded = [ "Collision", "collision" ]
 __meta__ = {
 "_edit_group_": true
 }
-max_speed = 50
-patroldistance = 2
 
 [node name="AnimatedSprite" type="AnimatedSprite" parent="." index="0"]
 
