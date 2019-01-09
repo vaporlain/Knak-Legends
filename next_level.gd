@@ -9,8 +9,9 @@ const SAVE_PATH = "user://save.json"
 
 func _on_Area2D_body_entered(body):
 	if body.name == "player":
-			get_tree().change_scene(worldscene)
-			save_game() #Eerst veranderen van scene en dan niet bestaande functie aanroepen???
+		save_game()
+		get_tree().change_scene(worldscene)
+		 #Eerst veranderen van scene en dan niet bestaande functie aanroepen???
 			
 # functie voor maken van dictionary
 func save():

@@ -3,7 +3,7 @@
 [ext_resource path="res://pixeled_small.tres" type="DynamicFont" id=1]
 [ext_resource path="res://gametime.gd" type="Script" id=2]
 
-[node name="ParallaxLayer" type="ParallaxBackground" index="0"]
+[node name="ParallaxLayer" type="ParallaxBackground"]
 
 layer = 12
 offset = Vector2( 0, 0 )
@@ -58,7 +58,9 @@ __meta__ = {
 "_edit_lock_": true
 }
 
-[node name="score" type="Label" parent="CanvasLayer/UI/Container" index="0"]
+[node name="score" type="Label" parent="CanvasLayer/UI/Container" index="0" groups=[
+"Persistent",
+]]
 
 anchor_left = 0.0
 anchor_top = 0.0

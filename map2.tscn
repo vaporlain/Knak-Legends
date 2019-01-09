@@ -11,7 +11,7 @@
 [ext_resource path="res://spikes.tscn" type="PackedScene" id=9]
 [ext_resource path="res://coinNEW.tscn" type="PackedScene" id=10]
 
-[node name="map3" type="Node2D"]
+[node name="map3" type="Node2D" index="0"]
 
 position = Vector2( 0.467067, 0 )
 script = ExtResource( 1 )

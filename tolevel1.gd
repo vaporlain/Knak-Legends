@@ -18,7 +18,6 @@ func getallnodes(node):
 
 func _on_continue_pressed():
 	# load game when button is pressed
-	# code could be made prettier by putting it somewhere else, but this works
 	var save_file = File.new()
 	if not save_file.file_exists(SAVE_PATH):
 		return

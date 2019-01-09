@@ -1,16 +1,15 @@
 [gd_scene load_steps=5 format=2]
 
-[ext_resource path="res://tolevel2.gd" type="Script" id=1]
+[ext_resource path="res://next_level.gd" type="Script" id=1]
 [ext_resource path="res://icon.png" type="Texture" id=2]
 [ext_resource path="res://pixeled_small.tres" type="DynamicFont" id=3]
-
 
 [sub_resource type="RectangleShape2D" id=1]
 
 custom_solver_bias = 0.0
 extents = Vector2( 13.4809, 15.3362 )
 
-[node name="levelexit" type="Node2D" index="0" groups=[
+[node name="levelexit" type="Node2D" groups=[
 "Persistent",
 ]]
 

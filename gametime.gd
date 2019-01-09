@@ -27,3 +27,12 @@ func _on_Timer_timeout():
 	emit_signal("score_change", score)
 	timer.start()
 
+func save():
+	global.score.append(score)
+	print(global.score)
+	
+	# create dictionary for json
+	var save_dict = {
+		"score" : global.score,
+		}
+	return save_dict

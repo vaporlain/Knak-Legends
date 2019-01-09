@@ -26,4 +26,4 @@ func _on_player_hits(bodyname):
 		get_node(bodyname).queue_free()
 		emit_signal("add_score")
 	else:
-		print("Sendt the wrong signal to level")
+		print("Send the wrong signal to level")
