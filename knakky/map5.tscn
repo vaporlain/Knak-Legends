@@ -17,7 +17,7 @@ script = ExtResource( 1 )
 
 [node name="player" parent="." index="0" instance=ExtResource( 2 )]
 
-position = Vector2( -381.341, 629.734 )
+position = Vector2( -428.324, 648.977 )
 
 [node name="ParallaxBackground" parent="." index="1" instance=ExtResource( 3 )]
 
@@ -82,10 +82,10 @@ anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 0.0
-margin_left = -403.0
-margin_top = 558.0
-margin_right = -243.0
-margin_bottom = 597.0
+margin_left = -382.0
+margin_top = 557.0
+margin_right = -222.0
+margin_bottom = 596.0
 rect_scale = Vector2( 2.8, 2.8 )
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = false
@@ -107,80 +107,54 @@ _sections_unfolded = [ "custom_colors" ]
 [node name="enemy_kb" parent="." index="7" instance=ExtResource( 8 )]
 
 position = Vector2( 160, 663 )
-max_speed = 50
-patroldistance = 2
 
 [node name="enemy_kb22" parent="." index="8" instance=ExtResource( 8 )]
 
 position = Vector2( 290, 493 )
-max_speed = 50
-patroldistance = 2
 
 [node name="enemy_kb24" parent="." index="9" instance=ExtResource( 8 )]
 
 position = Vector2( 1150, 523 )
-max_speed = 50
-patroldistance = 2
 
 [node name="enemy_kb20" parent="." index="10" instance=ExtResource( 8 )]
 
 position = Vector2( 710, 423 )
-max_speed = 50
-patroldistance = 2
 
 [node name="enemy_kb23" parent="." index="11" instance=ExtResource( 8 )]
 
 position = Vector2( 1240, 203 )
-max_speed = 50
-patroldistance = 2
 
 [node name="enemy_kb4" parent="." index="12" instance=ExtResource( 8 )]
 
 position = Vector2( 330, 663 )
-max_speed = 50
-patroldistance = 2
 
 [node name="enemy_kb6" parent="." index="13" instance=ExtResource( 8 )]
 
 position = Vector2( 520, 663 )
-max_speed = 50
-patroldistance = 2
 
 [node name="enemy_kb8" parent="." index="14" instance=ExtResource( 8 )]
 
 position = Vector2( 680, 663 )
-max_speed = 50
-patroldistance = 2
 
 [node name="enemy_kb10" parent="." index="15" instance=ExtResource( 8 )]
 
 position = Vector2( 810, 663 )
-max_speed = 50
-patroldistance = 2
 
 [node name="enemy_kb12" parent="." index="16" instance=ExtResource( 8 )]
 
 position = Vector2( 960, 663 )
-max_speed = 50
-patroldistance = 2
 
 [node name="enemy_kb14" parent="." index="17" instance=ExtResource( 8 )]
 
 position = Vector2( 1120, 663 )
-max_speed = 50
-patroldistance = 2
 
 [node name="enemy_kb16" parent="." index="18" instance=ExtResource( 8 )]
 
 position = Vector2( 1260, 663 )
-max_speed = 50
-patroldistance = 2
 
 [node name="enemy_kb17" parent="." index="19" instance=ExtResource( 8 )]
 
 position = Vector2( 1410, 663 )
-max_speed = 50
-patroldistance = 2
 
 [node name="coin" parent="." index="20" instance=ExtResource( 9 )]
 

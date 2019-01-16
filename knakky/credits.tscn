@@ -8,9 +8,7 @@
 [ext_resource path="res://outofbound.tscn" type="PackedScene" id=6]
 [ext_resource path="res://UI.tscn" type="PackedScene" id=7]
 
-
-
-[node name="map1" type="Node2D"]
+[node name="map1" type="Node2D" index="0"]
 
 position = Vector2( 2.27209, 0 )
 
@@ -19,7 +17,7 @@ position = Vector2( 2.27209, 0 )
 [node name="player" parent="." index="1" instance=ExtResource( 2 )]
 
 position = Vector2( -449.789, 536.253 )
-_sections_unfolded = [ "Transform", "Visibility", "Z Index", "collision" ]
+_sections_unfolded = [ "Collision", "Transform", "Visibility", "Z Index", "collision" ]
 
 [node name="TileMap" type="TileMap" parent="." index="2"]
 
@@ -157,7 +155,7 @@ percent_visible = 1.0
 meta_underlined = true
 tab_size = 9
 text = "This game is made by:
-Andrés Bechger - Murad Buyükasik 
+Andrés Bechger - Murad Buyukasik 
 "
 scroll_active = true
 scroll_following = false
@@ -253,14 +251,76 @@ visible_characters = -1
 percent_visible = 1.0
 meta_underlined = true
 tab_size = 9
-text = "Timo Bechger"
+text = "My mother"
 scroll_active = true
 scroll_following = false
 selection_enabled = false
 override_selected_font_color = false
 _sections_unfolded = [ "BBCode", "Rect", "Theme" ]
 
-[node name="RichTextLabel6" type="RichTextLabel" parent="Control" index="6"]
+[node name="RichTextLabel12" type="RichTextLabel" parent="Control" index="6"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 2684.0
+margin_top = 748.0
+margin_right = 2801.0
+margin_bottom = 780.0
+rect_scale = Vector2( 2.8, 2.8 )
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = true
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+custom_fonts/normal_font = ExtResource( 5 )
+bbcode_enabled = true
+bbcode_text = "My mother"
+visible_characters = -1
+percent_visible = 1.0
+meta_underlined = true
+tab_size = 9
+text = "Marcel"
+scroll_active = true
+scroll_following = false
+selection_enabled = false
+override_selected_font_color = false
+_sections_unfolded = [ "BBCode", "Rect", "Theme" ]
+
+[node name="RichTextLabel13" type="RichTextLabel" parent="Control" index="7"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 3202.0
+margin_top = 716.0
+margin_right = 3319.0
+margin_bottom = 748.0
+rect_scale = Vector2( 2.8, 2.8 )
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = true
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+custom_fonts/normal_font = ExtResource( 5 )
+bbcode_enabled = true
+bbcode_text = "My mother"
+visible_characters = -1
+percent_visible = 1.0
+meta_underlined = true
+tab_size = 9
+text = "Dad"
+scroll_active = true
+scroll_following = false
+selection_enabled = false
+override_selected_font_color = false
+_sections_unfolded = [ "BBCode", "Rect", "Theme" ]
+
+[node name="RichTextLabel6" type="RichTextLabel" parent="Control" index="8"]
 
 anchor_left = 0.0
 anchor_top = 0.0
@@ -295,7 +355,7 @@ selection_enabled = false
 override_selected_font_color = false
 _sections_unfolded = [ "BBCode", "Rect", "Theme" ]
 
-[node name="RichTextLabel7" type="RichTextLabel" parent="Control" index="7"]
+[node name="RichTextLabel7" type="RichTextLabel" parent="Control" index="9"]
 
 anchor_left = 0.0
 anchor_top = 0.0
@@ -336,7 +396,7 @@ selection_enabled = false
 override_selected_font_color = false
 _sections_unfolded = [ "BBCode", "Rect", "Theme" ]
 
-[node name="RichTextLabel10" type="RichTextLabel" parent="Control" index="8"]
+[node name="RichTextLabel10" type="RichTextLabel" parent="Control" index="10"]
 
 anchor_left = 0.0
 anchor_top = 0.0
@@ -367,7 +427,7 @@ selection_enabled = false
 override_selected_font_color = false
 _sections_unfolded = [ "BBCode", "Rect", "Theme" ]
 
-[node name="RichTextLabel11" type="RichTextLabel" parent="Control" index="9"]
+[node name="RichTextLabel11" type="RichTextLabel" parent="Control" index="11"]
 
 anchor_left = 0.0
 anchor_top = 0.0
@@ -400,7 +460,7 @@ selection_enabled = false
 override_selected_font_color = false
 _sections_unfolded = [ "BBCode", "Rect", "Theme" ]
 
-[node name="RichTextLabel8" type="RichTextLabel" parent="Control" index="10"]
+[node name="RichTextLabel8" type="RichTextLabel" parent="Control" index="12"]
 
 anchor_left = 0.0
 anchor_top = 0.0

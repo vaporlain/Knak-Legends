@@ -1,9 +1,10 @@
-[gd_scene load_steps=6 format=2]
+[gd_scene load_steps=7 format=2]
 
 [ext_resource path="res://tolevel1.gd" type="Script" id=1]
 [ext_resource path="res://Pixeled.ttf" type="DynamicFontData" id=2]
 [ext_resource path="res://pixeled.tres" type="DynamicFont" id=3]
-[ext_resource path="res://PNGs/village_004_2048x1536.png" type="Texture" id=4]
+[ext_resource path="res://show_hiscore.gd" type="Script" id=4]
+[ext_resource path="res://PNGs/village_004_2048x1536.png" type="Texture" id=5]
 
 [sub_resource type="DynamicFont" id=1]
 
@@ -93,6 +94,7 @@ align = 1
 percent_visible = 1.0
 lines_skipped = 0
 max_lines_visible = -1
+script = ExtResource( 4 )
 _sections_unfolded = [ "custom_fonts" ]
 
 [node name="back" type="Button" parent="menu" index="2"]
@@ -127,7 +129,7 @@ _sections_unfolded = [ "Rect", "Visibility", "custom_colors", "custom_fonts" ]
 
 scale = Vector2( 0.236644, 0.181077 )
 z_index = -100
-texture = ExtResource( 4 )
+texture = ExtResource( 5 )
 _sections_unfolded = [ "Animation", "Offset", "Region", "Transform", "Z Index" ]
 __meta__ = {
 "_edit_lock_": true

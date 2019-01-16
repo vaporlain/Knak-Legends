@@ -12,7 +12,7 @@
 [ext_resource path="res://coinNEW.tscn" type="PackedScene" id=10]
 [ext_resource path="res://falling_platform.tscn" type="PackedScene" id=11]
 
-[node name="map2" type="Node2D"]
+[node name="map2" type="Node2D" index="0"]
 
 position = Vector2( 2.27209, 0 )
 script = ExtResource( 1 )
@@ -22,7 +22,7 @@ __meta__ = {
 
 [node name="player" parent="." index="0" instance=ExtResource( 2 )]
 
-position = Vector2( -576.848, 600.054 )
+position = Vector2( -353.843, 645.814 )
 
 [node name="ParallaxBackground" parent="." index="1" instance=ExtResource( 3 )]
 
@@ -58,7 +58,6 @@ worldscene = "res://map2.tscn"
 
 [node name="spikes2" type="Node2D" parent="." index="4"]
 
-editor/display_folded = true
 position = Vector2( 461.375, 686.56 )
 
 [node name="Node2D" parent="spikes2" index="0" instance=ExtResource( 6 )]

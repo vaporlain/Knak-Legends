@@ -22,7 +22,7 @@ __meta__ = {
 
 [node name="player" parent="." index="0" instance=ExtResource( 2 )]
 
-position = Vector2( -576.848, 600.054 )
+position = Vector2( -516.817, 645.161 )
 
 [node name="ParallaxBackground" parent="." index="1" instance=ExtResource( 3 )]
 
@@ -309,8 +309,6 @@ scale = Vector2( 16.0209, 0.166151 )
 [node name="enemy_kb" parent="." index="8" instance=ExtResource( 10 )]
 
 position = Vector2( -246.879, 609.424 )
-max_speed = 50
-patroldistance = 2
 
 [node name="coin" parent="." index="9" instance=ExtResource( 11 )]
 
@@ -344,7 +342,6 @@ position = Vector2( 799.467, 323.858 )
 
 position = Vector2( 637.026, 405.474 )
 max_speed = 0
-patroldistance = 2
 
 [connection signal="hits" from="player" to="." method="_on_player_hits"]
 

@@ -15,13 +15,10 @@
 
 position = Vector2( 0.467067, 0 )
 script = ExtResource( 1 )
-__meta__ = {
-"_edit_lock_": true
-}
 
 [node name="player" parent="." index="0" instance=ExtResource( 2 )]
 
-position = Vector2( -381.341, 629.734 )
+position = Vector2( -475.925, 647.592 )
 
 [node name="ParallaxBackground" parent="." index="1" instance=ExtResource( 3 )]
 
@@ -61,10 +58,10 @@ anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 0.0
-margin_left = -660.0
-margin_top = 528.0
-margin_right = -500.0
-margin_bottom = 567.0
+margin_left = -663.0
+margin_top = 510.0
+margin_right = -503.0
+margin_bottom = 549.0
 rect_rotation = 1.29433
 rect_scale = Vector2( 2.8, 2.8 )
 rect_pivot_offset = Vector2( 0, 0 )
@@ -85,26 +82,18 @@ max_lines_visible = -1
 [node name="enemy" parent="." index="6" instance=ExtResource( 8 )]
 
 position = Vector2( 105.452, 634.849 )
-max_speed = 50
-patroldistance = 2
 
 [node name="enemy4" parent="." index="7" instance=ExtResource( 8 )]
 
 position = Vector2( 1026.84, 643.388 )
-max_speed = 50
-patroldistance = 2
 
 [node name="enemy2" parent="." index="8" instance=ExtResource( 8 )]
 
 position = Vector2( 484.394, 649.449 )
-max_speed = 50
-patroldistance = 2
 
 [node name="enemy3" parent="." index="9" instance=ExtResource( 8 )]
 
 position = Vector2( 1327.28, 649.638 )
-max_speed = 50
-patroldistance = 2
 
 [node name="spikes" parent="." index="10" instance=ExtResource( 9 )]
 

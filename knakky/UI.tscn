@@ -3,7 +3,7 @@
 [ext_resource path="res://pixeled_small.tres" type="DynamicFont" id=1]
 [ext_resource path="res://gametime.gd" type="Script" id=2]
 
-[node name="ParallaxLayer" type="ParallaxBackground" index="0"]
+[node name="ParallaxLayer" type="ParallaxBackground"]
 
 layer = 12
 offset = Vector2( 0, 0 )
@@ -58,7 +58,9 @@ __meta__ = {
 "_edit_lock_": true
 }
 
-[node name="score" type="Label" parent="CanvasLayer/UI/Container" index="0"]
+[node name="score" type="Label" parent="CanvasLayer/UI/Container" index="0" groups=[
+"Persistent",
+]]
 
 anchor_left = 0.0
 anchor_top = 0.0
@@ -104,7 +106,7 @@ mouse_default_cursor_shape = 0
 size_flags_horizontal = 1
 size_flags_vertical = 4
 custom_fonts/font = ExtResource( 1 )
-text = "v0.975"
+text = "v1.0"
 percent_visible = 1.0
 lines_skipped = 0
 max_lines_visible = -1

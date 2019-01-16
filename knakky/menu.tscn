@@ -14,7 +14,9 @@ use_filter = false
 font_data = ExtResource( 2 )
 _sections_unfolded = [ "Extra Spacing", "Font", "Resource", "Settings" ]
 
-[node name="Node2D" type="Node2D"]
+[node name="Node2D" type="Node2D" groups=[
+"Persistent",
+]]
 
 script = ExtResource( 1 )
 _sections_unfolded = [ "Material", "Transform", "Visibility", "Z Index" ]
@@ -84,8 +86,8 @@ size_flags_horizontal = 1
 size_flags_vertical = 4
 custom_fonts/font = ExtResource( 3 )
 text = "This demo was made by:
-Andrés Bechger - Murad Buyükasik
-Build: 0.975 STABLE
+Andrés Bechger - Murad Buyukasik
+Build: v1.0 Stable
 
 "
 align = 1
