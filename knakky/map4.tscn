@@ -12,7 +12,7 @@
 [ext_resource path="res://enemy.tscn" type="PackedScene" id=10]
 [ext_resource path="res://coinNEW.tscn" type="PackedScene" id=11]
 
-[node name="map2" type="Node2D" index="0"]
+[node name="map2" type="Node2D"]
 
 position = Vector2( 2.27209, 0 )
 script = ExtResource( 1 )
