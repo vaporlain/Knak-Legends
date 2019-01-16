@@ -5,10 +5,10 @@
 [ext_resource path="res://PNGs/coin_003.png" type="Texture" id=3]
 [ext_resource path="res://PNGs/coin_004.png" type="Texture" id=4]
 
-[sub_resource type="CircleShape2D" id=1]
+[sub_resource type="RectangleShape2D" id=1]
 
 custom_solver_bias = 0.0
-radius = 8.6866
+extents = Vector2( 6.77435, 6.67661 )
 
 [sub_resource type="SpriteFrames" id=2]
 
@@ -19,7 +19,7 @@ animations = [ {
 "speed": 8.0
 } ]
 
-[node name="coin" type="StaticBody2D"]
+[node name="coin" type="StaticBody2D" index="0"]
 
 input_pickable = false
 collision_layer = 4
@@ -38,7 +38,7 @@ shape = SubResource( 1 )
 
 frames = SubResource( 2 )
 animation = "default"
-frame = 2
+frame = 3
 playing = true
 
 
