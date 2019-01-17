@@ -3,6 +3,7 @@ An Indiegame made by 2 enthousiastic people, the game is settled in an dystopian
 
 ## FAQ:
 ## Who are we?
+Andres Bechger & Murad Buyukasik
 2 Students from the Netherlands
 
 ## Why are we doing this?
