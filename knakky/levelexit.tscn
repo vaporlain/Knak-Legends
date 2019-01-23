@@ -1,16 +1,15 @@
 [gd_scene load_steps=5 format=2]
 
 [ext_resource path="res://tolevel2.gd" type="Script" id=1]
-[ext_resource path="res://icon.png" type="Texture" id=2]
+[ext_resource path="res://PNGs/dungeon_tiles.png" type="Texture" id=2]
 [ext_resource path="res://pixeled_small.tres" type="DynamicFont" id=3]
-
 
 [sub_resource type="RectangleShape2D" id=1]
 
 custom_solver_bias = 0.0
-extents = Vector2( 13.4809, 15.3362 )
+extents = Vector2( 13.4809, 11.6991 )
 
-[node name="levelexit" type="Node2D" index="0" groups=[
+[node name="levelexit" type="Node2D" groups=[
 "Persistent",
 ]]
 
@@ -19,7 +18,12 @@ worldscene = null
 
 [node name="Sprite" type="Sprite" parent="." index="0"]
 
+position = Vector2( 0.403545, -1.84547 )
+scale = Vector2( 0.851562, 0.851562 )
 texture = ExtResource( 2 )
+region_enabled = true
+region_rect = Rect2( 51, 210, 58, 45 )
+_sections_unfolded = [ "Region" ]
 
 [node name="Area2D" type="Area2D" parent="." index="1"]
 
@@ -33,7 +37,7 @@ audio_bus_name = "Master"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" index="0"]
 
-position = Vector2( 0.794434, 0.794426 )
+position = Vector2( 0.794434, 4.79443 )
 shape = SubResource( 1 )
 
 [node name="Label" type="Label" parent="." index="2"]

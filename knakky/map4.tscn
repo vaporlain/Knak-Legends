@@ -1,4 +1,4 @@
-[gd_scene load_steps=12 format=2]
+[gd_scene load_steps=13 format=2]
 
 [ext_resource path="res://leveloverseer.gd" type="Script" id=1]
 [ext_resource path="res://player.tscn" type="PackedScene" id=2]
@@ -11,8 +11,9 @@
 [ext_resource path="res://UI.tscn" type="PackedScene" id=9]
 [ext_resource path="res://enemy.tscn" type="PackedScene" id=10]
 [ext_resource path="res://coinNEW.tscn" type="PackedScene" id=11]
+[ext_resource path="res://PNGs/easteregg.jpg" type="Texture" id=12]
 
-[node name="map2" type="Node2D" index="0"]
+[node name="map2" type="Node2D"]
 
 position = Vector2( 2.27209, 0 )
 script = ExtResource( 1 )
@@ -53,7 +54,7 @@ __meta__ = {
 
 [node name="levelexit" parent="." index="3" instance=ExtResource( 5 )]
 
-position = Vector2( 1783.21, 644.412 )
+position = Vector2( 1798.32, 674.622 )
 worldscene = "res://map5.tscn"
 
 [node name="spikes2" type="Node2D" parent="." index="4"]
@@ -342,6 +343,12 @@ position = Vector2( 799.467, 323.858 )
 
 position = Vector2( 637.026, 405.474 )
 max_speed = 0
+
+[node name="easteregg" type="Sprite" parent="." index="17"]
+
+position = Vector2( 1942.8, 1307.34 )
+scale = Vector2( 0.467997, 0.40101 )
+texture = ExtResource( 12 )
 
 [connection signal="hits" from="player" to="." method="_on_player_hits"]
 

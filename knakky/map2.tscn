@@ -49,7 +49,7 @@ __meta__ = {
 
 [node name="levelexit" parent="." index="3" instance=ExtResource( 5 )]
 
-position = Vector2( 1783.21, 644.412 )
+position = Vector2( 1778.69, 671.544 )
 worldscene = "res://map4.tscn"
 
 [node name="Label" type="Label" parent="." index="4"]
